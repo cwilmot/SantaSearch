@@ -1227,4 +1227,551 @@ UE4Editor-UnrealEd.dll
 [2015.11.19-03.12.16:450][350]MapCheck: New page: Map Check
 [2015.11.19-03.12.16:471][350]Cmd: MAP REBUILD ALLVISIBLE
 [2015.11.19-03.12.16:471][350]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2015.11.19-03.12.16:560][350]Ligh
+[2015.11.19-03.12.16:560][350]LightingResults: New page: Lighting Build - Nov 18, 2015, 5:12:16 PM
+[2015.11.19-03.12.16:611][350]LogEditorBuildUtils: Build time 0:00:00
+[2015.11.19-03.12.16:623][351]Cmd: UpdateLandscapeEditorData
+[2015.11.19-03.12.18:430][567]MapCheck: New page: Map Check
+[2015.11.19-03.12.18:454][567]Cmd: MAP REBUILD ALLVISIBLE
+[2015.11.19-03.12.18:454][567]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.11.19-03.12.18:549][567]MapCheck:Warning: Warning WorldInfo_0 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.11.19-03.12.18:550][567]LogStats:          STAT_HLOD_BuildClusters - 14.916 ms
+[2015.11.19-03.12.18:550][567]LightingResults: New page: Lighting Build - Nov 18, 2015, 5:12:18 PM
+[2015.11.19-03.12.18:602][567]LogEditorBuildUtils: Build time 0:00:00
+[2015.11.19-03.12.18:617][568]Cmd: UpdateLandscapeEditorData
+[2015.11.19-03.13.11:759][899]MapCheck: New page: Map Check
+[2015.11.19-03.13.11:772][899]Cmd: MAP REBUILD ALLVISIBLE
+[2015.11.19-03.13.11:772][899]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.11.19-03.13.11:870][899]LightingResults: New page: Lighting Build - Nov 18, 2015, 5:13:11 PM
+[2015.11.19-03.13.11:913][899]LogEditorBuildUtils: Build time 0:00:00
+[2015.11.19-03.13.11:925][900]Cmd: UpdateLandscapeEditorData
+[2015.11.19-03.13.17:508][548]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MemoryCardEntry" FILE="D:/IMyTH/xRooms/MVP/SantaSearch/Content/Maps/MemoryCardEntry.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.19-03.13.17:700][548]LogSavePackage: Save=170.689148ms
+[2015.11.19-03.13.17:700][548]LogSavePackage: Moving 'D:/IMyTH/xRooms/MVP/SantaSearch/Saved/MemoryCardEntryCF517E914FD3856D69A33280F301E22E.tmp' to 'D:/IMyTH/xRooms/MVP/SantaSearch/Content/Maps/MemoryCardEntry.umap'
+[2015.11.19-03.13.17:701][548]LogSavePackage: Total save time: 178.377610ms
+[2015.11.19-03.13.17:701][548]LogSavePackage:Warning: Finished SavePackage D:/IMyTH/xRooms/MVP/SantaSearch/Content/Maps/MemoryCardEntry.umap
+[2015.11.19-03.27.17:329][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MemoryCardEntry" FILE="D:/IMyTH/xRooms/MVP/SantaSearch/Saved/Autosaves/Game/Maps/MemoryCardEntry_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.11.19-03.27.17:523][440]LogSavePackage: Save=186.469009ms
+[2015.11.19-03.27.17:523][440]LogSavePackage: Moving 'D:/IMyTH/xRooms/MVP/SantaSearch/Saved/MemoryCardEntry_Auto3B2EF67314E560F42C9CE12829C3E4C0A.tmp' to 'D:/IMyTH/xRooms/MVP/SantaSearch/Saved/Autosaves/Game/Maps/MemoryCardEntry_Auto3.umap'
+[2015.11.19-03.27.17:524][440]LogSavePackage: Total save time: 194.256533ms
+[2015.11.19-03.27.17:524][440]LogSavePackage:Warning: Finished SavePackage D:/IMyTH/xRooms/MVP/SantaSearch/Saved/Autosaves/Game/Maps/MemoryCardEntry_Auto3.umap
+[2015.11.19-03.27.17:525][440]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MemoryCardEntry' took 0.216
+[2015.11.19-03.27.17:525][440]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.216
+[2015.11.19-03.37.18:210][ 57]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MemoryCardEntry" FILE="D:/IMyTH/xRooms/MVP/SantaSearch/Saved/Autosaves/Game/Maps/MemoryCardEntry_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.11.19-03.37.18:402][ 57]LogSavePackage: Save=184.181396ms
+[2015.11.19-03.37.18:402][ 57]LogSavePackage: Moving 'D:/IMyTH/xRooms/MVP/SantaSearch/Saved/MemoryCardEntry_Auto42C1C3AF54015CBE3F670C5932C973A38.tmp' to 'D:/IMyTH/xRooms/MVP/SantaSearch/Saved/Autosaves/Game/Maps/MemoryCardEntry_Auto4.umap'
+[2015.11.19-03.37.18:403][ 57]LogSavePackage: Total save time: 192.024466ms
+[2015.11.19-03.37.18:403][ 57]LogSavePackage:Warning: Finished SavePackage D:/IMyTH/xRooms/MVP/SantaSearch/Saved/Autosaves/Game/Maps/MemoryCardEntry_Auto4.umap
+[2015.11.19-03.37.18:404][ 57]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MemoryCardEntry' took 0.217
+[2015.11.19-03.37.18:404][ 57]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.217
+[2015.11.19-03.40.26:045][440]LogStaticMesh: Building static mesh House1_14...
+[2015.11.19-03.40.26:081][440]LogStaticMesh: Built static mesh [0.037049.2s] /Game/Assets/TopDownCity/Houses/House1_14.House1_14
+[2015.11.19-03.40.26:796][440]LogTexture:Display: Building textures: Houses1 (AutoDXT)
+[2015.11.19-03.40.39:850][440]LogTexture:Display: Building textures: Houses1_nmp (BC5)
+[2015.11.19-03.40.41:523][440]LogTexture:Display: Building textures: Houses1_glow (AutoDXT)
+[2015.11.19-03.40.41:702][440]LogTexture:Display: Building textures: Houses1Metalness (AutoDXT)
+[2015.11.19-03.40.42:760][440]LogMaterial: Missing cached shader map for material M_Houses1, compiling. 
+[2015.11.19-03.40.42:803][440]LogActorFactory: Actor Factory created House1_14
+[2015.11.19-03.40.42:813][440]LogActorFactory: Actor Factory created House1_14
+[2015.11.19-03.40.42:850][440]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.11.19-03.41.17:609][557]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_14)
+[2015.11.19-03.41.41:307][392]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.11.19-03.41.52:007][672]LogStaticMesh: Building static mesh House1_11...
+[2015.11.19-03.41.52:038][672]LogStaticMesh: Built static mesh [0.030819.2s] /Game/Assets/TopDownCity/Houses/House1_11.House1_11
+[2015.11.19-03.41.52:295][701]LogActorFactory: Actor Factory created House1_11
+[2015.11.19-03.41.56:811][242]LogActorFactory: Actor Factory created House1_11
+[2015.11.19-03.42.09:574][761]Cmd: TRANSACTION UNDO
+[2015.11.19-03.42.09:574][761]LogEditorTransaction: Undo Move Actors
+[2015.11.19-03.42.57:259][456]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-03.44.16:691][861]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_11)
+[2015.11.19-03.46.01:166][336]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_14)
+[2015.11.19-03.46.42:603][279]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-03.47.12:227][819]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_11)
+[2015.11.19-03.47.45:529][801]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.11.19-03.48.06:695][321]LogStaticMesh: Building static mesh House1_12...
+[2015.11.19-03.48.06:728][321]LogStaticMesh: Built static mesh [0.033144.2s] /Game/Assets/TopDownCity/Houses/House1_12.House1_12
+[2015.11.19-03.48.07:190][374]LogActorFactory: Actor Factory created House1_12
+[2015.11.19-03.48.11:957][945]LogActorFactory: Actor Factory created House1_12
+[2015.11.19-03.49.06:382][462]LogStaticMesh: Building static mesh House1_13...
+[2015.11.19-03.49.06:410][462]LogStaticMesh: Built static mesh [0.028971.2s] /Game/Assets/TopDownCity/Houses/House1_13.House1_13
+[2015.11.19-03.49.06:589][481]LogActorFactory: Actor Factory created House1_13
+[2015.11.19-03.49.08:906][758]LogActorFactory: Actor Factory created House1_13
+[2015.11.19-03.49.52:178][935]LogActorFactory: Actor Factory created House1_14
+[2015.11.19-03.49.52:959][ 28]LogActorFactory: Actor Factory created House1_14
+[2015.11.19-03.50.39:711][627]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.11.19-03.50.44:302][175]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_13)
+[2015.11.19-03.50.54:281][301]LogStaticMesh: Building static mesh Lighthouse...
+[2015.11.19-03.50.54:305][301]LogStaticMesh: Built static mesh [0.024464.2s] /Game/Assets/TopDownCity/Houses/Lighthouse.Lighthouse
+[2015.11.19-03.50.54:485][301]LogTexture:Display: Building textures: Houses2 (AutoDXT)
+[2015.11.19-03.50.57:868][301]LogTexture:Display: Building textures: Houses2_nmp (BC5)
+[2015.11.19-03.50.58:274][301]LogTexture:Display: Building textures: Houses2Metalness (AutoDXT)
+[2015.11.19-03.50.58:525][301]LogMaterial: Missing cached shader map for material M_Houses2, compiling. 
+[2015.11.19-03.50.58:548][301]LogActorFactory: Actor Factory created Lighthouse
+[2015.11.19-03.50.58:554][301]LogActorFactory: Actor Factory created Lighthouse
+[2015.11.19-03.51.02:784][787]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lighthouse)
+[2015.11.19-03.51.54:363][954]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-03.52.13:640][114]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lighthouse)
+[2015.11.19-03.52.32:195][321]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-03.52.40:901][362]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-03.52.58:715][494]Cmd: TRANSACTION UNDO
+[2015.11.19-03.52.58:715][494]LogEditorTransaction: Undo Set actor scale
+[2015.11.19-03.53.28:020][979]LogEditorViewport: Clicking on Actor (LMB): Ue4ASP_Character_C (Ue4ASP_Character2)
+[2015.11.19-03.53.56:591][383]LogEditorViewport: Clicking on Actor (LMB): Ue4ASP_Character_C (Ue4ASP_Character2)
+[2015.11.19-03.54.33:487][787]LogEditorViewport: Clicking on Actor (LMB): Ue4ASP_Character_C (Ue4ASP_Character2)
+[2015.11.19-03.55.35:382][ 77]LogStaticMesh: Building static mesh Stairs_El1...
+[2015.11.19-03.55.35:391][ 77]LogStaticMesh: Built static mesh [0.008809.2s] /Game/Assets/TopDownCity/Deco/Stairs_El1.Stairs_El1
+[2015.11.19-03.55.36:529][210]LogActorFactory: Actor Factory created Stairs_El1
+[2015.11.19-03.55.38:053][392]LogActorFactory: Actor Factory created Stairs_El1
+[2015.11.19-03.55.41:634][821]LogActorFactory: Actor Factory created Stairs_El1
+[2015.11.19-03.55.53:408][224]EditorErrors: New page: Actor attachment
+[2015.11.19-03.56.17:720][137]LogStaticMesh: Building static mesh Crane...
+[2015.11.19-03.56.17:729][137]LogStaticMesh: Built static mesh [0.009512.2s] /Game/Assets/TopDownCity/Deco/Crane.Crane
+[2015.11.19-03.56.18:162][185]LogActorFactory: Actor Factory created Crane
+[2015.11.19-03.56.24:576][939]LogActorFactory: Actor Factory created Crane
+[2015.11.19-03.57.29:898][744]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lighthouse)
+[2015.11.19-03.58.02:026][590]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-03.58.27:663][661]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.11.19-03.58.39:789][113]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Lighthouse)
+[2015.11.19-03.58.50:096][344]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-03.59.18:665][766]LogActorFactory: Actor Factory created Crane
+[2015.11.19-03.59.20:213][951]LogActorFactory: Actor Factory created Crane
+[2015.11.19-03.59.21:301][ 78]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_11)
+[2015.11.19-03.59.33:541][539]EditorErrors: New page: Actor attachment
+[2015.11.19-03.59.35:827][813]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.01.01:965][ 61]LogStaticMesh: Building static mesh House1_16...
+[2015.11.19-04.01.01:993][ 61]LogStaticMesh: Built static mesh [0.027856.2s] /Game/Assets/TopDownCity/Houses/House1_16.House1_16
+[2015.11.19-04.01.02:469][116]LogActorFactory: Actor Factory created House1_16
+[2015.11.19-04.01.03:920][289]LogActorFactory: Actor Factory created House1_16
+[2015.11.19-04.01.25:459][864]LogEditorViewport: Clicking on Actor (LMB): Ue4ASP_Character_C (Ue4ASP_Character2)
+[2015.11.19-04.01.28:179][178]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.01.42:393][878]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.01.48:472][606]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_16)
+[2015.11.19-04.02.13:807][637]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.02.48:215][751]LogTexture:Display: Building textures: Signboards (AutoDXT)
+[2015.11.19-04.02.48:776][751]LogTexture:Display: Building textures: Signboards_nmp (AutoDXT)
+[2015.11.19-04.02.49:077][751]LogMaterial: Missing cached shader map for material M_Sign, compiling. 
+[2015.11.19-04.02.49:087][751]LogStaticMesh: Building static mesh Signboard1...
+[2015.11.19-04.02.49:100][751]LogStaticMesh: Built static mesh [0.013219.2s] /Game/Assets/TopDownCity/Deco/Signboard1.Signboard1
+[2015.11.19-04.02.49:127][751]LogActorFactory: Actor Factory created Signboard1
+[2015.11.19-04.02.50:744][927]LogActorFactory: Actor Factory created Signboard1
+[2015.11.19-04.03.05:973][745]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.11.19-04.03.08:547][ 51]Cmd: TRANSACTION UNDO
+[2015.11.19-04.03.08:547][ 51]LogEditorTransaction: Undo Clicking on Actors
+[2015.11.19-04.03.18:504][221]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.03.33:432][  4]Cmd: TRANSACTION UNDO
+[2015.11.19-04.03.33:433][  4]LogEditorTransaction: Undo Move Actors
+[2015.11.19-04.04.03:751][615]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_16)
+[2015.11.19-04.04.09:198][265]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Signboard1)
+[2015.11.19-04.04.27:484][440]LogUnrealMath: Expression Error : Unrecognized Operator
+[2015.11.19-04.05.26:014][456]LogStaticMesh: Building static mesh Bridge4...
+[2015.11.19-04.05.26:029][456]LogStaticMesh: Built static mesh [0.015688.2s] /Game/Assets/TopDownCity/Deco/Bridge4.Bridge4
+[2015.11.19-04.05.26:384][495]LogActorFactory: Actor Factory created Bridge4
+[2015.11.19-04.05.32:759][259]LogActorFactory: Actor Factory created Bridge4
+[2015.11.19-04.05.34:028][408]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.05.36:463][700]LogEditorViewport: Clicking on Actor (LMB): Ue4ASP_Character_C (Ue4ASP_Character2)
+[2015.11.19-04.05.53:002][669]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.06.11:782][920]LogStaticMesh: Building static mesh Bridge1...
+[2015.11.19-04.06.11:793][920]LogStaticMesh: Built static mesh [0.011281.2s] /Game/Assets/TopDownCity/Deco/Bridge1.Bridge1
+[2015.11.19-04.06.11:926][932]LogActorFactory: Actor Factory created Bridge1
+[2015.11.19-04.06.26:463][675]LogActorFactory: Actor Factory created Bridge1
+[2015.11.19-04.06.27:978][850]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bridge4)
+[2015.11.19-04.06.37:124][943]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.07.04:838][264]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.07.13:114][255]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bridge4)
+[2015.11.19-04.07.38:386][286]LogUnrealMath: Expression Error : No value recognized
+[2015.11.19-04.07.38:386][286]LogUnrealMath: Expression Error : Error in expression
+[2015.11.19-04.07.38:466][295]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bridge4)
+[2015.11.19-04.08.48:872][886]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.19-04.08.48:943][886]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MemoryCardEntry" FILE="D:/IMyTH/xRooms/MVP/SantaSearch/Saved/Autosaves/Game/Maps/MemoryCardEntry_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.11.19-04.08.49:177][886]LogSavePackage: Save=227.275177ms
+[2015.11.19-04.08.49:177][886]LogSavePackage: Moving 'D:/IMyTH/xRooms/MVP/SantaSearch/Saved/MemoryCardEntry_Auto53F437A8D4442D87E9F00E98380E1D612.tmp' to 'D:/IMyTH/xRooms/MVP/SantaSearch/Saved/Autosaves/Game/Maps/MemoryCardEntry_Auto5.umap'
+[2015.11.19-04.08.49:178][886]LogSavePackage: Total save time: 234.963126ms
+[2015.11.19-04.08.49:178][886]LogSavePackage:Warning: Finished SavePackage D:/IMyTH/xRooms/MVP/SantaSearch/Saved/Autosaves/Game/Maps/MemoryCardEntry_Auto5.umap
+[2015.11.19-04.08.49:179][886]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MemoryCardEntry' took 0.308
+[2015.11.19-04.08.49:179][886]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.308
+[2015.11.19-04.10.02:597][465]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bridge1)
+[2015.11.19-04.10.16:467][123]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.10.57:334][ 20]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bridge1)
+[2015.11.19-04.10.58:575][168]Cmd: DELETE
+[2015.11.19-04.10.58:575][168]Cmd: ACTOR DELETE
+[2015.11.19-04.10.58:578][168]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.11.19-04.10.58:594][168]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2015.11.19-04.11.10:328][576]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bridge4)
+[2015.11.19-04.11.30:794][ 25]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.12.03:909][984]LogStaticMesh: Building static mesh House1_17...
+[2015.11.19-04.12.03:934][984]LogStaticMesh: Built static mesh [0.025538.2s] /Game/Assets/TopDownCity/Houses/House1_17.House1_17
+[2015.11.19-04.12.04:226][ 16]LogActorFactory: Actor Factory created House1_17
+[2015.11.19-04.12.05:389][154]LogActorFactory: Actor Factory created House1_17
+[2015.11.19-04.13.03:779][145]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.13.49:178][579]LogStaticMesh: Building static mesh House1_18...
+[2015.11.19-04.13.49:199][579]LogStaticMesh: Built static mesh [0.021342.2s] /Game/Assets/TopDownCity/Houses/House1_18.House1_18
+[2015.11.19-04.13.49:549][618]LogActorFactory: Actor Factory created House1_18
+[2015.11.19-04.13.50:202][695]LogActorFactory: Actor Factory created House1_18
+[2015.11.19-04.14.58:747][882]LogStaticMesh: Building static mesh House1_19...
+[2015.11.19-04.14.58:764][882]LogStaticMesh: Built static mesh [0.016610.2s] /Game/Assets/TopDownCity/Houses/House1_19.House1_19
+[2015.11.19-04.14.58:941][900]LogActorFactory: Actor Factory created House1_19
+[2015.11.19-04.14.59:674][987]LogActorFactory: Actor Factory created House1_19
+[2015.11.19-04.15.20:176][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_19)
+[2015.11.19-04.15.21:714][624]Cmd: DELETE
+[2015.11.19-04.15.21:714][624]Cmd: ACTOR DELETE
+[2015.11.19-04.15.21:715][624]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.11.19-04.15.21:715][624]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.19-04.15.21:730][624]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2015.11.19-04.15.26:431][128]LogStaticMesh: Building static mesh House1_01...
+[2015.11.19-04.15.26:453][128]LogStaticMesh: Built static mesh [0.022438.2s] /Game/Assets/TopDownCity/Houses/House1_01.House1_01
+[2015.11.19-04.15.26:472][128]LogActorFactory: Actor Factory created House1_01
+[2015.11.19-04.15.27:243][220]LogActorFactory: Actor Factory created House1_01
+[2015.11.19-04.15.54:923][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_01)
+[2015.11.19-04.16.01:304][292]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.11.19-04.16.01:304][292]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.19-04.16.01:317][292]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2015.11.19-04.16.06:297][829]LogStaticMesh: Building static mesh House1_04...
+[2015.11.19-04.16.06:331][829]LogStaticMesh: Built static mesh [0.033875.2s] /Game/Assets/TopDownCity/Houses/House1_04.House1_04
+[2015.11.19-04.16.06:352][829]LogActorFactory: Actor Factory created House1_04
+[2015.11.19-04.16.07:322][945]LogActorFactory: Actor Factory created House1_04
+[2015.11.19-04.16.41:225][  6]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_12)
+[2015.11.19-04.16.44:315][372]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_11)
+[2015.11.19-04.16.47:082][700]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_04)
+[2015.11.19-04.17.12:577][746]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_14)
+[2015.11.19-04.17.19:409][560]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_04)
+[2015.11.19-04.17.20:453][681]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.17.57:169][ 22]LogStaticMesh: Building static mesh House2_04...
+[2015.11.19-04.17.57:185][ 22]LogStaticMesh: Built static mesh [0.016296.2s] /Game/Assets/TopDownCity/Houses/House2_04.House2_04
+[2015.11.19-04.17.57:265][ 29]LogActorFactory: Actor Factory created House2_04
+[2015.11.19-04.17.58:462][172]LogActorFactory: Actor Factory created House2_04
+[2015.11.19-04.17.59:590][303]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.18.40:612][207]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.18.48:342][130]LogEditorViewport: Clicking on Actor (LMB): Ue4ASP_Character_C (Ue4ASP_Character2)
+[2015.11.19-04.18.51:726][522]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.18.55:912][ 21]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.19.02:805][845]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.20.41:800][645]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2015.11.19-04.20.43:565][849]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.11.19-04.21.50:898][457]Cmd: TRANSACTION UNDO
+[2015.11.19-04.21.50:898][457]LogEditorTransaction: Undo Move World Outliner Items
+[2015.11.19-04.22.17:681][603]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_17)
+[2015.11.19-04.23.11:403][ 24]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.19-04.23.11:522][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MemoryCardEntry" FILE="D:/IMyTH/xRooms/MVP/SantaSearch/Content/Maps/MemoryCardEntry.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.19-04.23.11:725][ 24]LogSavePackage: Save=181.102219ms
+[2015.11.19-04.23.11:725][ 24]LogSavePackage: Moving 'D:/IMyTH/xRooms/MVP/SantaSearch/Saved/MemoryCardEntryC56166264C9B8A28989C18AE0B6E8E5E.tmp' to 'D:/IMyTH/xRooms/MVP/SantaSearch/Content/Maps/MemoryCardEntry.umap'
+[2015.11.19-04.23.11:726][ 24]LogSavePackage: Total save time: 188.268945ms
+[2015.11.19-04.23.11:726][ 24]LogSavePackage:Warning: Finished SavePackage D:/IMyTH/xRooms/MVP/SantaSearch/Content/Maps/MemoryCardEntry.umap
+[2015.11.19-04.23.11:745][ 24]LogFileHelpers: Saving map 'MemoryCardEntry' took 0.310
+[2015.11.19-04.23.37:500][ 93]LogStaticMesh:Display: Discarded foliage hierarchy of 11 elements build due to concurrent removal (0.0s)
+[2015.11.19-04.23.37:500][ 93]LogStaticMesh:Display: Discarded foliage hierarchy of 160 elements build due to concurrent removal (0.0s)
+[2015.11.19-04.23.39:303][307]LogStaticMesh:Display: Discarded foliage hierarchy of 160 elements build due to concurrent removal (0.0s)
+[2015.11.19-04.23.39:335][311]LogStaticMesh:Display: Discarded foliage hierarchy of 160 elements build due to concurrent removal (0.0s)
+[2015.11.19-04.23.39:368][315]LogStaticMesh:Display: Discarded foliage hierarchy of 160 elements build due to concurrent removal (0.0s)
+[2015.11.19-04.23.39:389][317]LogStaticMesh:Display: Discarded foliage hierarchy of 160 elements build due to concurrent removal (0.0s)
+[2015.11.19-04.23.41:230][537]LogStaticMesh:Display: Discarded foliage hierarchy of 160 elements build due to concurrent removal (0.0s)
+[2015.11.19-04.23.41:805][605]LogStaticMesh:Display: Discarded foliage hierarchy of 160 elements build due to concurrent removal (0.0s)
+[2015.11.19-04.23.48:069][350]LogStaticMesh:Display: Discarded foliage hierarchy of 160 elements build due to concurrent removal (0.0s)
+[2015.11.19-04.23.57:799][515]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.24.31:692][569]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bridge4)
+[2015.11.19-04.24.40:905][668]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.24.49:953][752]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_17)
+[2015.11.19-04.25.34:327][ 65]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_18)
+[2015.11.19-04.25.44:026][222]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.26.25:160][ 87]LogStaticMesh: Building static mesh House2_03...
+[2015.11.19-04.26.25:180][ 87]LogStaticMesh: Built static mesh [0.019673.2s] /Game/Assets/TopDownCity/Houses/House2_03.House2_03
+[2015.11.19-04.26.25:199][ 87]LogActorFactory: Actor Factory created House2_03
+[2015.11.19-04.26.27:165][321]LogActorFactory: Actor Factory created House2_03
+[2015.11.19-04.26.28:692][499]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.26.36:182][396]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House2_03)
+[2015.11.19-04.26.36:429][425]Cmd: DELETE
+[2015.11.19-04.26.36:429][425]Cmd: ACTOR DELETE
+[2015.11.19-04.26.36:430][425]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.11.19-04.26.36:430][425]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.19-04.26.36:448][425]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2015.11.19-04.26.38:318][649]LogStaticMesh: Building static mesh House2_02...
+[2015.11.19-04.26.38:340][649]LogStaticMesh: Built static mesh [0.022771.2s] /Game/Assets/TopDownCity/Houses/House2_02.House2_02
+[2015.11.19-04.26.38:647][684]LogActorFactory: Actor Factory created House2_02
+[2015.11.19-04.26.44:071][334]LogActorFactory: Actor Factory created House2_02
+[2015.11.19-04.26.46:023][564]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.27.02:022][480]LogStaticMesh: Building static mesh House2_01...
+[2015.11.19-04.27.02:036][480]LogStaticMesh: Built static mesh [0.013433.2s] /Game/Assets/TopDownCity/Houses/House2_01.House2_01
+[2015.11.19-04.27.02:613][547]LogActorFactory: Actor Factory created House2_01
+[2015.11.19-04.27.05:752][921]LogActorFactory: Actor Factory created House2_01
+[2015.11.19-04.27.19:496][496]LogStaticMesh: Building static mesh House1_09...
+[2015.11.19-04.27.19:525][496]LogStaticMesh: Built static mesh [0.029482.2s] /Game/Assets/TopDownCity/Houses/House1_09.House1_09
+[2015.11.19-04.27.19:545][496]LogActorFactory: Actor Factory created House1_09
+[2015.11.19-04.27.21:803][763]LogActorFactory: Actor Factory created House1_09
+[2015.11.19-04.27.25:986][256]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_09)
+[2015.11.19-04.27.46:753][742]LogEditorViewport: Clicking on Actor (LMB): Ue4ASP_Character_C (Ue4ASP_Character2)
+[2015.11.19-04.27.59:677][273]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.28.11:131][643]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.28.32:917][181]LogStaticMesh: Building static mesh House1_08...
+[2015.11.19-04.28.32:942][181]LogStaticMesh: Built static mesh [0.025204.2s] /Game/Assets/TopDownCity/Houses/House1_08.House1_08
+[2015.11.19-04.28.32:962][181]LogActorFactory: Actor Factory created House1_08
+[2015.11.19-04.28.34:702][388]LogActorFactory: Actor Factory created House1_08
+[2015.11.19-04.28.35:852][516]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.28.50:490][268]LogUnrealMath: Expression Error : No value recognized
+[2015.11.19-04.28.50:490][268]LogUnrealMath: Expression Error : Error in expression
+[2015.11.19-04.29.51:155][415]LogStaticMesh: Building static mesh House1_07...
+[2015.11.19-04.29.51:185][415]LogStaticMesh: Built static mesh [0.029937.2s] /Game/Assets/TopDownCity/Houses/House1_07.House1_07
+[2015.11.19-04.29.51:204][415]LogActorFactory: Actor Factory created House1_07
+[2015.11.19-04.29.52:191][531]LogActorFactory: Actor Factory created House1_07
+[2015.11.19-04.29.54:425][793]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.30.57:843][376]LogActorFactory: Actor Factory created House1_01
+[2015.11.19-04.30.58:562][461]LogActorFactory: Actor Factory created House1_01
+[2015.11.19-04.31.25:711][704]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.11.19-04.31.26:516][798]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_01)
+[2015.11.19-04.31.27:404][901]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.31.41:562][595]Cmd: DELETE
+[2015.11.19-04.31.41:562][595]Cmd: ACTOR DELETE
+[2015.11.19-04.31.41:562][595]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.11.19-04.31.41:562][595]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.19-04.31.41:580][595]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2015.11.19-04.31.50:390][652]LogStaticMesh: Building static mesh House1_02...
+[2015.11.19-04.31.50:435][652]LogStaticMesh: Built static mesh [0.044912.2s] /Game/Assets/TopDownCity/Houses/House1_02.House1_02
+[2015.11.19-04.31.50:531][661]LogActorFactory: Actor Factory created House1_02
+[2015.11.19-04.31.52:169][857]LogActorFactory: Actor Factory created House1_02
+[2015.11.19-04.32.26:167][923]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.33.10:961][278]LogStaticMesh: Building static mesh House1_03...
+[2015.11.19-04.33.10:984][278]LogStaticMesh: Built static mesh [0.024022.2s] /Game/Assets/TopDownCity/Houses/House1_03.House1_03
+[2015.11.19-04.33.11:153][296]LogActorFactory: Actor Factory created House1_03
+[2015.11.19-04.33.12:201][420]LogActorFactory: Actor Factory created House1_03
+[2015.11.19-04.34.09:318][214]LogStaticMesh: Building static mesh House1_05...
+[2015.11.19-04.34.09:348][214]LogStaticMesh: Built static mesh [0.030113.2s] /Game/Assets/TopDownCity/Houses/House1_05.House1_05
+[2015.11.19-04.34.09:420][220]LogActorFactory: Actor Factory created House1_05
+[2015.11.19-04.34.10:238][317]LogActorFactory: Actor Factory created House1_05
+[2015.11.19-04.34.49:261][980]LogStaticMesh: Building static mesh House1_06...
+[2015.11.19-04.34.49:294][980]LogStaticMesh: Built static mesh [0.033686.2s] /Game/Assets/TopDownCity/Houses/House1_06.House1_06
+[2015.11.19-04.34.49:336][982]LogActorFactory: Actor Factory created House1_06
+[2015.11.19-04.34.50:051][ 66]LogActorFactory: Actor Factory created House1_06
+[2015.11.19-04.34.51:365][218]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.36.07:124][239]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.11.19-04.36.13:956][ 53]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-04.36.38:386][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MemoryCardEntry" FILE="D:/IMyTH/xRooms/MVP/SantaSearch/Content/Maps/MemoryCardEntry.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.19-04.36.38:938][963]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2015.11.19-04.36.39:080][963]LogSavePackage: Save=191.400345ms
+[2015.11.19-04.36.39:081][963]LogSavePackage: Moving 'D:/IMyTH/xRooms/MVP/SantaSearch/Saved/MemoryCardEntry2C7EC5764522D48B125E13B82C8F21B6.tmp' to 'D:/IMyTH/xRooms/MVP/SantaSearch/Content/Maps/MemoryCardEntry.umap'
+[2015.11.19-04.36.39:082][963]LogSavePackage: Total save time: 679.238409ms
+[2015.11.19-04.36.39:082][963]LogSavePackage:Warning: Finished SavePackage D:/IMyTH/xRooms/MVP/SantaSearch/Content/Maps/MemoryCardEntry.umap
+[2015.11.19-04.36.39:100][963]LogFileHelpers: Saving map 'MemoryCardEntry' took 0.818
+[2015.11.19-04.36.41:686][264]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.19-04.36.41:926][265]Cmd: QUIT_EDITOR
+[2015.11.19-04.36.42:294][265]LogExit: Preparing to exit.
+[2015.11.19-04.36.42:723][265]LogActorComponent: UnregisterComponent: (None.None:None.None.StaticMeshComponent_16) Not registered. Aborting.
+[2015.11.19-04.36.42:759][265]LogExit: Editor shut down
+[2015.11.19-04.36.42:761][265]LogExit: Transaction tracking system shut down
+[2015.11.19-04.36.42:765][265]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F79579C900
+[2015.11.19-04.36.42:787][265]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F874F2F920
+[2015.11.19-04.36.42:788][265]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F78DEC1EE0
+[2015.11.19-04.36.42:788][265]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F8C6537420
+[2015.11.19-04.36.42:788][265]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F86F3D5DA0
+[2015.11.19-04.36.42:788][265]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F8C65363E0
+[2015.11.19-04.36.42:853][265]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F88092B880
+[2015.11.19-04.36.42:853][265]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F782351B20
+[2015.11.19-04.36.42:853][265]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F881276A20
+[2015.11.19-04.36.42:853][265]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F881276200
+[2015.11.19-04.36.42:853][265]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F8A07987C0
+[2015.11.19-04.36.42:853][265]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.19-04.36.42:911][265]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.19-04.36.43:213][265]LogExit: Object subsystem successfully closed.
+[2015.11.19-04.36.43:258][265]LogD3D11RHI: Shutdown
+[2015.11.19-04.36.43:258][265]LogD3D11RHI: CleanupD3DDevice
+[2015.11.19-04.36.43:362][265]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.19-04.36.43:398][265]LogModuleManager: Shutting down and abandoning module MaterialEditor (201)
+[2015.11.19-04.36.43:398][265]LogModuleManager: Shutting down and abandoning module CrashTracker (200)
+[2015.11.19-04.36.43:398][265]LogModuleManager: Shutting down and abandoning module SceneOutliner (199)
+[2015.11.19-04.36.43:398][265]LogModuleManager: Shutting down and abandoning module SuperSearch (198)
+[2015.11.19-04.36.43:398][265]LogModuleManager: Shutting down and abandoning module WidgetCarousel (197)
+[2015.11.19-04.36.43:398][265]LogModuleManager: Shutting down and abandoning module AddContentDialog (196)
+[2015.11.19-04.36.43:404][265]LogModuleManager: Shutting down and abandoning module EditorWidgets (195)
+[2015.11.19-04.36.43:404][265]LogModuleManager: Shutting down and abandoning module CollectionManager (194)
+[2015.11.19-04.36.43:405][265]LogModuleManager: Shutting down and abandoning module StatsViewer (193)
+[2015.11.19-04.36.43:406][265]LogModuleManager: Shutting down and abandoning module FoliageEdit (192)
+[2015.11.19-04.36.43:406][265]LogModuleManager: Shutting down and abandoning module LandscapeEditor (191)
+[2015.11.19-04.36.43:406][265]LogModuleManager: Shutting down and abandoning module ActorPickerMode (190)
+[2015.11.19-04.36.43:406][265]LogModuleManager: Shutting down and abandoning module GeometryMode (189)
+[2015.11.19-04.36.43:406][265]LogModuleManager: Shutting down and abandoning module TextureAlignMode (188)
+[2015.11.19-04.36.43:406][265]LogModuleManager: Shutting down and abandoning module BspMode (187)
+[2015.11.19-04.36.43:406][265]LogModuleManager: Shutting down and abandoning module PlacementMode (186)
+[2015.11.19-04.36.43:406][265]LogModuleManager: Shutting down and abandoning module AutomationWorker (185)
+[2015.11.19-04.36.43:407][265]LogModuleManager: Shutting down and abandoning module HoudiniEngineEditor (184)
+[2015.11.19-04.36.43:407][265]LogHoudiniEngineEditor: Shutting down the Houdini Engine Editor module.
+[2015.11.19-04.36.43:407][265]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2015.11.19-04.36.43:407][265]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2015.11.19-04.36.43:407][265]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2015.11.19-04.36.43:407][265]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2015.11.19-04.36.43:408][265]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2015.11.19-04.36.43:408][265]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2015.11.19-04.36.43:409][265]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2015.11.19-04.36.43:409][265]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2015.11.19-04.36.43:410][265]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2015.11.19-04.36.43:410][265]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2015.11.19-04.36.43:673][265]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2015.11.19-04.36.43:673][265]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2015.11.19-04.36.43:673][265]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2015.11.19-04.36.43:673][265]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2015.11.19-04.36.43:675][265]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2015.11.19-04.36.43:675][265]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2015.11.19-04.36.43:676][265]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2015.11.19-04.36.43:676][265]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2015.11.19-04.36.43:676][265]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2015.11.19-04.36.43:677][265]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2015.11.19-04.36.43:677][265]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2015.11.19-04.36.43:677][265]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2015.11.19-04.36.43:677][265]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2015.11.19-04.36.43:677][265]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2015.11.19-04.36.43:677][265]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2015.11.19-04.36.43:678][265]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2015.11.19-04.36.43:678][265]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2015.11.19-04.36.43:678][265]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2015.11.19-04.36.43:678][265]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2015.11.19-04.36.43:679][265]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2015.11.19-04.36.43:679][265]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2015.11.19-04.36.43:680][265]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2015.11.19-04.36.43:681][265]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2015.11.19-04.36.43:681][265]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2015.11.19-04.36.43:682][265]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2015.11.19-04.36.43:682][265]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2015.11.19-04.36.43:682][265]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2015.11.19-04.36.43:683][265]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2015.11.19-04.36.43:683][265]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2015.11.19-04.36.43:685][265]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2015.11.19-04.36.43:685][265]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2015.11.19-04.36.43:685][265]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2015.11.19-04.36.43:685][265]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2015.11.19-04.36.43:686][265]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2015.11.19-04.36.43:687][265]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2015.11.19-04.36.43:687][265]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2015.11.19-04.36.43:687][265]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2015.11.19-04.36.43:687][265]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2015.11.19-04.36.43:688][265]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2015.11.19-04.36.43:688][265]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2015.11.19-04.36.43:688][265]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2015.11.19-04.36.43:688][265]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2015.11.19-04.36.43:688][265]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2015.11.19-04.36.43:688][265]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2015.11.19-04.36.43:689][265]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2015.11.19-04.36.43:689][265]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2015.11.19-04.36.43:689][265]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2015.11.19-04.36.43:689][265]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2015.11.19-04.36.43:689][265]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2015.11.19-04.36.43:690][265]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2015.11.19-04.36.43:827][265]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2015.11.19-04.36.43:828][265]LogModuleManager: Shutting down and abandoning module LeapMotion (122)
+[2015.11.19-04.36.43:839][265]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.11.19-04.36.43:839][265]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.11.19-04.36.43:839][265]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.11.19-04.36.43:839][265]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.11.19-04.36.43:839][265]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2015.11.19-04.36.43:840][265]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2015.11.19-04.36.43:840][265]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.11.19-04.36.43:852][265]LogModuleManager: Shutting down and abandoning module HoudiniEngineRuntime (114)
+[2015.11.19-04.36.43:852][265]LogHoudiniEngine: Shutting down the Houdini Engine module.
+[2015.11.19-04.36.43:860][265]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.11.19-04.36.43:860][265]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.11.19-04.36.43:860][265]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.11.19-04.36.43:860][265]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.11.19-04.36.43:861][265]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.11.19-04.36.43:863][265]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.11.19-04.36.43:863][265]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.11.19-04.36.43:863][265]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.11.19-04.36.43:863][265]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.11.19-04.36.43:865][265]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.11.19-04.36.43:865][265]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.11.19-04.36.43:865][265]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.11.19-04.36.43:865][265]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.11.19-04.36.43:866][265]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.11.19-04.36.43:867][265]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.11.19-04.36.43:867][265]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.11.19-04.36.43:868][265]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.11.19-04.36.43:868][265]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.11.19-04.36.43:868][265]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.11.19-04.36.43:868][265]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.11.19-04.36.43:869][265]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.11.19-04.36.43:869][265]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.11.19-04.36.43:870][265]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.11.19-04.36.43:870][265]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.11.19-04.36.43:871][265]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.11.19-04.36.43:876][265]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.11.19-04.36.44:107][265]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.11.19-04.36.44:108][265]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.11.19-04.36.44:111][265]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.11.19-04.36.44:212][265]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.11.19-04.36.44:212][265]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.11.19-04.36.44:212][265]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.11.19-04.36.44:218][265]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.11.19-04.36.44:218][265]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.11.19-04.36.44:219][265]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.11.19-04.36.44:219][265]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.11.19-04.36.44:219][265]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.11.19-04.36.44:219][265]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.11.19-04.36.44:220][265]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.11.19-04.36.44:220][265]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.11.19-04.36.44:221][265]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.11.19-04.36.44:221][265]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.11.19-04.36.44:221][265]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.11.19-04.36.44:222][265]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.11.19-04.36.44:223][265]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.11.19-04.36.44:224][265]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.11.19-04.36.44:224][265]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.11.19-04.36.44:224][265]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.11.19-04.36.44:227][265]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.11.19-04.36.44:227][265]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.11.19-04.36.44:227][265]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.11.19-04.36.44:227][265]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.11.19-04.36.44:227][265]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.11.19-04.36.44:227][265]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.11.19-04.36.44:227][265]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.11.19-04.36.44:227][265]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.11.19-04.36.44:227][265]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.11.19-04.36.44:228][265]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.11.19-04.36.44:239][265]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.11.19-04.36.44:316][265]LogDerivedDataCache: Shutdown
+[2015.11.19-04.36.44:316][265]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.11.19-04.36.44:316][265]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.11.19-04.36.44:317][265]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.11.19-04.36.44:317][265]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.11.19-04.36.44:317][265]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.11.19-04.36.44:318][265]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.11.19-04.36.44:318][265]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.11.19-04.36.44:318][265]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.11.19-04.36.44:318][265]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.11.19-04.36.44:318][265]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.11.19-04.36.44:318][265]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.11.19-04.36.44:319][265]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.11.19-04.36.44:319][265]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.11.19-04.36.44:319][265]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.11.19-04.36.44:319][265]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.11.19-04.36.44:319][265]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.11.19-04.36.44:320][265]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.11.19-04.36.44:320][265]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.11.19-04.36.44:320][265]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.11.19-04.36.44:320][265]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.11.19-04.36.44:320][265]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.11.19-04.36.44:321][265]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.11.19-04.36.44:321][265]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.11.19-04.36.44:321][265]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.11.19-04.36.44:321][265]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.11.19-04.36.44:322][265]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.11.19-04.36.44:322][265]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.11.19-04.36.44:322][265]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.11.19-04.36.44:323][265]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.11.19-04.36.44:323][265]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.11.19-04.36.44:324][265]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.11.19-04.36.44:324][265]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.11.19-04.36.44:324][265]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.11.19-04.36.44:324][265]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.11.19-04.36.44:324][265]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.11.19-04.36.44:324][265]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.11.19-04.36.46:328][265]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.11.19-04.36.46:332][265]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.11.19-04.36.46:332][265]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.19-04.36.46:332][265]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.19-04.36.46:332][265]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.19-04.36.46:332][265]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.19-04.36.46:355][265]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.19-04.36.46:355][265]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.19-04.36.46:355][265]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.19-04.36.46:355][265]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.19-04.36.46:355][265]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.19-04.36.46:355][265]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.19-04.36.46:355][265]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.19-04.36.46:356][265]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.19-04.36.46:356][265]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.19-04.36.46:356][265]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.19-04.36.46:358][265]LogExit: Exiting.
+[2015.11.19-04.36.46:372][265]Log file closed, 11/18/15 23:36:46
