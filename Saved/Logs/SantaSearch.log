@@ -1,157 +1,157 @@
-﻿[2015.11.22-23.42.01:174][  0]Log file open, 11/22/15 18:42:01
-[2015.11.22-23.42.01:174][  0]LogInit:Display: Running engine for game: SantaSearch
-[2015.11.22-23.42.01:174][  0]LogInit:Display: RandInit(-238812311) SRandInit(-238812311).
-[2015.11.22-23.42.01:174][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2015.11.22-23.42.01:174][  0]LogStats: Stats thread started at 0.071099
-[2015.11.22-23.42.01:174][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2015.11.22-23.42.01:174][  0]LogInit: API Version: 2672455
-[2015.11.22-23.42.01:174][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
-[2015.11.22-23.42.01:174][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2015.11.22-23.42.01:174][  0]LogInit: Build Configuration: Development
-[2015.11.22-23.42.01:174][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
-[2015.11.22-23.42.01:174][  0]LogInit: Command line:  
-[2015.11.22-23.42.01:174][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
-[2015.11.22-23.42.01:174][  0]LogInit: Rocket: 1
-[2015.11.22-23.42.01:194][  0]LogInit: Using libcurl 7.41.0
-[2015.11.22-23.42.01:194][  0]LogInit:  - built for x86_64-pc-win32
-[2015.11.22-23.42.01:194][  0]LogInit:  - supports SSL with WinSSL
-[2015.11.22-23.42.01:194][  0]LogInit:  - other features:
-[2015.11.22-23.42.01:194][  0]LogInit:      CURL_VERSION_SSL
-[2015.11.22-23.42.01:194][  0]LogInit:      CURL_VERSION_IPV6
-[2015.11.22-23.42.01:194][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2015.11.22-23.42.01:194][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2015.11.22-23.42.01:194][  0]LogInit:      CURL_VERSION_IDN
-[2015.11.22-23.42.01:194][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2015.11.22-23.42.01:194][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2015.11.22-23.42.01:194][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2015.11.22-23.42.01:194][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2015.11.22-23.42.01:194][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2015.11.22-23.42.01:200][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.11.22-23.42.01:207][  0]LogInit: Object subsystem initialized
-[2015.11.22-23.42.01:208][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set ('Scalability' has a lower priority than 'ProjectSetting')
-[2015.11.22-23.42.01:208][  0]LogInit: Selected Device Profile: [Windows]
-[2015.11.22-23.42.01:208][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.11.22-23.42.01:213][  0]LogInit: Computer: ISSTVAN
-[2015.11.22-23.42.01:213][  0]LogInit: User: RudeyPunk
-[2015.11.22-23.42.01:213][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.11.22-23.42.01:213][  0]LogInit: High frequency timer resolution =3.906247 MHz
-[2015.11.22-23.42.01:213][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2015.11.22-23.42.01:213][  0]LogMemory: Platform Memory Stats for Windows
-[2015.11.22-23.42.01:213][  0]LogMemory: Process Physical Memory: 54.03 MB used, 54.03 MB peak
-[2015.11.22-23.42.01:213][  0]LogMemory: Process Virtual Memory: 57.34 MB used, 57.34 MB peak
-[2015.11.22-23.42.01:213][  0]LogMemory: Physical Memory: 2977.67 MB used, 8141.15 MB total
-[2015.11.22-23.42.01:213][  0]LogMemory: Virtual Memory: 366.57 MB used, 134217728.00 MB total
-[2015.11.22-23.42.01:245][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2015.11.22-23.42.01:820][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980 (Feature Level 11_0)
-[2015.11.22-23.42.01:820][  0]LogD3D11RHI: Adapter has 4009MB of dedicated video memory, 0MB of dedicated system memory, and 4070MB of shared system memory, 2 output[s]
-[2015.11.22-23.42.01:821][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.11.22-23.42.01:821][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4070MB of shared system memory, 0 output[s]
-[2015.11.22-23.42.01:821][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.11.22-23.42.01:824][  0]LogD3D11RHI: !Direct3DDevice
-[2015.11.22-23.42.01:824][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.11.22-23.42.01:834][  0]LogD3D11RHI: Async texture creation enabled
-[2015.11.22-23.42.01:849][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (D:/IMyTH/xRooms/MVP/SantaSearch/Intermediate/Shaders/WorkingDirectory/10464/).
-[2015.11.22-23.42.01:849][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/IMyTH/xRooms/MVP/SantaSearch/Intermediate/Shaders/tmp/D380C9DA4A96024149EA08A4A0123802/'.
-[2015.11.22-23.42.01:849][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2015.11.22-23.42.02:667][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2015.11.22-23.42.02:672][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2015.11.22-23.42.02:676][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2015.11.22-23.42.02:680][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2015.11.22-23.42.02:685][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2015.11.22-23.42.02:688][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2015.11.22-23.42.02:690][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2015.11.22-23.42.02:693][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2015.11.22-23.42.02:695][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2015.11.22-23.42.02:698][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2015.11.22-23.42.02:700][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2015.11.22-23.42.02:703][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2015.11.22-23.42.02:704][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2015.11.22-23.42.02:721][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2015.11.22-23.42.02:723][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2015.11.22-23.42.02:726][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2015.11.22-23.42.02:729][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2015.11.22-23.42.02:729][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.11.22-23.42.02:800][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.11.22-23.42.02:928][  0]LogDerivedDataCache: Loaded boot cache 0.13s 42MB C:/Users/RudeyPunk/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.11.22-23.42.02:929][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/RudeyPunk/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
-[2015.11.22-23.42.02:929][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/IMyTH/xRooms/MVP/SantaSearch/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.11.22-23.42.02:929][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.11.22-23.42.02:929][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/IMyTH/xRooms/MVP/SantaSearch/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2015.11.22-23.42.02:929][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2015.11.22-23.42.03:042][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.11.22-23.42.03:054][  0]LogDerivedDataCache: Using Local data cache path C:/Users/RudeyPunk/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.11.22-23.42.03:263][  0]LogInit: Selected Device Profile: [Windows]
-[2015.11.22-23.42.03:265][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.11.22-23.42.03:354][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.11.22-23.42.03:354][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.11.22-23.42.03:531][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.11.22-23.42.04:551][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.11.22-23.42.04:655][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
-[2015.11.22-23.42.04:783][  0]SourceControl: Info Source control is disabled
-[2015.11.22-23.42.04:795][  0]SourceControl: Info Source control is disabled
-[2015.11.22-23.42.04:804][  0]SourceControl: Info Source control is disabled
-[2015.11.22-23.42.04:813][  0]SourceControl: Info Source control is disabled
-[2015.11.22-23.42.04:947][  0]LogHoudiniEngine: Starting the Houdini Engine module.
-[2015.11.22-23.42.04:949][  0]LogHoudiniEngine: Loaded libHAPIL.dll from Registry path C:\Program Files\Side Effects Software\Houdini 15.0.244.16/bin
-[2015.11.22-23.42.04:949][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_logo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.22-23.42.04:950][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_default_material.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.22-23.42.05:502][  0]LogHoudiniEngine: Successfully intialized the Houdini Engine API module.
-[2015.11.22-23.42.05:528][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.22-23.42.05:608][  0]LeapPluginLog: Using LeapPlugin version 0.9.6
-[2015.11.22-23.42.05:613][  0]LogObj: 29100 objects as part of root set at end of initial load.
-[2015.11.22-23.42.05:613][  0]LogUObjectAllocator: 6175168 out of 0 bytes used by permanent object pool.
-[2015.11.22-23.42.05:660][  0]LogEngine: Initializing Engine...
-[2015.11.22-23.42.05:663][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
-[2015.11.22-23.42.05:664][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2015.11.22-23.42.05:770][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.11.22-23.42.05:776][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.11.22-23.42.05:786][  0]LogInit: FAudioDevice initialized.
-[2015.11.22-23.42.05:806][  0]LogDerivedDataCache: Saved boot cache 0.02s 42MB C:/Users/RudeyPunk/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.11.22-23.42.05:809][  0]LogInit: Texture streaming: Enabled
-[2015.11.22-23.42.05:814][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.11.22-23.42.05:814][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2015.11.22-23.42.05:814][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 616fff054fd338fe95b7b89cc34538a1|6dee01914e174258b8c89718799d58e5|1462898c-ea64-4062-b7c1-32114cb7f44a
-[2015.11.22-23.42.05:814][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2015.11.22-23.42.05:842][  0]LogInit: Transaction tracking system initialized
-[2015.11.22-23.42.05:870][  0]BlueprintLog: New page: Editor Load
-[2015.11.22-23.42.05:952][  0]LocalizationService: Info Localization service is disabled
-[2015.11.22-23.42.06:011][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
-[2015.11.22-23.42.06:011][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
-[2015.11.22-23.42.06:011][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
-[2015.11.22-23.42.06:028][  0]LogConsoleResponse:Display: 
-[2015.11.22-23.42.06:129][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.11.22-23.42.06:156][  0]LogFileCache: Scanning file cache for directory 'D:/IMyTH/xRooms/MVP/SantaSearch/Content/' took 0.01s
-[2015.11.22-23.42.06:156][  0]LogHoudiniEngineEditor: Starting the Houdini Engine Editor module.
-[2015.11.22-23.42.06:190][  0]SourceControl: Info Source control is disabled
-[2015.11.22-23.42.06:190][  0]Cmd: MAP LOAD FILE="D:/IMyTH/xRooms/MVP/SantaSearch/Content/Maps/MemoryCardEntry.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.11.22-23.42.06:191][  0]LightingResults: New page: Lighting Build
-[2015.11.22-23.42.06:193][  0]MapCheck: New page: Map Check
-[2015.11.22-23.42.06:193][  0]LightingResults: New page: Lighting Build
-[2015.11.22-23.42.06:202][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C4D54576A0
-[2015.11.22-23.42.06:364][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
-[2015.11.22-23.42.06:364][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
-[2015.11.22-23.42.06:364][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
-[2015.11.22-23.42.06:364][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
-[2015.11.22-23.42.06:364][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
-[2015.11.22-23.42.06:365][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
-[2015.11.22-23.42.06:367][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0005.58] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 6 ms]
-[2015.11.22-23.42.06:367][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0005.58] Compile of Ue4ASP_Character successful, but with 7 Warning(s) [in 0 ms]
-[2015.11.22-23.42.06:367][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0005.58] Compile of Ue4ASP_Character successful, but with 8 Warning(s) [in 0 ms]
-[2015.11.22-23.42.06:397][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
-[2015.11.22-23.42.06:397][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
-[2015.11.22-23.42.06:398][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
-[2015.11.22-23.42.06:398][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
-[2015.11.22-23.42.06:398][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
-[2015.11.22-23.42.06:398][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
-[2015.11.22-23.42.06:401][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0005.62] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 7 ms]
-[2015.11.22-23.42.06:401][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0005.62] Compile of Ue4ASP_Character successful, but with 7 Warning(s) [in 0 ms]
-[2015.11.22-23.42.06:402][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0005.62] Compile of Ue4ASP_Character successful, but with 8 Warning(s) [in 0 ms]
-[2015.11.22-23.42.06:776][  0]LogBlueprint:Warning: ExposeOnSpawn ambiguity. Property 'IntProperty /Game/Blueprints/BP_CardMem.BP_CardMem_C:CardIType', MetaData 'True', Flag 'False'
-[2015.11.22-23.42.06:971][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /LeapMotion/Character/Basic/BasicCharacter_AnimBlueprint.BasicCharacter_AnimBlueprint_C:AnimGraphNode_Fabrik_8C904C7A415FB588652E8A91FDC811AE'. Unknown structure.
-[2015.11.22-23.42.06:971][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /LeapMotion/Character/Basic/BasicCharacter_AnimBlueprint.BasicCharacter_AnimBlueprint_C:AnimGraphNode_Fabrik_416EC86F435836563C4E49AD6D016C3C'. Unknown structure.
-[2015.11.22-23.42.06:972][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /LeapMotion/Character/Basic/BasicCharacter_AnimBlueprint.BasicCharacter_AnimBlueprint_C:AnimGraphNode_Fabrik_9FF4326C4CAD2373B92D6F9E3AC3F57A'. Unknown structure.
-[2015.11.22-23.42.06:973][  0]LogAnimation:Warning: Invalid animation root node index 54 on '/LeapMotion/Character/Basic/BasicCharacter_AnimBlueprint.BasicCharacter_AnimBlueprint_C' (only 52 nodes)
-[2015.11.22-23.42.12:335][  0]LogOutputDevice: === Handled error: ===
+﻿[2015.11.23-01.12.50:076][  0]Log file open, 11/22/15 20:12:50
+[2015.11.23-01.12.50:076][  0]LogInit:Display: Running engine for game: SantaSearch
+[2015.11.23-01.12.50:076][  0]LogInit:Display: RandInit(-428938695) SRandInit(-428938695).
+[2015.11.23-01.12.50:076][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.23-01.12.50:076][  0]LogStats: Stats thread started at 0.069721
+[2015.11.23-01.12.50:076][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.23-01.12.50:076][  0]LogInit: API Version: 2672455
+[2015.11.23-01.12.50:076][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.11.23-01.12.50:076][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.23-01.12.50:076][  0]LogInit: Build Configuration: Development
+[2015.11.23-01.12.50:076][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.23-01.12.50:076][  0]LogInit: Command line:  
+[2015.11.23-01.12.50:076][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.23-01.12.50:076][  0]LogInit: Rocket: 1
+[2015.11.23-01.12.50:086][  0]LogInit: Using libcurl 7.41.0
+[2015.11.23-01.12.50:086][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.23-01.12.50:086][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.23-01.12.50:086][  0]LogInit:  - other features:
+[2015.11.23-01.12.50:086][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.23-01.12.50:086][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.23-01.12.50:086][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.23-01.12.50:086][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.23-01.12.50:086][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.23-01.12.50:086][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.23-01.12.50:086][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.23-01.12.50:087][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.23-01.12.50:087][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.23-01.12.50:087][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.23-01.12.50:094][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.23-01.12.50:102][  0]LogInit: Object subsystem initialized
+[2015.11.23-01.12.50:103][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set ('Scalability' has a lower priority than 'ProjectSetting')
+[2015.11.23-01.12.50:104][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.23-01.12.50:104][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.23-01.12.50:112][  0]LogInit: Computer: ISSTVAN
+[2015.11.23-01.12.50:112][  0]LogInit: User: RudeyPunk
+[2015.11.23-01.12.50:112][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.23-01.12.50:112][  0]LogInit: High frequency timer resolution =3.906247 MHz
+[2015.11.23-01.12.50:112][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2015.11.23-01.12.50:112][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.23-01.12.50:112][  0]LogMemory: Process Physical Memory: 54.04 MB used, 54.04 MB peak
+[2015.11.23-01.12.50:112][  0]LogMemory: Process Virtual Memory: 57.27 MB used, 57.27 MB peak
+[2015.11.23-01.12.50:112][  0]LogMemory: Physical Memory: 3768.53 MB used, 8141.15 MB total
+[2015.11.23-01.12.50:112][  0]LogMemory: Virtual Memory: 366.57 MB used, 134217728.00 MB total
+[2015.11.23-01.12.50:142][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.11.23-01.12.50:723][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980 (Feature Level 11_0)
+[2015.11.23-01.12.50:723][  0]LogD3D11RHI: Adapter has 4009MB of dedicated video memory, 0MB of dedicated system memory, and 4070MB of shared system memory, 2 output[s]
+[2015.11.23-01.12.50:724][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.23-01.12.50:724][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4070MB of shared system memory, 0 output[s]
+[2015.11.23-01.12.50:724][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.23-01.12.50:727][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.23-01.12.50:727][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.23-01.12.50:736][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.23-01.12.50:750][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (D:/IMyTH/xRooms/MVP/SantaSearch/Intermediate/Shaders/WorkingDirectory/5784/).
+[2015.11.23-01.12.50:751][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/IMyTH/xRooms/MVP/SantaSearch/Intermediate/Shaders/tmp/7C6ED1D540964641C9E8EB92BDE6AD2B/'.
+[2015.11.23-01.12.50:751][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.23-01.12.51:514][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.23-01.12.51:518][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.23-01.12.51:522][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.23-01.12.51:527][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.23-01.12.51:531][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.23-01.12.51:534][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.23-01.12.51:536][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.23-01.12.51:539][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.23-01.12.51:542][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.23-01.12.51:545][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.23-01.12.51:547][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.23-01.12.51:550][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.23-01.12.51:550][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.23-01.12.51:567][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.23-01.12.51:569][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.23-01.12.51:572][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.23-01.12.51:574][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.23-01.12.51:574][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.23-01.12.51:644][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.23-01.12.51:679][  0]LogDerivedDataCache: Loaded boot cache 0.03s 42MB C:/Users/RudeyPunk/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.23-01.12.51:679][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/RudeyPunk/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.23-01.12.51:679][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/IMyTH/xRooms/MVP/SantaSearch/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.23-01.12.51:679][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.23-01.12.51:679][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/IMyTH/xRooms/MVP/SantaSearch/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.23-01.12.51:679][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.23-01.12.51:783][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.23-01.12.51:796][  0]LogDerivedDataCache: Using Local data cache path C:/Users/RudeyPunk/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.23-01.12.52:094][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.23-01.12.52:096][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.23-01.12.52:182][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.23-01.12.52:182][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.23-01.12.52:353][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.23-01.12.52:890][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.23-01.12.52:980][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2015.11.23-01.12.53:104][  0]SourceControl: Info Source control is disabled
+[2015.11.23-01.12.53:113][  0]SourceControl: Info Source control is disabled
+[2015.11.23-01.12.53:121][  0]SourceControl: Info Source control is disabled
+[2015.11.23-01.12.53:131][  0]SourceControl: Info Source control is disabled
+[2015.11.23-01.12.53:244][  0]LogHoudiniEngine: Starting the Houdini Engine module.
+[2015.11.23-01.12.53:245][  0]LogHoudiniEngine: Loaded libHAPIL.dll from Registry path C:\Program Files\Side Effects Software\Houdini 15.0.244.16/bin
+[2015.11.23-01.12.53:245][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_logo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.23-01.12.53:247][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_default_material.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.23-01.12.53:638][  0]LogHoudiniEngine: Successfully intialized the Houdini Engine API module.
+[2015.11.23-01.12.53:664][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.23-01.12.53:742][  0]LeapPluginLog: Using LeapPlugin version 0.9.6
+[2015.11.23-01.12.53:746][  0]LogObj: 29100 objects as part of root set at end of initial load.
+[2015.11.23-01.12.53:746][  0]LogUObjectAllocator: 6175168 out of 0 bytes used by permanent object pool.
+[2015.11.23-01.12.53:792][  0]LogEngine: Initializing Engine...
+[2015.11.23-01.12.53:794][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.23-01.12.53:794][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.23-01.12.53:889][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.23-01.12.53:894][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.23-01.12.53:916][  0]LogInit: FAudioDevice initialized.
+[2015.11.23-01.12.53:934][  0]LogDerivedDataCache: Saved boot cache 0.02s 42MB C:/Users/RudeyPunk/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.23-01.12.53:936][  0]LogInit: Texture streaming: Enabled
+[2015.11.23-01.12.53:941][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.23-01.12.53:941][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.23-01.12.53:941][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 616fff054fd338fe95b7b89cc34538a1|6dee01914e174258b8c89718799d58e5|1462898c-ea64-4062-b7c1-32114cb7f44a
+[2015.11.23-01.12.53:941][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.23-01.12.53:968][  0]LogInit: Transaction tracking system initialized
+[2015.11.23-01.12.53:994][  0]BlueprintLog: New page: Editor Load
+[2015.11.23-01.12.54:061][  0]LocalizationService: Info Localization service is disabled
+[2015.11.23-01.12.54:117][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2015.11.23-01.12.54:117][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2015.11.23-01.12.54:117][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2015.11.23-01.12.54:132][  0]LogConsoleResponse:Display: 
+[2015.11.23-01.12.54:223][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.23-01.12.54:254][  0]LogFileCache: Scanning file cache for directory 'D:/IMyTH/xRooms/MVP/SantaSearch/Content/' took 0.01s
+[2015.11.23-01.12.54:254][  0]LogHoudiniEngineEditor: Starting the Houdini Engine Editor module.
+[2015.11.23-01.12.54:285][  0]SourceControl: Info Source control is disabled
+[2015.11.23-01.12.54:285][  0]Cmd: MAP LOAD FILE="D:/IMyTH/xRooms/MVP/SantaSearch/Content/Maps/MemoryCardEntry.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.23-01.12.54:287][  0]LightingResults: New page: Lighting Build
+[2015.11.23-01.12.54:289][  0]MapCheck: New page: Map Check
+[2015.11.23-01.12.54:289][  0]LightingResults: New page: Lighting Build
+[2015.11.23-01.12.54:297][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D8CFE4B6A0
+[2015.11.23-01.12.54:438][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2015.11.23-01.12.54:438][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2015.11.23-01.12.54:438][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.23-01.12.54:438][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2015.11.23-01.12.54:439][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2015.11.23-01.12.54:439][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2015.11.23-01.12.54:442][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0004.77] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 9 ms]
+[2015.11.23-01.12.54:442][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0004.77] Compile of Ue4ASP_Character successful, but with 7 Warning(s) [in 0 ms]
+[2015.11.23-01.12.54:442][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0004.77] Compile of Ue4ASP_Character successful, but with 8 Warning(s) [in 0 ms]
+[2015.11.23-01.12.54:474][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2015.11.23-01.12.54:474][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2015.11.23-01.12.54:474][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.23-01.12.54:474][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2015.11.23-01.12.54:474][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2015.11.23-01.12.54:475][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2015.11.23-01.12.54:477][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0004.80] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 6 ms]
+[2015.11.23-01.12.54:477][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0004.80] Compile of Ue4ASP_Character successful, but with 7 Warning(s) [in 0 ms]
+[2015.11.23-01.12.54:477][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0004.80] Compile of Ue4ASP_Character successful, but with 8 Warning(s) [in 0 ms]
+[2015.11.23-01.12.54:850][  0]LogBlueprint:Warning: ExposeOnSpawn ambiguity. Property 'IntProperty /Game/Blueprints/BP_CardMem.BP_CardMem_C:CardIType', MetaData 'True', Flag 'False'
+[2015.11.23-01.12.55:037][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /LeapMotion/Character/Basic/BasicCharacter_AnimBlueprint.BasicCharacter_AnimBlueprint_C:AnimGraphNode_Fabrik_8C904C7A415FB588652E8A91FDC811AE'. Unknown structure.
+[2015.11.23-01.12.55:037][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /LeapMotion/Character/Basic/BasicCharacter_AnimBlueprint.BasicCharacter_AnimBlueprint_C:AnimGraphNode_Fabrik_416EC86F435836563C4E49AD6D016C3C'. Unknown structure.
+[2015.11.23-01.12.55:038][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /LeapMotion/Character/Basic/BasicCharacter_AnimBlueprint.BasicCharacter_AnimBlueprint_C:AnimGraphNode_Fabrik_9FF4326C4CAD2373B92D6F9E3AC3F57A'. Unknown structure.
+[2015.11.23-01.12.55:039][  0]LogAnimation:Warning: Invalid animation root node index 54 on '/LeapMotion/Character/Basic/BasicCharacter_AnimBlueprint.BasicCharacter_AnimBlueprint_C' (only 52 nodes)
+[2015.11.23-01.13.01:668][  0]LogOutputDevice: === Handled error: ===
 
 Ensure condition failed: bValidRootIndex [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Runtime\Engine\Private\Animation\AnimBlueprintGeneratedClass.cpp] [Line: 234]
 
@@ -248,252 +248,292 @@ UE4Editor-CoreUObject.dll!FLinkerLoad::CreateLinker() [d:\buildfarm\buildmachine
 UE4Editor-CoreUObject.dll!GetPackageLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linker.cpp:570]
 UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:936]
 UE4Editor-UnrealEd.dll
-[2015.11.22-23.42.12:754][  0]LogAnimation:Warning: Invalid animation root node index 54 on '/LeapMotion/Character/Basic/BasicCharacter_AnimBlueprint.BasicCharacter_AnimBlueprint_C' (only 52 nodes)
-[2015.11.22-23.42.12:967][  0]LogAnimation:Warning: Invalid animation root node index 54 on '/Engine/Transient.REINST_BasicCharacter_AnimBlueprint_C_2' (only 52 nodes)
-[2015.11.22-23.42.13:071][  0]LogClass:Warning: Property AnimGraphNode_Fabrik_8C904C7A415FB588652E8A91FDC811AE of BasicCharacter_AnimBlueprint_C has a struct type mismatch (tag FallbackStruct != prop AnimNode_Fabrik) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
-[2015.11.22-23.42.13:071][  0]LogClass:Warning: Property AnimGraphNode_Fabrik_416EC86F435836563C4E49AD6D016C3C of BasicCharacter_AnimBlueprint_C has a struct type mismatch (tag FallbackStruct != prop AnimNode_Fabrik) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
-[2015.11.22-23.42.13:071][  0]LogClass:Warning: Property AnimGraphNode_Fabrik_9FF4326C4CAD2373B92D6F9E3AC3F57A of BasicCharacter_AnimBlueprint_C has a struct type mismatch (tag FallbackStruct != prop AnimNode_Fabrik) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
-[2015.11.22-23.42.13:271][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
-[2015.11.22-23.42.13:271][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
-[2015.11.22-23.42.13:271][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
-[2015.11.22-23.42.13:272][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
-[2015.11.22-23.42.13:272][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
-[2015.11.22-23.42.13:272][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
-[2015.11.22-23.42.13:273][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
-[2015.11.22-23.42.13:275][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0012.49] Compile of LeapBasicRiggedCharacter successful, but with 7 Warning(s) [in 9 ms]
-[2015.11.22-23.42.13:275][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0012.49] Compile of LeapBasicRiggedCharacter successful, but with 8 Warning(s) [in 0 ms]
-[2015.11.22-23.42.13:275][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0012.49] Compile of LeapBasicRiggedCharacter successful, but with 9 Warning(s) [in 0 ms]
-[2015.11.22-23.42.13:689][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
-[2015.11.22-23.42.13:689][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
-[2015.11.22-23.42.13:689][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
-[2015.11.22-23.42.13:690][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
-[2015.11.22-23.42.13:690][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
-[2015.11.22-23.42.13:690][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
-[2015.11.22-23.42.13:690][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
-[2015.11.22-23.42.13:693][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0012.91] Compile of LeapBasicRiggedCharacter successful, but with 7 Warning(s) [in 9 ms]
-[2015.11.22-23.42.13:693][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0012.91] Compile of LeapBasicRiggedCharacter successful, but with 8 Warning(s) [in 0 ms]
-[2015.11.22-23.42.13:693][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0012.91] Compile of LeapBasicRiggedCharacter successful, but with 9 Warning(s) [in 0 ms]
-[2015.11.22-23.42.16:104][  0]LogAIModule: Creating AISystem for world MemoryCardEntry
-[2015.11.22-23.42.16:130][  0]PIE:Warning: Warning AttachTo: '/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.LighthousBP_1442.LampLight2' is not static  (in blueprint "LighthousBP"), cannot attach '/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.LampLight2BP_C_4.DefaultSceneRoot' which is static to it. Aborting.
-[2015.11.22-23.42.16:158][  0]PIE:Warning: Warning AttachTo: '/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.LighthousBP_1442.LampLight2' is not static  (in blueprint "LighthousBP"), cannot attach '/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.LampLight2BP_C_6.DefaultSceneRoot' which is static to it. Aborting.
-[2015.11.22-23.42.16:158][  0]PIE:Warning: Warning AttachTo: '/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.LighthousBP_1442.LampLight2' is not static  (in blueprint "LighthousBP"), cannot attach '/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.LampLight2BP_C_4.DefaultSceneRoot' which is static to it. Aborting.
-[2015.11.22-23.42.16:167][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.11.22-23.42.16:167][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.11.22-23.42.16:251][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 83.314ms to complete.
-[2015.11.22-23.42.16:251][  0]LogFileHelpers: Loading map 'MemoryCardEntry' took 10.060
-[2015.11.22-23.42.16:369][  0]LogCollectionManager: Loaded 0 collections in 0.001978 seconds
-[2015.11.22-23.42.16:409][  0]LogFileCache: Scanning file cache for directory 'D:/IMyTH/xRooms/MVP/SantaSearch/Saved/Collections/' took 0.01s
-[2015.11.22-23.42.16:409][  0]LogFileCache: Scanning file cache for directory 'D:/IMyTH/xRooms/MVP/SantaSearch/Content/Developers/RudeyPunk/Collections/' took 0.01s
-[2015.11.22-23.42.16:409][  0]LogFileCache: Scanning file cache for directory 'D:/IMyTH/xRooms/MVP/SantaSearch/Content/Collections/' took 0.01s
-[2015.11.22-23.42.16:409][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 1919 classes and 342 folders.
-[2015.11.22-23.42.16:417][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2015.11.22-23.42.16:422][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2015.11.22-23.42.16:531][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2015.11.22-23.42.16:547][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2015.11.22-23.42.16:621][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.11.22-23.42.16:627][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.11.22-23.42.16:648][  0]LogLoad: Full Startup: 15.86 seconds (BP compile: 0.97 seconds)
-[2015.11.22-23.42.16:743][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2015.11.22-23.42.16:905][  0]LogRenderer: Reallocating scene render targets to support 1232x572 (Frame:2).
-[2015.11.22-23.42.16:964][  1]Cmd: UpdateLandscapeEditorData -warnings
-[2015.11.22-23.42.17:103][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2015.11.22-23.42.17:524][ 11]LogAssetRegistry: Asset discovery search completed in 12.8794 seconds
-[2015.11.22-23.42.17:525][ 11]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000761 seconds (updated 0 objects)
-[2015.11.22-23.42.21:979][359]LogFileCache: Retrieving MD5 hashes for directory 'D:/IMyTH/xRooms/MVP/SantaSearch/Content/' took 5.31s
-[2015.11.22-23.42.36:917][538]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.22-23.42.37:402][538]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 107 classes and 0 folders.
-[2015.11.22-23.42.42:346][904]LogRenderer: Reallocating scene render targets to support 1232x712 (Frame:6433).
-[2015.11.22-23.43.03:210][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/TopDownCity/Houses/House1_15_BP" FILE="D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House1_15_BP.uasset" SILENT=true
-[2015.11.22-23.43.03:281][878]LogSavePackage: Save=19.929871ms
-[2015.11.22-23.43.03:281][878]LogSavePackage: Moving 'D:/IMyTH/xRooms/MVP/SantaSearch/Saved/House1_15_BP4F7E8F794AB1229DAEB48C95518B9491.tmp' to 'D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House1_15_BP.uasset'
-[2015.11.22-23.43.03:283][878]LogSavePackage: Total save time: 71.337271ms
-[2015.11.22-23.43.03:283][878]LogSavePackage:Warning: Finished SavePackage D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House1_15_BP.uasset
-[2015.11.22-23.43.03:739][921]BlueprintLog: New page: Compile House1_15_BP
-[2015.11.22-23.43.03:881][921]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C56BCFD300
-[2015.11.22-23.43.03:907][921]LeapPluginLog: LeapController::CleanupEventData Delete Called
-[2015.11.22-23.43.03:926][921]LeapPluginLog: LeapController::CleanupEventData Delete Called
-[2015.11.22-23.43.03:950][921]BlueprintEditorCompileResults: Info [0063.17] Compile of House1_15_BP successful! [in 210 ms]
-[2015.11.22-23.43.20:367][113]LogMetaData: Removing '/Game/Assets/TopDownCity/Houses/House1_14_BP.House1_14_BP:UserConstructionScript.K2Node_FunctionEntry_593' ref from Metadata '/Game/Assets/TopDownCity/Houses/House1_15_BP.PackageMetaData'
-[2015.11.22-23.43.20:367][113]LogMetaData: Removing '/Game/Assets/TopDownCity/Houses/House1_14_BP.House1_14_BP_C' ref from Metadata '/Game/Assets/TopDownCity/Houses/House1_15_BP.PackageMetaData'
-[2015.11.22-23.43.20:367][113]LogMetaData: Removing '/Game/Assets/TopDownCity/Houses/House1_14_BP.House1_14_BP:EventGraph.K2Node_Event_480' ref from Metadata '/Game/Assets/TopDownCity/Houses/House1_15_BP.PackageMetaData'
-[2015.11.22-23.43.20:367][113]LogMetaData: Removing '/Game/Assets/TopDownCity/Houses/House1_14_BP.House1_14_BP:EventGraph.K2Node_Event_481' ref from Metadata '/Game/Assets/TopDownCity/Houses/House1_15_BP.PackageMetaData'
-[2015.11.22-23.43.20:367][113]LogMetaData: Removing '/Game/Assets/TopDownCity/Houses/House1_14_BP.House1_14_BP:EventGraph.K2Node_Event_482' ref from Metadata '/Game/Assets/TopDownCity/Houses/House1_15_BP.PackageMetaData'
-[2015.11.22-23.43.20:367][113]LogMetaData: Removing '/Game/Assets/TopDownCity/Houses/House1_14_BP.SKEL_House1_14_BP_C' ref from Metadata '/Game/Assets/TopDownCity/Houses/House1_15_BP.PackageMetaData'
-[2015.11.22-23.43.20:423][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/TopDownCity/Houses/House1_14_BP" FILE="D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House1_14_BP.uasset" SILENT=true
-[2015.11.22-23.43.20:438][113]LogSavePackage: Save=14.629643ms
-[2015.11.22-23.43.20:438][113]LogSavePackage: Moving 'D:/IMyTH/xRooms/MVP/SantaSearch/Saved/House1_14_BP85F8C190424EC0074ED30C9B8DF46302.tmp' to 'D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House1_14_BP.uasset'
-[2015.11.22-23.43.20:439][113]LogSavePackage: Total save time: 16.026892ms
-[2015.11.22-23.43.20:439][113]LogSavePackage:Warning: Finished SavePackage D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House1_14_BP.uasset
-[2015.11.22-23.43.20:446][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/TopDownCity/Houses/House1_15_BP" FILE="D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House1_15_BP.uasset" SILENT=true
-[2015.11.22-23.43.20:462][113]LogSavePackage: Save=1.553153ms
-[2015.11.22-23.43.20:462][113]LogSavePackage: Moving 'D:/IMyTH/xRooms/MVP/SantaSearch/Saved/House1_15_BP6FDB337F4832CEE52466F6B688AAFB69.tmp' to 'D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House1_15_BP.uasset'
-[2015.11.22-23.43.20:463][113]LogSavePackage: Total save time: 9.347335ms
-[2015.11.22-23.43.20:463][113]LogSavePackage:Warning: Finished SavePackage D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House1_15_BP.uasset
-[2015.11.22-23.44.01:609][428]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.11.22-23.44.06:818][877]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.11.22-23.44.22:311][200]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.11.22-23.44.22:337][200]LogEditorActor: Deleted 1 Actors (0.026 secs)
-[2015.11.22-23.44.44:865][974]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.11.22-23.44.44:893][974]LogEditorActor: Deleted 1 Actors (0.029 secs)
-[2015.11.22-23.44.55:627][807]MapCheck: New page: Map Check
-[2015.11.22-23.44.55:654][807]Cmd: MAP REBUILD ALLVISIBLE
-[2015.11.22-23.44.55:654][807]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2015.11.22-23.44.55:758][807]PIE:Warning: Warning AttachTo: '/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.LighthousBP_1442.LampLight2' is not static  (in blueprint "LighthousBP"), cannot attach '/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.LampLight2BP_C_4.DefaultSceneRoot' which is static to it. Aborting.
-[2015.11.22-23.44.55:770][807]PIE:Warning: Warning AttachTo: '/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.LighthousBP_1442.LampLight2' is not static  (in blueprint "LighthousBP"), cannot attach '/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.LampLight2BP_C_27.DefaultSceneRoot' which is static to it. Aborting.
-[2015.11.22-23.44.55:771][807]PIE:Warning: Warning AttachTo: '/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.LighthousBP_1442.LampLight2' is not static  (in blueprint "LighthousBP"), cannot attach '/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.LampLight2BP_C_4.DefaultSceneRoot' which is static to it. Aborting.
-[2015.11.22-23.44.55:816][807]MapCheck:Warning: Warning WorldInfo_0 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
-[2015.11.22-23.44.55:816][807]LogStats:          STAT_HLOD_BuildClusters - 33.511 ms
-[2015.11.22-23.44.55:818][807]LightingResults: New page: Lighting Build - Nov 22, 2015, 1:44:55 PM
-[2015.11.22-23.44.55:834][807]PIE:Warning: Warning AttachTo: '/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.LighthousBP_1442.LampLight2' is not static  (in blueprint "LighthousBP"), cannot attach '/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.LampLight2BP_C_4.DefaultSceneRoot' which is static to it. Aborting.
-[2015.11.22-23.44.55:884][807]LogEditorBuildUtils: Build time 0:00:00
-[2015.11.22-23.44.55:913][808]Cmd: UpdateLandscapeEditorData
-[2015.11.22-23.45.35:549][712]LogEditorViewport: Clicking on Actor (LMB): House1_14_BP_C (House1_15_BP)
-[2015.11.22-23.45.37:675][857]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_04)
-[2015.11.22-23.45.40:660][ 61]LogEditorViewport: Clicking on Actor (LMB): House1_14_BP_C (House1_15_BP)
-[2015.11.22-23.45.42:556][190]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_04)
-[2015.11.22-23.46.20:469][513]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/TopDownCity/Houses/House1_04_BP" FILE="D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House1_04_BP.uasset" SILENT=true
-[2015.11.22-23.46.20:490][513]LogSavePackage: Save=20.105999ms
-[2015.11.22-23.46.20:490][513]LogSavePackage: Moving 'D:/IMyTH/xRooms/MVP/SantaSearch/Saved/House1_04_BP7A2F7DAE4015376E9416788B0341E229.tmp' to 'D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House1_04_BP.uasset'
-[2015.11.22-23.46.20:491][513]LogSavePackage: Total save time: 21.515023ms
-[2015.11.22-23.46.20:491][513]LogSavePackage:Warning: Finished SavePackage D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House1_04_BP.uasset
-[2015.11.22-23.46.21:027][554]BlueprintLog: New page: Compile House1_04_BP
-[2015.11.22-23.46.21:108][554]BlueprintEditorCompileResults: Info [0260.32] Compile of House1_04_BP successful! [in 81 ms]
-[2015.11.22-23.47.35:595][745]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.11.22-23.47.35:627][745]LogEditorActor: Deleted 1 Actors (0.032 secs)
-[2015.11.22-23.47.39:707][ 34]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House2_04)
-[2015.11.22-23.48.12:771][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/TopDownCity/Houses/House2_04_BP" FILE="D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House2_04_BP.uasset" SILENT=true
-[2015.11.22-23.48.12:787][ 54]LogSavePackage: Save=14.538507ms
-[2015.11.22-23.48.12:787][ 54]LogSavePackage: Moving 'D:/IMyTH/xRooms/MVP/SantaSearch/Saved/House2_04_BP592174044E4A5A3BF88DB4B5545A9F32.tmp' to 'D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House2_04_BP.uasset'
-[2015.11.22-23.48.12:788][ 54]LogSavePackage: Total save time: 15.835661ms
-[2015.11.22-23.48.12:788][ 54]LogSavePackage:Warning: Finished SavePackage D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House2_04_BP.uasset
-[2015.11.22-23.48.13:392][ 99]BlueprintLog: New page: Compile House2_04_BP
-[2015.11.22-23.48.13:464][ 99]BlueprintEditorCompileResults: Info [0372.68] Compile of House2_04_BP successful! [in 72 ms]
-[2015.11.22-23.49.38:057][993]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.11.22-23.49.38:086][993]LogEditorActor: Deleted 1 Actors (0.030 secs)
-[2015.11.22-23.49.41:808][251]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House2_02)
-[2015.11.22-23.49.53:567][ 93]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House2_01)
-[2015.11.22-23.49.58:539][489]LogEditorViewport: Clicking on Actor (LMB): House2_04_BP_C (House2_04_BP)
-[2015.11.22-23.50.01:693][740]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House2_02)
-[2015.11.22-23.50.10:701][459]LogEditorViewport: Clicking on Actor (LMB): House2_04_BP_C (House2_04_BP)
-[2015.11.22-23.50.13:641][692]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House2_01)
-[2015.11.22-23.50.38:193][191]LogActorFactory: Actor Factory created House2_01
-[2015.11.22-23.50.42:387][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/TopDownCity/Houses/House2_01_BP" FILE="D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House2_01_BP.uasset" SILENT=true
-[2015.11.22-23.50.42:405][543]LogSavePackage: Save=15.880972ms
-[2015.11.22-23.50.42:405][543]LogSavePackage: Moving 'D:/IMyTH/xRooms/MVP/SantaSearch/Saved/House2_01_BP056DE2A64497D16E4F8881AE0F5E15EF.tmp' to 'D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House2_01_BP.uasset'
-[2015.11.22-23.50.42:406][543]LogSavePackage: Total save time: 17.531406ms
-[2015.11.22-23.50.42:406][543]LogSavePackage:Warning: Finished SavePackage D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House2_01_BP.uasset
-[2015.11.22-23.50.42:976][592]BlueprintLog: New page: Compile House2_01_BP
-[2015.11.22-23.50.43:046][592]BlueprintEditorCompileResults: Info [0522.26] Compile of House2_01_BP successful! [in 70 ms]
-[2015.11.22-23.50.51:022][147]LogActorFactory: Actor Factory created House2_01
-[2015.11.22-23.50.52:160][241]LogActorFactory: Actor Factory created House2_01
-[2015.11.22-23.51.04:130][280]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.11.22-23.51.04:160][280]LogEditorActor: Deleted 1 Actors (0.030 secs)
-[2015.11.22-23.52.09:096][460]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.11.22-23.52.09:129][460]LogEditorActor: Deleted 1 Actors (0.033 secs)
-[2015.11.22-23.52.16:327][ 42]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House2_02)
-[2015.11.22-23.53.07:352][156]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/TopDownCity/Houses/House2_02_BP" FILE="D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House2_02_BP.uasset" SILENT=true
-[2015.11.22-23.53.07:367][156]LogSavePackage: Save=13.596938ms
-[2015.11.22-23.53.07:367][156]LogSavePackage: Moving 'D:/IMyTH/xRooms/MVP/SantaSearch/Saved/House2_02_BP359A7EFA4B8B35E827E9BFBB26CD5C73.tmp' to 'D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House2_02_BP.uasset'
-[2015.11.22-23.53.07:368][156]LogSavePackage: Total save time: 14.819849ms
-[2015.11.22-23.53.07:368][156]LogSavePackage:Warning: Finished SavePackage D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House2_02_BP.uasset
-[2015.11.22-23.53.07:901][200]BlueprintLog: New page: Compile House2_02_BP
-[2015.11.22-23.53.07:979][200]BlueprintEditorCompileResults: Info [0667.19] Compile of House2_02_BP successful! [in 77 ms]
-[2015.11.22-23.53.10:621][380]LogActorFactory: Actor Factory created House2_02
-[2015.11.22-23.53.11:525][453]LogActorFactory: Actor Factory created House2_02
-[2015.11.22-23.53.32:671][175]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House2_02)
-[2015.11.22-23.53.34:265][299]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House2_3)
-[2015.11.22-23.53.46:105][244]Cmd: DELETE
-[2015.11.22-23.53.46:105][244]Cmd: ACTOR DELETE
-[2015.11.22-23.53.46:106][244]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.11.22-23.53.46:135][244]LogEditorActor: Deleted 1 Actors (0.030 secs)
-[2015.11.22-23.53.50:623][547]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House2_02)
-[2015.11.22-23.54.48:314][153]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.11.22-23.54.48:346][153]LogEditorActor: Deleted 1 Actors (0.033 secs)
-[2015.11.22-23.54.51:101][374]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_02)
-[2015.11.22-23.55.40:672][552]LogActorFactory: Actor Factory created House1_02
-[2015.11.22-23.55.42:785][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/TopDownCity/Houses/House1_02_BP" FILE="D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House1_02_BP.uasset" SILENT=true
-[2015.11.22-23.55.42:800][725]LogSavePackage: Save=13.717258ms
-[2015.11.22-23.55.42:800][725]LogSavePackage: Moving 'D:/IMyTH/xRooms/MVP/SantaSearch/Saved/House1_02_BPE4A3FBC24F6FF446F6D4448929A1E692.tmp' to 'D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House1_02_BP.uasset'
-[2015.11.22-23.55.42:801][725]LogSavePackage: Total save time: 15.031822ms
-[2015.11.22-23.55.42:801][725]LogSavePackage:Warning: Finished SavePackage D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House1_02_BP.uasset
-[2015.11.22-23.55.43:432][777]BlueprintLog: New page: Compile House1_02_BP
-[2015.11.22-23.55.43:528][777]BlueprintEditorCompileResults: Info [0822.74] Compile of House1_02_BP successful! [in 96 ms]
-[2015.11.22-23.56.52:058][165]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.11.22-23.56.52:091][165]LogEditorActor: Deleted 1 Actors (0.034 secs)
-[2015.11.22-23.56.54:172][315]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MemoryCardEntry" FILE="D:/IMyTH/xRooms/MVP/SantaSearch/Content/Maps/MemoryCardEntry.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.11.22-23.56.54:503][315]LogSavePackage: Save=286.605011ms
-[2015.11.22-23.56.54:503][315]LogSavePackage: Moving 'D:/IMyTH/xRooms/MVP/SantaSearch/Saved/MemoryCardEntryDE19293D46F1201CF33D719DCC7B97A5.tmp' to 'D:/IMyTH/xRooms/MVP/SantaSearch/Content/Maps/MemoryCardEntry.umap'
-[2015.11.22-23.56.54:504][315]LogSavePackage: Total save time: 297.379814ms
-[2015.11.22-23.56.54:504][315]LogSavePackage:Warning: Finished SavePackage D:/IMyTH/xRooms/MVP/SantaSearch/Content/Maps/MemoryCardEntry.umap
-[2015.11.22-23.56.54:524][315]LogFileHelpers: Saving map 'MemoryCardEntry' took 0.506
-[2015.11.22-23.57.12:801][695]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_07)
-[2015.11.22-23.57.33:923][ 67]LogActorFactory: Actor Factory created House1_07
-[2015.11.22-23.57.36:135][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/TopDownCity/Houses/House1_07_BP" FILE="D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House1_07_BP.uasset" SILENT=true
-[2015.11.22-23.57.36:150][241]LogSavePackage: Save=13.909259ms
-[2015.11.22-23.57.36:150][241]LogSavePackage: Moving 'D:/IMyTH/xRooms/MVP/SantaSearch/Saved/House1_07_BP750FF9514F2FA26E94CAB7801A04511A.tmp' to 'D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House1_07_BP.uasset'
-[2015.11.22-23.57.36:151][241]LogSavePackage: Total save time: 15.016463ms
-[2015.11.22-23.57.36:151][241]LogSavePackage:Warning: Finished SavePackage D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House1_07_BP.uasset
-[2015.11.22-23.57.36:772][291]BlueprintLog: New page: Compile House1_07_BP
-[2015.11.22-23.57.36:847][291]BlueprintEditorCompileResults: Info [0936.06] Compile of House1_07_BP successful! [in 74 ms]
-[2015.11.22-23.59.04:897][901]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.11.22-23.59.04:932][901]LogEditorActor: Deleted 1 Actors (0.036 secs)
-[2015.11.22-23.59.13:954][551]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_08)
-[2015.11.23-00.00.01:902][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/TopDownCity/Houses/House1_08_BP" FILE="D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House1_08_BP.uasset" SILENT=true
-[2015.11.23-00.00.01:916][517]LogSavePackage: Save=14.218507ms
-[2015.11.23-00.00.01:916][517]LogSavePackage: Moving 'D:/IMyTH/xRooms/MVP/SantaSearch/Saved/House1_08_BP29781A93406350FE2ED34C891B5E3DE9.tmp' to 'D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House1_08_BP.uasset'
-[2015.11.23-00.00.01:917][517]LogSavePackage: Total save time: 15.725069ms
-[2015.11.23-00.00.01:917][517]LogSavePackage:Warning: Finished SavePackage D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House1_08_BP.uasset
-[2015.11.23-00.00.10:622][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/TopDownCity/Houses/House1_08_BP" FILE="D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House1_08_BP.uasset" SILENT=true
-[2015.11.23-00.00.10:661][130]LogSavePackage: Save=6.692869ms
-[2015.11.23-00.00.10:661][130]LogSavePackage: Moving 'D:/IMyTH/xRooms/MVP/SantaSearch/Saved/House1_08_BPB0DD087F4C9568990A27D69BCD6D48B6.tmp' to 'D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House1_08_BP.uasset'
-[2015.11.23-00.00.10:661][130]LogSavePackage: Total save time: 15.569419ms
-[2015.11.23-00.00.10:661][130]LogSavePackage:Warning: Finished SavePackage D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House1_08_BP.uasset
-[2015.11.23-00.00.11:056][160]BlueprintLog: New page: Compile House1_08_BP
-[2015.11.23-00.00.11:130][160]BlueprintEditorCompileResults: Info [1090.35] Compile of House1_08_BP successful! [in 73 ms]
-[2015.11.23-00.00.15:499][444]LogActorFactory: Actor Factory created House1_08
-[2015.11.23-00.00.16:394][509]LogActorFactory: Actor Factory created House1_08
-[2015.11.23-00.00.22:583][936]Cmd: DELETE
-[2015.11.23-00.00.22:583][936]Cmd: ACTOR DELETE
-[2015.11.23-00.00.22:584][936]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.11.23-00.00.22:617][936]LogEditorActor: Deleted 1 Actors (0.033 secs)
-[2015.11.23-00.00.56:425][347]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_08)
-[2015.11.23-00.01.27:205][498]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.11.23-00.01.27:240][498]LogEditorActor: Deleted 1 Actors (0.035 secs)
-[2015.11.23-00.01.29:917][687]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_11)
-[2015.11.23-00.02.39:826][550]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_13:PersistentLevel.House1_11_BP_C_0.House1_11_BP'.  Not spawning Actor of class 'House1_11_BP_C' to break.
-[2015.11.23-00.02.39:826][550]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_13:PersistentLevel.House1_11_BP_C_0.House1_11_BP'.  Not spawning Actor of class 'House1_11_BP_C' to break.
-[2015.11.23-00.02.39:860][550]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_13:PersistentLevel.House1_11_BP_C_0.House1_11_BP'.  Not spawning Actor of class 'House1_11_BP_C' to break.
-[2015.11.23-00.02.39:860][550]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_13:PersistentLevel.House1_11_BP_C_0.House1_11_BP'.  Not spawning Actor of class 'House1_11_BP_C' to break.
-[2015.11.23-00.02.39:860][550]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_13:PersistentLevel.House1_11_BP_C_0.House1_11_BP'.  Not spawning Actor of class 'House1_11_BP_C' to break.
-[2015.11.23-00.02.39:861][550]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_13:PersistentLevel.House1_11_BP_C_0.House1_11_BP'.  Not spawning Actor of class 'House1_11_BP_C' to break.
-[2015.11.23-00.02.52:239][426]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_13:PersistentLevel.House1_11_BP_C_0.House1_11_BP'.  Not spawning Actor of class 'House1_11_BP_C' to break.
-[2015.11.23-00.03.22:245][435]LogActorFactory: Actor Factory created Crane
-[2015.11.23-00.05.27:850][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/TopDownCity/Houses/House1_11_BP" FILE="D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House1_11_BP.uasset" SILENT=true
-[2015.11.23-00.05.27:866][668]LogSavePackage: Save=14.951180ms
-[2015.11.23-00.05.27:866][668]LogSavePackage: Moving 'D:/IMyTH/xRooms/MVP/SantaSearch/Saved/House1_11_BP6A1EDE744151CAE5B469A6AD6FA57542.tmp' to 'D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House1_11_BP.uasset'
-[2015.11.23-00.05.28:338][668]LogSavePackage: Total save time: 486.315638ms
-[2015.11.23-00.05.28:338][668]LogSavePackage:Warning: Finished SavePackage D:/IMyTH/xRooms/MVP/SantaSearch/Content/Assets/TopDownCity/Houses/House1_11_BP.uasset
-[2015.11.23-00.05.28:935][711]BlueprintLog: New page: Compile House1_11_BP
-[2015.11.23-00.05.29:022][711]BlueprintEditorCompileResults: Info [1408.24] Compile of House1_11_BP successful! [in 87 ms]
-[2015.11.23-00.06.52:934][232]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2015.11.23-00.06.53:786][289]LogEditorViewport: Clicking on Actor (LMB): House1_11_BP_C (House1_11_BP)
-[2015.11.23-00.06.54:626][345]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.11.23-00.07.06:026][242]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.11.23-00.07.06:059][242]LogEditorActor: Deleted 1 Actors (0.033 secs)
-[2015.11.23-00.07.06:745][300]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.11.23-00.07.06:778][300]LogEditorActor: Deleted 1 Actors (0.034 secs)
-[2015.11.23-00.07.11:344][701]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.11.23-00.07.52:626][812]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_12)
-[2015.11.23-00.08.02:960][646]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2015.11.23-00.08.04:404][764]LogEditorViewport: Clicking on Actor (LMB): House1_09_BP_C (House1_09_BP)
-[2015.11.23-00.08.18:967][942]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_12)
-[2015.11.23-00.08.28:251][716]LogEditorViewport: Clicking on Actor (LMB): House1_09_BP_C (House1_09_BP)
-[2015.11.23-00.08.29:579][829]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.11.23-00.08.39:641][658]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.11.23-00.08.56:984][ 62]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_17)
-[2015.11.23-00.08.59:109][223]Cmd: DELETE
-[2015.11.23-00.08.59:109][223]Cmd: ACTOR DELETE
-[2015.11.23-00.08.59:109][223]LogEditorActor: Deleted Actor: StaticMeshActor
-[2015.11.23-00.08.59:146][223]LogEditorActor: Deleted 1 Actors (0.037 secs)
-[2015.11.23-00.09.19:643][758]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1_12)
-[2015.11.23-00.09.50:36
+[2015.11.23-01.13.02:159][  0]LogAnimation:Warning: Invalid animation root node index 54 on '/LeapMotion/Character/Basic/BasicCharacter_AnimBlueprint.BasicCharacter_AnimBlueprint_C' (only 52 nodes)
+[2015.11.23-01.13.02:404][  0]LogAnimation:Warning: Invalid animation root node index 54 on '/Engine/Transient.REINST_BasicCharacter_AnimBlueprint_C_2' (only 52 nodes)
+[2015.11.23-01.13.02:500][  0]LogClass:Warning: Property AnimGraphNode_Fabrik_8C904C7A415FB588652E8A91FDC811AE of BasicCharacter_AnimBlueprint_C has a struct type mismatch (tag FallbackStruct != prop AnimNode_Fabrik) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2015.11.23-01.13.02:500][  0]LogClass:Warning: Property AnimGraphNode_Fabrik_416EC86F435836563C4E49AD6D016C3C of BasicCharacter_AnimBlueprint_C has a struct type mismatch (tag FallbackStruct != prop AnimNode_Fabrik) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2015.11.23-01.13.02:500][  0]LogClass:Warning: Property AnimGraphNode_Fabrik_9FF4326C4CAD2373B92D6F9E3AC3F57A of BasicCharacter_AnimBlueprint_C has a struct type mismatch (tag FallbackStruct != prop AnimNode_Fabrik) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2015.11.23-01.13.02:774][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2015.11.23-01.13.02:775][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2015.11.23-01.13.02:775][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2015.11.23-01.13.02:775][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2015.11.23-01.13.02:775][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.23-01.13.02:775][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2015.11.23-01.13.02:775][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2015.11.23-01.13.02:778][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0013.10] Compile of LeapBasicRiggedCharacter successful, but with 7 Warning(s) [in 8 ms]
+[2015.11.23-01.13.02:778][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0013.10] Compile of LeapBasicRiggedCharacter successful, but with 8 Warning(s) [in 0 ms]
+[2015.11.23-01.13.02:778][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0013.10] Compile of LeapBasicRiggedCharacter successful, but with 9 Warning(s) [in 0 ms]
+[2015.11.23-01.13.03:182][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2015.11.23-01.13.03:183][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2015.11.23-01.13.03:183][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2015.11.23-01.13.03:183][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2015.11.23-01.13.03:183][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.23-01.13.03:183][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2015.11.23-01.13.03:183][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2015.11.23-01.13.03:186][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0013.51] Compile of LeapBasicRiggedCharacter successful, but with 7 Warning(s) [in 8 ms]
+[2015.11.23-01.13.03:186][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0013.51] Compile of LeapBasicRiggedCharacter successful, but with 8 Warning(s) [in 0 ms]
+[2015.11.23-01.13.03:186][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0013.51] Compile of LeapBasicRiggedCharacter successful, but with 9 Warning(s) [in 0 ms]
+[2015.11.23-01.13.05:921][  0]LogAIModule: Creating AISystem for world MemoryCardEntry
+[2015.11.23-01.13.05:997][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.23-01.13.05:998][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.23-01.13.06:088][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 90.096ms to complete.
+[2015.11.23-01.13.06:088][  0]LogFileHelpers: Loading map 'MemoryCardEntry' took 11.803
+[2015.11.23-01.13.06:184][  0]LogCollectionManager: Loaded 0 collections in 0.001790 seconds
+[2015.11.23-01.13.06:222][  0]LogFileCache: Scanning file cache for directory 'D:/IMyTH/xRooms/MVP/SantaSearch/Saved/Collections/' took 0.01s
+[2015.11.23-01.13.06:222][  0]LogFileCache: Scanning file cache for directory 'D:/IMyTH/xRooms/MVP/SantaSearch/Content/Developers/RudeyPunk/Collections/' took 0.01s
+[2015.11.23-01.13.06:223][  0]LogFileCache: Scanning file cache for directory 'D:/IMyTH/xRooms/MVP/SantaSearch/Content/Collections/' took 0.01s
+[2015.11.23-01.13.06:223][  0]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 1919 classes and 342 folders.
+[2015.11.23-01.13.06:229][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.11.23-01.13.06:235][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.11.23-01.13.06:336][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.11.23-01.13.06:345][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.11.23-01.13.06:410][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.23-01.13.06:413][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.23-01.13.06:435][  0]LogLoad: Full Startup: 16.76 seconds (BP compile: 0.97 seconds)
+[2015.11.23-01.13.06:510][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.23-01.13.06:714][  0]LogRenderer: Reallocating scene render targets to support 1080x572 (Frame:2).
+[2015.11.23-01.13.06:789][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.11.23-01.13.07:367][ 13]LogAssetRegistry: Asset discovery search completed in 14.3975 seconds
+[2015.11.23-01.13.07:367][ 13]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.11.23-01.13.07:369][ 13]LogCollectionManager: Fixed up redirectors for 0 collections in 0.001036 seconds (updated 0 objects)
+[2015.11.23-01.13.11:804][497]LogFileCache: Retrieving MD5 hashes for directory 'D:/IMyTH/xRooms/MVP/SantaSearch/Content/' took 5.35s
+[2015.11.23-01.14.24:085][134]MapCheck: New page: Map Check
+[2015.11.23-01.14.24:110][134]Cmd: MAP REBUILD ALLVISIBLE
+[2015.11.23-01.14.24:111][134]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.11.23-01.14.24:334][134]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.23-01.14.24:355][134]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.23-01.14.24:374][134]MapCheck:Warning: Warning WorldInfo_0 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.11.23-01.14.24:374][134]LogStats:          STAT_HLOD_BuildClusters - 126.353 ms
+[2015.11.23-01.14.24:376][134]LightingResults: New page: Lighting Build - Nov 22, 2015, 3:14:24 PM
+[2015.11.23-01.14.24:428][134]LogEditorBuildUtils: Build time 0:00:00
+[2015.11.23-01.14.24:452][135]Cmd: UpdateLandscapeEditorData
+[2015.11.23-01.14.47:834][854]MapCheck: New page: Map Check
+[2015.11.23-01.14.47:860][854]Cmd: MAP REBUILD ALLVISIBLE
+[2015.11.23-01.14.47:861][854]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.11.23-01.14.47:988][854]MapCheck:Warning: Warning WorldInfo_0 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.11.23-01.14.47:988][854]LogStats:          STAT_HLOD_BuildClusters - 14.723 ms
+[2015.11.23-01.14.47:989][854]LightingResults: New page: Lighting Build - Nov 22, 2015, 3:14:47 PM
+[2015.11.23-01.14.48:044][854]LogEditorBuildUtils: Build time 0:00:00
+[2015.11.23-01.14.48:068][855]Cmd: UpdateLandscapeEditorData
+[2015.11.23-01.14.52:564][369]Cmd: DELETE
+[2015.11.23-01.14.52:564][369]Cmd: ACTOR DELETE
+[2015.11.23-01.14.52:566][369]LogEditorActor: Deleted Actor: PointLight
+[2015.11.23-01.14.52:582][369]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2015.11.23-01.15.06:547][745]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.23-01.15.06:773][746]Cmd: QUIT_EDITOR
+[2015.11.23-01.15.06:979][746]LogExit: Preparing to exit.
+[2015.11.23-01.15.07:229][746]LogExit: Editor shut down
+[2015.11.23-01.15.07:229][746]LogExit: Transaction tracking system shut down
+[2015.11.23-01.15.07:239][746]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D973673CE0
+[2015.11.23-01.15.07:239][746]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D980E9DE40
+[2015.11.23-01.15.07:239][746]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D981056E80
+[2015.11.23-01.15.07:239][746]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D98BD2FE20
+[2015.11.23-01.15.07:286][746]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.23-01.15.07:312][746]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.23-01.15.07:428][746]LogExit: Object subsystem successfully closed.
+[2015.11.23-01.15.07:452][746]LogD3D11RHI: Shutdown
+[2015.11.23-01.15.07:452][746]LogD3D11RHI: CleanupD3DDevice
+[2015.11.23-01.15.07:511][746]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.23-01.15.07:551][746]LogModuleManager: Shutting down and abandoning module CrashTracker (200)
+[2015.11.23-01.15.07:551][746]LogModuleManager: Shutting down and abandoning module SceneOutliner (199)
+[2015.11.23-01.15.07:551][746]LogModuleManager: Shutting down and abandoning module SuperSearch (198)
+[2015.11.23-01.15.07:551][746]LogModuleManager: Shutting down and abandoning module WidgetCarousel (197)
+[2015.11.23-01.15.07:551][746]LogModuleManager: Shutting down and abandoning module AddContentDialog (196)
+[2015.11.23-01.15.07:553][746]LogModuleManager: Shutting down and abandoning module EditorWidgets (195)
+[2015.11.23-01.15.07:553][746]LogModuleManager: Shutting down and abandoning module CollectionManager (194)
+[2015.11.23-01.15.07:553][746]LogModuleManager: Shutting down and abandoning module StatsViewer (193)
+[2015.11.23-01.15.07:554][746]LogModuleManager: Shutting down and abandoning module FoliageEdit (192)
+[2015.11.23-01.15.07:555][746]LogModuleManager: Shutting down and abandoning module LandscapeEditor (191)
+[2015.11.23-01.15.07:556][746]LogModuleManager: Shutting down and abandoning module ActorPickerMode (190)
+[2015.11.23-01.15.07:556][746]LogModuleManager: Shutting down and abandoning module GeometryMode (189)
+[2015.11.23-01.15.07:556][746]LogModuleManager: Shutting down and abandoning module TextureAlignMode (188)
+[2015.11.23-01.15.07:556][746]LogModuleManager: Shutting down and abandoning module BspMode (187)
+[2015.11.23-01.15.07:556][746]LogModuleManager: Shutting down and abandoning module PlacementMode (186)
+[2015.11.23-01.15.07:556][746]LogModuleManager: Shutting down and abandoning module AutomationWorker (185)
+[2015.11.23-01.15.07:556][746]LogModuleManager: Shutting down and abandoning module HoudiniEngineEditor (184)
+[2015.11.23-01.15.07:556][746]LogHoudiniEngineEditor: Shutting down the Houdini Engine Editor module.
+[2015.11.23-01.15.07:559][746]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2015.11.23-01.15.07:559][746]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2015.11.23-01.15.07:559][746]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2015.11.23-01.15.07:559][746]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2015.11.23-01.15.07:560][746]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2015.11.23-01.15.07:560][746]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2015.11.23-01.15.07:561][746]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2015.11.23-01.15.07:561][746]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2015.11.23-01.15.07:561][746]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2015.11.23-01.15.07:561][746]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2015.11.23-01.15.08:127][746]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2015.11.23-01.15.08:127][746]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2015.11.23-01.15.08:127][746]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2015.11.23-01.15.08:127][746]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2015.11.23-01.15.08:129][746]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2015.11.23-01.15.08:129][746]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2015.11.23-01.15.08:129][746]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2015.11.23-01.15.08:129][746]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2015.11.23-01.15.08:130][746]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2015.11.23-01.15.08:130][746]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2015.11.23-01.15.08:130][746]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2015.11.23-01.15.08:130][746]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2015.11.23-01.15.08:130][746]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2015.11.23-01.15.08:130][746]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2015.11.23-01.15.08:130][746]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2015.11.23-01.15.08:131][746]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2015.11.23-01.15.08:131][746]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2015.11.23-01.15.08:131][746]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2015.11.23-01.15.08:131][746]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2015.11.23-01.15.08:132][746]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2015.11.23-01.15.08:132][746]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2015.11.23-01.15.08:133][746]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2015.11.23-01.15.08:134][746]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2015.11.23-01.15.08:134][746]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2015.11.23-01.15.08:134][746]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2015.11.23-01.15.08:134][746]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2015.11.23-01.15.08:134][746]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2015.11.23-01.15.08:135][746]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2015.11.23-01.15.08:136][746]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2015.11.23-01.15.08:137][746]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2015.11.23-01.15.08:137][746]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2015.11.23-01.15.08:137][746]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2015.11.23-01.15.08:138][746]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2015.11.23-01.15.08:139][746]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2015.11.23-01.15.08:140][746]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2015.11.23-01.15.08:142][746]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2015.11.23-01.15.08:142][746]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2015.11.23-01.15.08:142][746]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2015.11.23-01.15.08:142][746]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2015.11.23-01.15.08:142][746]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2015.11.23-01.15.08:142][746]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2015.11.23-01.15.08:143][746]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2015.11.23-01.15.08:143][746]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2015.11.23-01.15.08:143][746]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2015.11.23-01.15.08:143][746]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2015.11.23-01.15.08:143][746]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2015.11.23-01.15.08:143][746]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2015.11.23-01.15.08:143][746]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2015.11.23-01.15.08:143][746]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2015.11.23-01.15.08:144][746]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2015.11.23-01.15.08:212][746]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2015.11.23-01.15.08:214][746]LogModuleManager: Shutting down and abandoning module LeapMotion (122)
+[2015.11.23-01.15.08:224][746]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.11.23-01.15.08:224][746]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.11.23-01.15.08:224][746]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.11.23-01.15.08:224][746]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.11.23-01.15.08:224][746]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2015.11.23-01.15.08:224][746]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2015.11.23-01.15.08:224][746]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.11.23-01.15.08:235][746]LogModuleManager: Shutting down and abandoning module HoudiniEngineRuntime (114)
+[2015.11.23-01.15.08:236][746]LogHoudiniEngine: Shutting down the Houdini Engine module.
+[2015.11.23-01.15.08:243][746]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.11.23-01.15.08:243][746]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.11.23-01.15.08:243][746]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.11.23-01.15.08:243][746]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.11.23-01.15.08:244][746]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.11.23-01.15.08:246][746]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.11.23-01.15.08:246][746]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.11.23-01.15.08:246][746]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.11.23-01.15.08:246][746]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.11.23-01.15.08:246][746]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.11.23-01.15.08:247][746]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.11.23-01.15.08:247][746]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.11.23-01.15.08:247][746]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.11.23-01.15.08:248][746]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.11.23-01.15.08:249][746]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.11.23-01.15.08:249][746]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.11.23-01.15.08:249][746]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.11.23-01.15.08:249][746]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.11.23-01.15.08:250][746]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.11.23-01.15.08:250][746]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.11.23-01.15.08:250][746]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.11.23-01.15.08:251][746]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.11.23-01.15.08:251][746]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.11.23-01.15.08:251][746]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.11.23-01.15.08:252][746]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.11.23-01.15.08:253][746]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.11.23-01.15.08:316][746]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.11.23-01.15.08:317][746]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.11.23-01.15.08:318][746]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.11.23-01.15.08:419][746]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.11.23-01.15.08:419][746]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.11.23-01.15.08:419][746]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.11.23-01.15.08:422][746]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.11.23-01.15.08:422][746]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.11.23-01.15.08:423][746]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.11.23-01.15.08:423][746]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.11.23-01.15.08:423][746]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.11.23-01.15.08:423][746]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.11.23-01.15.08:424][746]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.11.23-01.15.08:424][746]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.11.23-01.15.08:425][746]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.11.23-01.15.08:425][746]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.11.23-01.15.08:425][746]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.11.23-01.15.08:426][746]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.11.23-01.15.08:429][746]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.11.23-01.15.08:430][746]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.11.23-01.15.08:430][746]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.11.23-01.15.08:430][746]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.11.23-01.15.08:432][746]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.11.23-01.15.08:432][746]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.11.23-01.15.08:432][746]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.11.23-01.15.08:432][746]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.11.23-01.15.08:432][746]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.11.23-01.15.08:432][746]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.11.23-01.15.08:432][746]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.11.23-01.15.08:432][746]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.11.23-01.15.08:432][746]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.11.23-01.15.08:433][746]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.11.23-01.15.08:434][746]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.11.23-01.15.08:437][746]LogDerivedDataCache: Shutdown
+[2015.11.23-01.15.08:437][746]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.11.23-01.15.08:437][746]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.11.23-01.15.08:437][746]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.11.23-01.15.08:438][746]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.11.23-01.15.08:438][746]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.11.23-01.15.08:438][746]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.11.23-01.15.08:438][746]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.11.23-01.15.08:439][746]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.11.23-01.15.08:439][746]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.11.23-01.15.08:439][746]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.11.23-01.15.08:439][746]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.11.23-01.15.08:439][746]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.11.23-01.15.08:439][746]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.11.23-01.15.08:440][746]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.11.23-01.15.08:440][746]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.11.23-01.15.08:440][746]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.11.23-01.15.08:440][746]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.11.23-01.15.08:440][746]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.11.23-01.15.08:440][746]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.11.23-01.15.08:440][746]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.11.23-01.15.08:440][746]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.11.23-01.15.08:441][746]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.11.23-01.15.08:442][746]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.11.23-01.15.08:442][746]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.11.23-01.15.08:442][746]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.11.23-01.15.08:442][746]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.11.23-01.15.08:442][746]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.11.23-01.15.08:442][746]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.11.23-01.15.08:443][746]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.11.23-01.15.08:443][746]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.11.23-01.15.08:443][746]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.11.23-01.15.08:444][746]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.11.23-01.15.08:444][746]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.11.23-01.15.08:444][746]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.11.23-01.15.08:444][746]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.11.23-01.15.08:444][746]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.11.23-01.15.10:446][746]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.11.23-01.15.10:450][746]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.11.23-01.15.10:450][746]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.23-01.15.10:450][746]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.23-01.15.10:450][746]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.23-01.15.10:450][746]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.23-01.15.10:452][746]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.23-01.15.10:452][746]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.23-01.15.10:452][746]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.23-01.15.10:452][746]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.23-01.15.10:452][746]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.23-01.15.10:452][746]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.23-01.15.10:452][746]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.23-01.15.10:453][746]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.23-01.15.10:453][746]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.23-01.15.10:453][746]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.23-01.15.10:454][746]LogExit: Exiting.
+[2015.11.23-01.15.10:456][746]Log file closed, 11/22/15 20:15:10
