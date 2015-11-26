@@ -581,4 +581,698 @@ UE4Editor-UnrealEd.dll
 [2015.11.26-15.31.10:432][581]LogTexture:Display: Building textures: ShadowMapTexture2D_40 (G8)
 [2015.11.26-15.31.10:435][581]LogTexture:Display: Building textures: ShadowMapTexture2D_41 (G8)
 [2015.11.26-15.31.10:438][581]LogTexture:Display: Building textures: ShadowMapTexture2D_42 (G8)
+[2015.11.26-15.31.10:441][581]LogTexture:Display: Building textures: ShadowMapTexture2D_43 (G8)
+[2015.11.26-15.31.10:443][581]LogTexture:Display: Building textures: ShadowMapTexture2D_44 (G8)
+[2015.11.26-15.31.10:446][581]LogTexture:Display: Building textures: ShadowMapTexture2D_45 (G8)
+[2015.11.26-15.31.10:449][581]LogTexture:Display: Building textures: ShadowMapTexture2D_46 (G8)
+[2015.11.26-15.31.10:452][581]LogTexture:Display: Building textures: ShadowMapTexture2D_47 (G8)
+[2015.11.26-15.31.10:455][581]LogTexture:Display: Building textures: ShadowMapTexture2D_48 (G8)
+[2015.11.26-15.31.10:458][581]LogTexture:Display: Building textures: ShadowMapTexture2D_49 (G8)
+[2015.11.26-15.31.10:459][581]LogTexture:Display: Building textures: ShadowMapTexture2D_50 (G8)
+[2015.11.26-15.31.10:497][581]Lightmass on CRODAWIN10: 3.64 sec total, 140 ms importing, 196 ms setup, 352 ms photons, 2.94 sec processing, 0 ms extra exporting [18/18 mappings]. Threads: 20.4 sec total, 10.3 sec processing.
+[2015.11.26-15.31.10:522][581]LogStaticLightingSystem: Illumination: 8.72 sec (361 ms encoding lightmaps)
+[2015.11.26-15.31.10:522][581]LogStaticLightingSystem: Lightmap texture memory:  0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 34 textures
+[2015.11.26-15.31.10:522][581]LogStaticLightingSystem: Shadowmap texture memory: 0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 51 textures
+[2015.11.26-15.31.11:301][582]Cmd: UpdateLandscapeEditorData
+[2015.11.26-15.31.11:302][582]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.11.26-15.31.11:302][582]MapCheck: New page: MemoryCardEntry - Nov 26, 2015, 5:31:11 AM
+[2015.11.26-15.31.11:474][582]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 172.325ms to complete.
+[2015.11.26-15.31.33:680][605]LogSavePackage: Save=262.401550ms
+[2015.11.26-15.31.33:680][605]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/MemoryCardEntry5C49F4594533CCB9A4CDE285B65320E7.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap'
+[2015.11.26-15.31.33:684][605]LogSavePackage: Total save time: 284.212589ms
+[2015.11.26-15.31.33:684][605]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap
+[2015.11.26-15.31.33:720][605]LogFileHelpers: Saving map 'MemoryCardEntry' took 0.527
+[2015.11.26-15.40.35:761][184]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.26-15.40.36:295][184]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 107 classes and 0 folders.
+[2015.11.26-15.41.06:474][947]LogSavePackage: Save=46.241978ms
+[2015.11.26-15.41.06:474][947]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/AutoHouse8EEFB44F49B76E61DD18A2A9A11AE18D.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset'
+[2015.11.26-15.41.06:476][947]LogSavePackage: Total save time: 55.757914ms
+[2015.11.26-15.41.06:476][947]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset
+[2015.11.26-15.41.07:543][ 11]BlueprintLog: New page: Compile AutoHouse
+[2015.11.26-15.41.07:610][ 11]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.26-15.41.07:655][ 11]BlueprintEditorCompileResults: Info [0961.91] Compile of AutoHouse successful! [in 112 ms]
+[2015.11.26-15.41.32:265][208]LogActorFactory: Actor Factory created House1_18
+[2015.11.26-15.41.39:398][630]LogSavePackage: Save=51.172337ms
+[2015.11.26-15.41.39:398][630]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/AutoHouseDB4BAE8B4940CB540E4AF68CD6029B00.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset'
+[2015.11.26-15.41.39:402][630]LogSavePackage: Total save time: 59.261244ms
+[2015.11.26-15.41.39:402][630]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset
+[2015.11.26-15.41.40:820][715]BlueprintLog: New page: Compile AutoHouse
+[2015.11.26-15.41.40:918][715]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008DFEB8D580
+[2015.11.26-15.41.40:928][715]BlueprintEditorCompileResults: Info [0995.18] Compile of AutoHouse successful! [in 107 ms]
+[2015.11.26-15.42.08:230][347]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.26-15.42.42:154][381]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.26-15.43.53:354][870]LogRenderer: Reallocating scene render targets to support 876x576 (Frame:37407).
+[2015.11.26-15.43.59:064][212]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.26-15.44.17:167][294]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.26-15.44.19:734][448]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.26-15.44.35:243][377]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.26-15.48.34:490][724]MapCheck: New page: Map Check
+[2015.11.26-15.48.34:508][724]Cmd: MAP REBUILD ALLVISIBLE
+[2015.11.26-15.48.34:508][724]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.11.26-15.48.34:652][724]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008DFEB8C7C0
+[2015.11.26-15.48.34:670][724]MapCheck:Warning: Warning WorldInfo_0 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.11.26-15.48.34:670][724]LogStats:          STAT_HLOD_BuildClusters - 57.024 ms
+[2015.11.26-15.48.34:670][724]LightingResults: New page: Lighting Build - Nov 26, 2015, 5:48:34 AM
+[2015.11.26-15.48.39:188][724]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.11.26-15.48.39:188][724]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.11.26-15.48.39:188][724]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.11.26-15.48.39:188][724]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.11.26-15.48.39:188][724]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.11.26-15.48.39:304][724]LogEditorBuildUtils: Build time 0:00:04
+[2015.11.26-15.48.39:327][725]Cmd: UpdateLandscapeEditorData
+[2015.11.26-15.48.42:939][918]Job is a success!
+[2015.11.26-15.48.43:159][919]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.11.26-15.48.43:170][919]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1)
+[2015.11.26-15.48.43:172][919]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT)
+[2015.11.26-15.48.43:178][919]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
+[2015.11.26-15.48.43:187][919]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
+[2015.11.26-15.48.43:197][919]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1)
+[2015.11.26-15.48.43:207][919]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT)
+[2015.11.26-15.48.43:222][919]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1)
+[2015.11.26-15.48.43:234][919]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
+[2015.11.26-15.48.43:248][919]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
+[2015.11.26-15.48.43:254][919]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2015.11.26-15.48.43:260][919]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
+[2015.11.26-15.48.43:265][919]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2015.11.26-15.48.43:270][919]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2015.11.26-15.48.43:279][919]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2015.11.26-15.48.43:287][919]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2015.11.26-15.48.43:298][919]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2015.11.26-15.48.43:311][919]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2015.11.26-15.48.43:317][919]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2015.11.26-15.48.43:323][919]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2015.11.26-15.48.43:332][919]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2015.11.26-15.48.43:345][919]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2015.11.26-15.48.43:352][919]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2015.11.26-15.48.43:360][919]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2015.11.26-15.48.43:368][919]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.11.26-15.48.43:376][919]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.11.26-15.48.43:387][919]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.11.26-15.48.43:400][919]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.11.26-15.48.43:408][919]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.11.26-15.48.43:415][919]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.11.26-15.48.43:416][919]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.11.26-15.48.43:417][919]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.11.26-15.48.43:430][919]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.11.26-15.48.43:438][919]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.11.26-15.48.43:451][919]LogTexture:Display: Building textures: ShadowMapTexture2D_51 (G8)
+[2015.11.26-15.48.43:453][919]LogTexture:Display: Building textures: ShadowMapTexture2D_52 (G8)
+[2015.11.26-15.48.43:456][919]LogTexture:Display: Building textures: ShadowMapTexture2D_53 (G8)
+[2015.11.26-15.48.43:459][919]LogTexture:Display: Building textures: ShadowMapTexture2D_54 (G8)
+[2015.11.26-15.48.43:462][919]LogTexture:Display: Building textures: ShadowMapTexture2D_55 (G8)
+[2015.11.26-15.48.43:466][919]LogTexture:Display: Building textures: ShadowMapTexture2D_56 (G8)
+[2015.11.26-15.48.43:469][919]LogTexture:Display: Building textures: ShadowMapTexture2D_57 (G8)
+[2015.11.26-15.48.43:473][919]LogTexture:Display: Building textures: ShadowMapTexture2D_58 (G8)
+[2015.11.26-15.48.43:476][919]LogTexture:Display: Building textures: ShadowMapTexture2D_59 (G8)
+[2015.11.26-15.48.43:480][919]LogTexture:Display: Building textures: ShadowMapTexture2D_60 (G8)
+[2015.11.26-15.48.43:482][919]LogTexture:Display: Building textures: ShadowMapTexture2D_61 (G8)
+[2015.11.26-15.48.43:486][919]LogTexture:Display: Building textures: ShadowMapTexture2D_62 (G8)
+[2015.11.26-15.48.43:489][919]LogTexture:Display: Building textures: ShadowMapTexture2D_63 (G8)
+[2015.11.26-15.48.43:491][919]LogTexture:Display: Building textures: ShadowMapTexture2D_64 (G8)
+[2015.11.26-15.48.43:494][919]LogTexture:Display: Building textures: ShadowMapTexture2D_65 (G8)
+[2015.11.26-15.48.43:497][919]LogTexture:Display: Building textures: ShadowMapTexture2D_66 (G8)
+[2015.11.26-15.48.43:498][919]LogTexture:Display: Building textures: ShadowMapTexture2D_67 (G8)
+[2015.11.26-15.48.43:520][919]Lightmass on CRODAWIN10: 3.72 sec total, 144 ms importing, 208 ms setup, 348 ms photons, 3.00 sec processing, 0 ms extra exporting [18/18 mappings]. Threads: 20.8 sec total, 10.8 sec processing.
+[2015.11.26-15.48.43:560][919]LogStaticLightingSystem: Illumination: 8.86 sec (362 ms encoding lightmaps)
+[2015.11.26-15.48.43:560][919]LogStaticLightingSystem: Lightmap texture memory:  0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 34 textures
+[2015.11.26-15.48.43:560][919]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 68 textures
+[2015.11.26-15.48.44:200][920]Cmd: UpdateLandscapeEditorData
+[2015.11.26-15.48.44:200][920]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.11.26-15.48.44:201][920]MapCheck: New page: MemoryCardEntry - Nov 26, 2015, 5:48:44 AM
+[2015.11.26-15.48.44:375][920]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 174.2ms to complete.
+[2015.11.26-15.49.11:499][520]LogSavePackage: Save=228.044891ms
+[2015.11.26-15.49.11:499][520]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/MemoryCardEntry_Auto1826A87D04F039E14E1E53A8B76919F44.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/Autosaves/Game/Maps/MemoryCardEntry_Auto1.umap'
+[2015.11.26-15.49.11:502][520]LogSavePackage: Total save time: 244.366769ms
+[2015.11.26-15.49.11:502][520]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/Autosaves/Game/Maps/MemoryCardEntry_Auto1.umap
+[2015.11.26-15.49.11:504][520]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MemoryCardEntry' took 0.285
+[2015.11.26-15.49.11:504][520]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.285
+[2015.11.26-15.50.40:463][659]LogRenderer: Reallocating scene render targets to support 876x720 (Frame:69283).
+[2015.11.26-15.50.46:755][965]LogRenderer: Reallocating scene render targets to support 896x720 (Frame:69669).
+[2015.11.26-15.50.53:770][383]LogMaterial: Missing cached shader map for material M_Houses1, compiling. 
+[2015.11.26-15.50.53:864][383]LogMaterial: Missing cached shader map for material M_Houses1, compiling. 
+[2015.11.26-15.50.53:872][383]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.26-15.50.53:900][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.26-15.50.53:903][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_1, compiling. 
+[2015.11.26-15.50.53:906][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.11.26-15.50.53:908][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.11.26-15.50.53:912][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.11.26-15.50.53:915][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2015.11.26-15.50.53:918][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_3, compiling. 
+[2015.11.26-15.50.55:430][454]MaterialEditorStats: Info Base pass shader with static lighting: 91 instructions
+[2015.11.26-15.50.55:430][454]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.11.26-15.50.55:430][454]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.26-15.50.55:430][454]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.11.26-15.55.33:594][493]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Rock_Basalt_D'
+[2015.11.26-15.55.33:594][493]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Rock_Basalt_D' while loading ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/Materials/SnowGen.uasset.
+[2015.11.26-15.55.33:594][493]LoadErrors:Error: Error /Game/Assets/Materials/SnowGen : Can't find file for asset. /Game/StarterContent/Textures/T_Rock_Basalt_D
+[2015.11.26-15.55.33:594][493]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Rock_Basalt_N'
+[2015.11.26-15.55.33:594][493]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Rock_Basalt_N' while loading ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/Materials/SnowGen.uasset.
+[2015.11.26-15.55.33:595][493]LoadErrors:Error: Error /Game/Assets/Materials/SnowGen : Can't find file for asset. /Game/StarterContent/Textures/T_Rock_Basalt_N
+[2015.11.26-15.55.33:595][493]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Rock_Basalt_D'
+[2015.11.26-15.55.33:595][493]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Rock_Basalt_D' while loading ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/Materials/SnowGen.uasset.
+[2015.11.26-15.55.33:595][493]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Rock_Basalt_N'
+[2015.11.26-15.55.33:595][493]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Rock_Basalt_N' while loading ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/Materials/SnowGen.uasset.
+[2015.11.26-15.55.33:597][493]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Rock_Basalt_D'
+[2015.11.26-15.55.33:598][493]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Rock_Basalt_D.T_Rock_Basalt_D Referenced by MaterialExpressionTextureSampleParameter2D_2
+[2015.11.26-15.55.33:598][493]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Rock_Basalt_D' while loading NULL.
+[2015.11.26-15.55.33:598][493]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Rock_Basalt_D'
+[2015.11.26-15.55.33:598][493]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Rock_Basalt_D.T_Rock_Basalt_D Referenced by MaterialExpressionTextureSampleParameter2D_5
+[2015.11.26-15.55.33:598][493]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Rock_Basalt_D' while loading NULL.
+[2015.11.26-15.55.33:598][493]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Rock_Basalt_N'
+[2015.11.26-15.55.33:598][493]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Rock_Basalt_N.T_Rock_Basalt_N Referenced by MaterialExpressionTextureSampleParameter2D_8
+[2015.11.26-15.55.33:598][493]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Rock_Basalt_N' while loading NULL.
+[2015.11.26-15.55.33:599][493]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Rock_Basalt_N'
+[2015.11.26-15.55.33:599][493]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Rock_Basalt_N.T_Rock_Basalt_N Referenced by MaterialExpressionTextureSampleParameter2D_9
+[2015.11.26-15.55.33:599][493]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Rock_Basalt_N' while loading NULL.
+[2015.11.26-15.55.33:600][493]LogMaterial: Missing cached shader map for material SnowGen, compiling. 
+[2015.11.26-15.55.33:601][493]LogMaterial:Warning: Failed to compile Material /Game/Assets/Materials/SnowGen.SnowGen for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.26-15.55.33:601][493]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.11.26-15.55.35:515][597]LogMaterial: Missing cached shader map for material SnowGen2, compiling. 
+[2015.11.26-15.55.35:516][597]LogMaterial:Warning: Failed to compile Material /Game/Assets/Materials/SnowGen2.SnowGen2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.26-15.55.35:516][597]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.11.26-15.56.09:312][245]LogSavePackage: Save=15.126738ms
+[2015.11.26-15.56.09:312][245]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/SnowGenHouse_MSTR_Mat5E3E52BF4C60CFC5A5FAC1B5CB06FA97.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/Materials/SnowGenHouse_MSTR_Mat.uasset'
+[2015.11.26-15.56.09:316][245]LogSavePackage: Total save time: 19.231822ms
+[2015.11.26-15.56.09:316][245]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/Materials/SnowGenHouse_MSTR_Mat.uasset
+[2015.11.26-15.56.12:786][411]LogMaterial: Missing cached shader map for material SnowGenHouse_MSTR_Mat, compiling. 
+[2015.11.26-15.56.12:787][411]LogMaterial:Warning: Failed to compile Material /Engine/Transient.SnowGenHouse_MSTR_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.26-15.56.12:787][411]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.11.26-15.56.12:858][411]LogMaterial: Missing cached shader map for material SnowGenHouse_MSTR_Mat, compiling. 
+[2015.11.26-15.56.12:859][411]LogMaterial:Warning: Failed to compile Material /Engine/Transient.SnowGenHouse_MSTR_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.26-15.56.12:859][411]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.11.26-15.56.12:859][411]LogMaterial: 0.000038 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.26-15.56.12:886][411]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2015.11.26-15.56.12:887][411]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_5, compiling. 
+[2015.11.26-15.56.12:888][411]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_8, compiling. 
+[2015.11.26-15.56.12:889][411]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionBumpOffset_0, compiling. 
+[2015.11.26-15.56.12:890][411]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_9, compiling. 
+[2015.11.26-15.56.12:893][411]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.11.26-15.59.37:742][213]LogMaterialEditor: Saving and Compiling material SnowGenHouse_MSTR_Mat
+[2015.11.26-15.59.42:402][213]LogSavePackage: Save=8.961317ms
+[2015.11.26-15.59.42:402][213]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/SnowGenHouse_MSTR_Mat83CAD6CE48A0490E13B939872174D6CA.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/Materials/SnowGenHouse_MSTR_Mat.uasset'
+[2015.11.26-15.59.42:404][213]LogSavePackage: Total save time: 20.087510ms
+[2015.11.26-15.59.42:404][213]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/Materials/SnowGenHouse_MSTR_Mat.uasset
+[2015.11.26-16.00.12:820][932]LogMaterial: Missing cached shader map for material SnowGenHouse_MSTR_Mat, compiling. 
+[2015.11.26-16.00.12:822][932]LogMaterial:Warning: Failed to compile Material /Engine/Transient.SnowGenHouse_MSTR_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.26-16.00.12:822][932]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2015.11.26-16.00.12:822][932]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.26-16.00.12:869][932]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2015.11.26-16.00.12:872][932]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_5, compiling. 
+[2015.11.26-16.00.42:564][599]LogMaterial: Missing cached shader map for material SnowGenHouse_MSTR_Mat, compiling. 
+[2015.11.26-16.00.42:572][599]LogMaterial: 0.000031 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.26-16.00.42:622][599]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_8, compiling. 
+[2015.11.26-16.00.42:626][599]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_9, compiling. 
+[2015.11.26-16.00.43:853][648]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 77 instructions
+[2015.11.26-16.00.43:853][648]MaterialEditorStats: Info Vertex shader: 34 instructions
+[2015.11.26-16.00.43:853][648]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.11.26-16.01.07:261][852]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.26-16.01.07:294][852]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MemoryCardEntry' took 0.033
+[2015.11.26-16.01.07:303][852]LogSavePackage: Save=1.622419ms
+[2015.11.26-16.01.07:303][852]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/SnowGen2_Auto252FDC32F4F4AAA9E89DD0080CCBE1A7A.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/Autosaves/Game/Assets/Materials/SnowGen2_Auto2.uasset'
+[2015.11.26-16.01.07:305][852]LogSavePackage: Total save time: 4.321381ms
+[2015.11.26-16.01.07:305][852]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/Autosaves/Game/Assets/Materials/SnowGen2_Auto2.uasset
+[2015.11.26-16.01.07:305][852]LogFileHelpers: Auto-saving content packages took 0.011
+[2015.11.26-16.01.28:872][ 15]LogMaterialEditor: Saving and Compiling material SnowGenHouse_MSTR_Mat
+[2015.11.26-16.01.29:704][ 15]LogMaterial: Missing cached shader map for material SnowGenHouse_MSTR_Mat, compiling. 
+[2015.11.26-16.01.29:723][ 15]LogMaterial: 0.000083 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.26-16.01.29:740][ 15]LogMaterial: Missing cached shader map for material SnowGenHouse_MSTR_Mat, compiling. 
+[2015.11.26-16.01.29:770][ 15]LogMaterial: Missing cached shader map for material SnowGenHouse_MSTR_Mat, compiling. 
+[2015.11.26-16.01.29:781][ 15]LogMaterial: 0.001150 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.26-16.01.32:451][ 15]LogSavePackage: Save=14.457699ms
+[2015.11.26-16.01.32:451][ 15]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/SnowGenHouse_MSTR_Mat5B969B8B42BF32991AC3E48EA38BECF3.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/Materials/SnowGenHouse_MSTR_Mat.uasset'
+[2015.11.26-16.01.32:456][ 15]LogSavePackage: Total save time: 23.149118ms
+[2015.11.26-16.01.32:456][ 15]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/Materials/SnowGenHouse_MSTR_Mat.uasset
+[2015.11.26-16.01.32:462][ 15]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 97 instructions
+[2015.11.26-16.01.32:462][ 15]MaterialEditorStats: Info Vertex shader: 34 instructions
+[2015.11.26-16.01.32:462][ 15]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.11.26-16.03.01:923][637]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Houses1:MaterialGraph_1.MaterialGraphNode_40 or MaterialGraphNode /Engine/Transient.SnowGenHouse_MSTR_Mat:MaterialGraph_2.MaterialGraphNode_40
+[2015.11.26-16.03.01:925][637]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Houses1:MaterialGraph_1.MaterialGraphNode_40 or MaterialGraphNode /Engine/Transient.SnowGenHouse_MSTR_Mat:MaterialGraph_2.MaterialGraphNode_40
+[2015.11.26-16.03.01:926][637]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Houses1:MaterialGraph_1.MaterialGraphNode_41 or MaterialGraphNode /Engine/Transient.SnowGenHouse_MSTR_Mat:MaterialGraph_2.MaterialGraphNode_41
+[2015.11.26-16.03.01:926][637]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'MaterialGraphNode_41.MaterialExpressionTextureSample_0',Mask=1,MaskR=1,MaskG=1,MaskB=1)'
+[2015.11.26-16.03.01:926][637]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Houses1:MaterialGraph_1.MaterialGraphNode_43 or MaterialGraphNode /Engine/Transient.SnowGenHouse_MSTR_Mat:MaterialGraph_2.MaterialGraphNode_43
+[2015.11.26-16.03.01:926][637]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionVectorParameter'MaterialGraphNode_43.MaterialExpressionVectorParameter_0',Mask=1,MaskR=1,MaskG=1,MaskB=1)'
+[2015.11.26-16.03.01:935][637]LogMaterial: Missing cached shader map for material SnowGenHouse_MSTR_Mat, compiling. 
+[2015.11.26-16.03.01:940][637]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.26-16.03.02:061][637]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2015.11.26-16.03.02:063][637]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_5, compiling. 
+[2015.11.26-16.03.02:066][637]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_8, compiling. 
+[2015.11.26-16.03.02:069][637]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionBumpOffset_0, compiling. 
+[2015.11.26-16.03.02:071][637]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_9, compiling. 
+[2015.11.26-16.03.02:074][637]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.11.26-16.03.02:076][637]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.11.26-16.03.03:256][681]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 77 instructions
+[2015.11.26-16.03.03:256][681]MaterialEditorStats: Info Vertex shader: 34 instructions
+[2015.11.26-16.03.03:256][681]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.11.26-16.03.31:844][228]LogMaterial: Missing cached shader map for material SnowGenHouse_MSTR_Mat, compiling. 
+[2015.11.26-16.03.31:850][228]LogMaterial: 0.000177 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.26-16.03.31:896][228]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.11.26-16.03.31:900][228]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.11.26-16.03.33:200][282]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 78 instructions
+[2015.11.26-16.03.33:200][282]MaterialEditorStats: Info Vertex shader: 34 instructions
+[2015.11.26-16.03.33:200][282]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.11.26-16.06.34:200][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Houses1:MaterialGraph_1.MaterialGraphNode_38 or MaterialGraphNode /Engine/Transient.SnowGenHouse_MSTR_Mat:MaterialGraph_2.MaterialGraphNode_38
+[2015.11.26-16.06.34:200][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat:MaterialExpressionTextureSample_0 or MaterialExpressionTextureSample /Engine/BufferVisualization/CustomStencil.CustomStencil:MaterialExpressionTextureSample_0
+[2015.11.26-16.06.34:201][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat:MaterialExpressionTextureSample_0 or MaterialExpressionTextureSample /Engine/EngineDebugMaterials/MAT_LevelColorationLitLightmapUV.MAT_LevelColorationLitLightmapUV:MaterialExpressionTextureSample_0
+[2015.11.26-16.06.34:201][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat:MaterialExpressionTextureSample_0 or MaterialExpressionTextureSample /Engine/EngineDebugMaterials/BoneWeightMaterial.BoneWeightMaterial:MaterialExpressionTextureSample_0
+[2015.11.26-16.06.34:201][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat:MaterialExpressionTextureSample_0 or MaterialExpressionTextureSample /Engine/EditorMaterials/PreviewShadowIndicatorMaterial.PreviewShadowIndicatorMaterial:MaterialExpressionTextureSample_0
+[2015.11.26-16.06.34:201][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat:MaterialExpressionTextureSample_0 or MaterialExpressionTextureSample /Engine/EditorMaterials/Cross_Mat.Cross_Mat:MaterialExpressionTextureSample_0
+[2015.11.26-16.06.34:201][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat:MaterialExpressionTextureSample_0 or MaterialExpressionTextureSample /Engine/EditorMaterials/WidgetGridVertexColorMaterial_Ma.WidgetGridVertexColorMaterial_Ma:MaterialExpressionTextureSample_0
+[2015.11.26-16.06.34:201][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat:MaterialExpressionTextureSample_0 or MaterialExpressionTextureSample /Game/Effects/Materials/M_leaf_01.M_leaf_01:MaterialExpressionTextureSample_0
+[2015.11.26-16.06.34:201][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat:MaterialExpressionTextureSample_0 or MaterialExpressionTextureSample /Game/Effects/Materials/M_leaf_02.M_leaf_02:MaterialExpressionTextureSample_0
+[2015.11.26-16.06.34:201][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat:MaterialExpressionTextureSample_0 or MaterialExpressionTextureSample /Game/Effects/Materials/M_wind_swirl_01.M_wind_swirl_01:MaterialExpressionTextureSample_0
+[2015.11.26-16.06.34:201][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat:MaterialExpressionTextureSample_0 or MaterialExpressionTextureSample /Game/Effects/Materials/M_wind_swirl_02.M_wind_swirl_02:MaterialExpressionTextureSample_0
+[2015.11.26-16.06.34:201][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat:MaterialExpressionTextureSample_0 or MaterialExpressionTextureSample /Game/Effects/Materials/M_card_rotation_01.M_card_rotation_01:MaterialExpressionTextureSample_0
+[2015.11.26-16.06.34:201][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat:MaterialExpressionTextureSample_0 or MaterialExpressionTextureSample /Game/Assets/Materials/M_CardBackside.M_CardBackside:MaterialExpressionTextureSample_0
+[2015.11.26-16.06.34:201][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat:MaterialExpressionTextureSample_0 or MaterialExpressionTextureSample /Game/Assets/Materials/T_Animal_01_D_Mat.T_Animal_01_D_Mat:MaterialExpressionTextureSample_0
+[2015.11.26-16.06.34:201][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat:MaterialExpressionTextureSample_0 or MaterialExpressionTextureSample /Game/Assets/Materials/M_CheckBoxChecked.M_CheckBoxChecked:MaterialExpressionTextureSample_0
+[2015.11.26-16.06.34:201][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat:MaterialExpressionTextureSample_0 or MaterialExpressionTextureSample /Game/Assets/Materials/M_CheckBoxUnchecked.M_CheckBoxUnchecked:MaterialExpressionTextureSample_0
+[2015.11.26-16.06.34:201][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat:MaterialExpressionTextureSample_0 or MaterialExpressionTextureSample /Game/Assets/Materials/M_MenuBoard.M_MenuBoard:MaterialExpressionTextureSample_0
+[2015.11.26-16.06.34:201][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat:MaterialExpressionTextureSample_0 or MaterialExpressionTextureSample /Game/Assets/Materials/M_GameBoard.M_GameBoard:MaterialExpressionTextureSample_0
+[2015.11.26-16.06.34:201][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat:MaterialExpressionTextureSample_0 or MaterialExpressionTextureSample /Game/Assets/Materials/M_LostBlackBoard.M_LostBlackBoard:MaterialExpressionTextureSample_0
+[2015.11.26-16.06.34:201][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat:MaterialExpressionTextureSample_0 or MaterialExpressionTextureSample /Game/Assets/Materials/M_LostBoard.M_LostBoard:MaterialExpressionTextureSample_0
+[2015.11.26-16.06.34:201][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat:MaterialExpressionTextureSample_0 or MaterialExpressionTextureSample /Game/Assets/Materials/M_Star_Mat.M_Star_Mat:MaterialExpressionTextureSample_0
+[2015.11.26-16.06.34:201][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat:MaterialExpressionTextureSample_0 or MaterialExpressionTextureSample /Game/Assets/Materials/M_Star_White.M_Star_White:MaterialExpressionTextureSample_0
+[2015.11.26-16.06.34:201][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat:MaterialExpressionTextureSample_0 or MaterialExpressionTextureSample /Game/Assets/Materials/M_VictoryBoard.M_VictoryBoard:MaterialExpressionTextureSample_0
+[2015.11.26-16.06.34:201][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat:MaterialExpressionTextureSample_0 or MaterialExpressionTextureSample /Game/Assets/Materials/M_Animal_11_D_Mat.M_Animal_11_D_Mat:MaterialExpressionTextureSample_0
+[2015.11.26-16.06.34:201][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat:MaterialExpressionTextureSample_0 or MaterialExpressionTextureSample /Game/Assets/TopDownCity/Shared/Materials/M_Houses1.M_Houses1:MaterialExpressionTextureSample_0
+[2015.11.26-16.06.34:201][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat:MaterialExpressionTextureSample_0 or MaterialExpressionTextureSample /Game/Assets/Materials/M_Background.M_Background:MaterialExpressionTextureSample_0
+[2015.11.26-16.06.34:201][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat:MaterialExpressionTextureSample_0 or MaterialExpressionTextureSample /Engine/EditorMaterials/TextureGridCascaded1D.TextureGridCascaded1D:MaterialExpressionTextureSample_0
+[2015.11.26-16.06.34:201][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialExpressionTextureSample /Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat:MaterialExpressionTextureSample_0 or MaterialExpressionTextureSample /Engine/Transient.M_Houses1:MaterialExpressionTextureSample_0
+[2015.11.26-16.06.34:201][ 87]LogProperty:Warning: Illegal TEXT reference to a private object in external package (MaterialExpressionTextureSample /Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat:MaterialExpressionTextureSample_0) from referencer (MaterialExpressionLinearInterpolate /Engine/Transient.SnowGenHouse_MSTR_Mat:MaterialGraph_2.MaterialGraphNode_44.MaterialExpressionLinearInterpolate_0).  Import failed...
+[2015.11.26-16.06.34:201][ 87]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'MaterialExpressionTextureSample_0',OutputIndex=3,Mask=1,MaskB=1)'
+[2015.11.26-16.06.34:203][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Houses1:MaterialGraph_1.MaterialGraphNode_37 or MaterialGraphNode /Engine/Transient.SnowGenHouse_MSTR_Mat:MaterialGraph_2.MaterialGraphNode_37
+[2015.11.26-16.06.34:203][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Houses1:MaterialGraph_1.MaterialGraphNode_38 or MaterialGraphNode /Engine/Transient.SnowGenHouse_MSTR_Mat:MaterialGraph_2.MaterialGraphNode_38
+[2015.11.26-16.06.34:205][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Houses1:MaterialGraph_1.MaterialGraphNode_42 or MaterialGraphNode /Engine/Transient.SnowGenHouse_MSTR_Mat:MaterialGraph_2.MaterialGraphNode_42
+[2015.11.26-16.06.34:205][ 87]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'MaterialGraphNode_42.MaterialExpressionTextureSample_5',OutputIndex=1,Mask=1,MaskR=1)'
+[2015.11.26-16.06.34:206][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Houses1:MaterialGraph_1.MaterialGraphNode_44 or MaterialGraphNode /Engine/Transient.SnowGenHouse_MSTR_Mat:MaterialGraph_2.MaterialGraphNode_44
+[2015.11.26-16.06.34:206][ 87]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionLinearInterpolate'MaterialGraphNode_44.MaterialExpressionLinearInterpolate_0')'
+[2015.11.26-16.06.34:206][ 87]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Houses1:MaterialGraph_1.MaterialGraphNode_42 or MaterialGraphNode /Engine/Transient.SnowGenHouse_MSTR_Mat:MaterialGraph_2.MaterialGraphNode_42
+[2015.11.26-16.06.34:206][ 87]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'MaterialGraphNode_42.MaterialExpressionTextureSample_5',OutputIndex=1,Mask=1,MaskR=1)'
+[2015.11.26-16.06.34:217][ 87]LogMaterial: Missing cached shader map for material SnowGenHouse_MSTR_Mat, compiling. 
+[2015.11.26-16.06.34:222][ 87]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.26-16.06.34:223][ 87]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_6, compiling. 
+[2015.11.26-16.06.34:226][ 87]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.11.26-16.06.34:230][ 87]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_8, compiling. 
+[2015.11.26-16.06.35:711][143]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 78 instructions
+[2015.11.26-16.06.35:711][143]MaterialEditorStats: Info Vertex shader: 34 instructions
+[2015.11.26-16.06.35:711][143]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.11.26-16.07.10:784][968]LogMaterial: Missing cached shader map for material SnowGenHouse_MSTR_Mat, compiling. 
+[2015.11.26-16.07.10:790][968]LogMaterial: 0.000076 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.26-16.07.10:890][968]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2015.11.26-16.07.10:893][968]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_6, compiling. 
+[2015.11.26-16.07.10:896][968]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.11.26-16.07.10:899][968]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_8, compiling. 
+[2015.11.26-16.07.10:901][968]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2015.11.26-16.07.12:217][ 15]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 78 instructions
+[2015.11.26-16.07.12:217][ 15]MaterialEditorStats: Info Vertex shader: 34 instructions
+[2015.11.26-16.07.12:217][ 15]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.11.26-16.07.20:248][422]LogMaterial: Missing cached shader map for material SnowGenHouse_MSTR_Mat, compiling. 
+[2015.11.26-16.07.20:254][422]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.26-16.07.20:309][422]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_6, compiling. 
+[2015.11.26-16.07.20:313][422]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2015.11.26-16.07.21:327][461]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 78 instructions
+[2015.11.26-16.07.21:327][461]MaterialEditorStats: Info Vertex shader: 34 instructions
+[2015.11.26-16.07.21:327][461]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.11.26-16.08.56:140][476]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Houses1:MaterialGraph_1.MaterialGraphNode_37 or MaterialGraphNode /Engine/Transient.SnowGenHouse_MSTR_Mat:MaterialGraph_2.MaterialGraphNode_37
+[2015.11.26-16.08.56:141][476]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_37.EdGraphPin_55931''
+[2015.11.26-16.08.56:142][476]LogUObjectHash:Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Houses1:MaterialGraph_1.MaterialGraphNode_42 or MaterialGraphNode /Engine/Transient.SnowGenHouse_MSTR_Mat:MaterialGraph_2.MaterialGraphNode_42
+[2015.11.26-16.08.56:142][476]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'MaterialGraphNode_42.MaterialExpressionTextureSample_10',OutputIndex=1,Mask=1,MaskR=1)'
+[2015.11.26-16.08.56:151][476]LogMaterial: Missing cached shader map for material SnowGenHouse_MSTR_Mat, compiling. 
+[2015.11.26-16.08.56:157][476]LogMaterial: 0.000141 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.26-16.08.56:186][476]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2015.11.26-16.08.56:190][476]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2015.11.26-16.08.57:481][526]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 78 instructions
+[2015.11.26-16.08.57:481][526]MaterialEditorStats: Info Vertex shader: 34 instructions
+[2015.11.26-16.08.57:481][526]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.11.26-16.09.54:984][675]LogMaterial: Missing cached shader map for material SnowGenHouse_MSTR_Mat, compiling. 
+[2015.11.26-16.09.54:989][675]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.26-16.09.55:014][675]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2015.11.26-16.09.55:021][675]LogMaterial: Missing cached shader map for material SnowGenHouse_MSTR_Mat, compiling. 
+[2015.11.26-16.09.55:030][675]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.26-16.09.56:680][743]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 78 instructions
+[2015.11.26-16.09.56:680][743]MaterialEditorStats: Info Vertex shader: 34 instructions
+[2015.11.26-16.09.56:680][743]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.11.26-16.09.59:879][918]LogMaterial: Missing cached shader map for material SnowGenHouse_MSTR_Mat, compiling. 
+[2015.11.26-16.09.59:884][918]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.26-16.10.00:876][957]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 78 instructions
+[2015.11.26-16.10.00:876][957]MaterialEditorStats: Info Vertex shader: 34 instructions
+[2015.11.26-16.10.00:876][957]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.11.26-16.10.21:193][ 87]LogMaterial: Missing cached shader map for material SnowGenHouse_MSTR_Mat, compiling. 
+[2015.11.26-16.10.21:198][ 87]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.26-16.10.22:489][143]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2015.11.26-16.10.22:489][143]MaterialEditorStats: Info Vertex shader: 34 instructions
+[2015.11.26-16.10.22:489][143]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.11.26-16.36.39:532][249]LogMaterial: Missing cached shader map for material SnowGenHouse_MSTR_Mat, compiling. 
+[2015.11.26-16.36.39:538][249]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.26-16.36.39:588][249]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2015.11.26-16.36.39:592][249]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2015.11.26-16.36.40:854][298]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2015.11.26-16.36.40:854][298]MaterialEditorStats: Info Vertex shader: 34 instructions
+[2015.11.26-16.36.40:854][298]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.11.26-16.36.55:357][ 93]LogMaterial: Missing cached shader map for material SnowGenHouse_MSTR_Mat, compiling. 
+[2015.11.26-16.36.55:363][ 93]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.26-16.36.55:366][ 93]LogMaterial: Missing cached shader map for material SnowGenHouse_MSTR_Mat, compiling. 
+[2015.11.26-16.36.55:371][ 93]LogMaterial: 0.000033 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.26-16.36.56:299][130]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2015.11.26-16.36.56:299][130]MaterialEditorStats: Info Vertex shader: 34 instructions
+[2015.11.26-16.36.56:299][130]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.11.26-16.37.00:954][383]LogMaterial: Missing cached shader map for material SnowGenHouse_MSTR_Mat, compiling. 
+[2015.11.26-16.37.00:961][383]LogMaterial: 0.000127 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.26-16.37.00:992][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_8, compiling. 
+[2015.11.26-16.37.01:903][417]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2015.11.26-16.37.01:903][417]MaterialEditorStats: Info Vertex shader: 34 instructions
+[2015.11.26-16.37.01:904][417]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.11.26-16.37.24:380][683]LogMaterial: Missing cached shader map for material SnowGenHouse_MSTR_Mat, compiling. 
+[2015.11.26-16.37.24:386][683]LogMaterial: 0.000113 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.26-16.37.24:483][683]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_6, compiling. 
+[2015.11.26-16.37.24:486][683]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2015.11.26-16.37.24:489][683]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_8, compiling. 
+[2015.11.26-16.37.24:492][683]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2015.11.26-16.37.25:703][732]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 85 instructions
+[2015.11.26-16.37.25:703][732]MaterialEditorStats: Info Vertex shader: 34 instructions
+[2015.11.26-16.37.25:703][732]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.11.26-16.38.24:538][851]LogMaterialEditor: Saving and Compiling material SnowGenHouse_MSTR_Mat
+[2015.11.26-16.38.25:147][851]LogMaterial: Missing cached shader map for material SnowGenHouse_MSTR_Mat, compiling. 
+[2015.11.26-16.38.25:167][851]LogMaterial: 0.000188 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.26-16.38.25:201][851]LogMaterial: Missing cached shader map for material SnowGenHouse_MSTR_Mat, compiling. 
+[2015.11.26-16.38.25:231][851]LogMaterial: Missing cached shader map for material SnowGenHouse_MSTR_Mat, compiling. 
+[2015.11.26-16.38.25:244][851]LogMaterial: 0.001207 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.26-16.38.27:936][851]LogSavePackage: Save=19.641607ms
+[2015.11.26-16.38.27:936][851]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/SnowGenHouse_MSTR_MatE8BC2B1E446D623A0B911B8F67FE6BA1.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/Materials/SnowGenHouse_MSTR_Mat.uasset'
+[2015.11.26-16.38.27:940][851]LogSavePackage: Total save time: 30.715719ms
+[2015.11.26-16.38.27:941][851]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/Materials/SnowGenHouse_MSTR_Mat.uasset
+[2015.11.26-16.38.27:947][851]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 105 instructions
+[2015.11.26-16.38.27:947][851]MaterialEditorStats: Info Vertex shader: 34 instructions
+[2015.11.26-16.38.27:947][851]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.11.26-16.41.08:105][451]LogSavePackage: Save=10.393668ms
+[2015.11.26-16.41.08:105][451]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/SnowGenHouse_MSTR_Mat_InstA74C1E414F448A6944474C9FEE55C43D.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/Materials/SnowGenHouse_MSTR_Mat_Inst.uasset'
+[2015.11.26-16.41.08:108][451]LogSavePackage: Total save time: 14.287781ms
+[2015.11.26-16.41.08:108][451]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/Materials/SnowGenHouse_MSTR_Mat_Inst.uasset
+[2015.11.26-16.41.29:677][695]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-16.41.47:251][738]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-16.41.47:264][738]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-16.41.47:273][738]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-16.41.47:338][738]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-16.42.04:185][744]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-16.42.04:241][744]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-16.42.09:402][ 50]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-16.42.22:114][796]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-16.42.22:995][847]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-16.42.23:627][884]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-16.42.43:316][ 48]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-16.43.18:911][165]LogSavePackage: Save=53.912357ms
+[2015.11.26-16.43.18:911][165]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/AutoHouse30ECBE364BE1E1E68881838158B0C703.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset'
+[2015.11.26-16.43.18:915][165]LogSavePackage: Total save time: 66.518411ms
+[2015.11.26-16.43.18:915][165]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset
+[2015.11.26-16.43.19:385][193]BlueprintLog: New page: Compile AutoHouse
+[2015.11.26-16.43.19:516][193]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008EADFBB7E0
+[2015.11.26-16.43.19:518][193]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008EC229C400
+[2015.11.26-16.43.19:520][193]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008E76F92200
+[2015.11.26-16.43.19:535][193]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008DFEBE9260
+[2015.11.26-16.43.19:535][193]BlueprintEditorCompileResults: Info [4693.79] Compile of AutoHouse successful! [in 150 ms]
+[2015.11.26-16.43.22:042][340]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-16.45.09:634][683]LogSavePackage: Save=55.101421ms
+[2015.11.26-16.45.09:634][683]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/AutoHouseE6C09D1C4990139EA765A0973A984CC9.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset'
+[2015.11.26-16.45.09:639][683]LogSavePackage: Total save time: 65.774485ms
+[2015.11.26-16.45.09:639][683]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset
+[2015.11.26-16.45.10:624][740]BlueprintLog: New page: Compile AutoHouse
+[2015.11.26-16.45.10:751][740]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-16.45.10:753][740]BlueprintEditorCompileResults: Info [4805.01] Compile of AutoHouse successful! [in 129 ms]
+[2015.11.26-16.45.10:789][740]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-16.45.59:725][100]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.11.26-16.46.22:224][448]MapCheck: New page: Map Check
+[2015.11.26-16.46.22:248][448]Cmd: MAP REBUILD ALLVISIBLE
+[2015.11.26-16.46.22:249][448]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.11.26-16.46.22:407][448]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008E75B7CF40
+[2015.11.26-16.46.22:414][448]MapCheck:Warning: Warning WorldInfo_0 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.11.26-16.46.22:414][448]LogStats:          STAT_HLOD_BuildClusters - 32.076 ms
+[2015.11.26-16.46.22:414][448]LightingResults: New page: Lighting Build - Nov 26, 2015, 6:46:22 AM
+[2015.11.26-16.46.26:936][448]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.11.26-16.46.26:936][448]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.11.26-16.46.26:936][448]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.11.26-16.46.26:936][448]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.11.26-16.46.26:936][448]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.11.26-16.46.27:050][448]LogEditorBuildUtils: Build time 0:00:04
+[2015.11.26-16.46.27:072][449]Cmd: UpdateLandscapeEditorData
+[2015.11.26-16.46.30:898][654]Job is a success!
+[2015.11.26-16.46.31:153][655]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.11.26-16.46.31:166][655]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
+[2015.11.26-16.46.31:167][655]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
+[2015.11.26-16.46.31:174][655]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
+[2015.11.26-16.46.31:182][655]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
+[2015.11.26-16.46.31:190][655]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2015.11.26-16.46.31:200][655]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2015.11.26-16.46.31:212][655]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
+[2015.11.26-16.46.31:223][655]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2015.11.26-16.46.31:235][655]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
+[2015.11.26-16.46.31:241][655]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
+[2015.11.26-16.46.31:247][655]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2015.11.26-16.46.31:252][655]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2015.11.26-16.46.31:258][655]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2015.11.26-16.46.31:267][655]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2015.11.26-16.46.31:275][655]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2015.11.26-16.46.31:285][655]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2015.11.26-16.46.31:299][655]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2015.11.26-16.46.31:306][655]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2015.11.26-16.46.31:312][655]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2015.11.26-16.46.31:324][655]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2015.11.26-16.46.31:333][655]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.11.26-16.46.31:341][655]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.11.26-16.46.31:348][655]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.11.26-16.46.31:356][655]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.11.26-16.46.31:363][655]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.11.26-16.46.31:373][655]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.11.26-16.46.31:385][655]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.11.26-16.46.31:393][655]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.11.26-16.46.31:400][655]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.11.26-16.46.31:401][655]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.11.26-16.46.31:403][655]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.11.26-16.46.31:415][655]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.11.26-16.46.31:423][655]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.11.26-16.46.31:435][655]LogTexture:Display: Building textures: ShadowMapTexture2D_68 (G8)
+[2015.11.26-16.46.31:438][655]LogTexture:Display: Building textures: ShadowMapTexture2D_69 (G8)
+[2015.11.26-16.46.31:441][655]LogTexture:Display: Building textures: ShadowMapTexture2D_70 (G8)
+[2015.11.26-16.46.31:443][655]LogTexture:Display: Building textures: ShadowMapTexture2D_71 (G8)
+[2015.11.26-16.46.31:447][655]LogTexture:Display: Building textures: ShadowMapTexture2D_72 (G8)
+[2015.11.26-16.46.31:450][655]LogTexture:Display: Building textures: ShadowMapTexture2D_73 (G8)
+[2015.11.26-16.46.31:453][655]LogTexture:Display: Building textures: ShadowMapTexture2D_74 (G8)
+[2015.11.26-16.46.31:456][655]LogTexture:Display: Building textures: ShadowMapTexture2D_75 (G8)
+[2015.11.26-16.46.31:459][655]LogTexture:Display: Building textures: ShadowMapTexture2D_76 (G8)
+[2015.11.26-16.46.31:461][655]LogTexture:Display: Building textures: ShadowMapTexture2D_77 (G8)
+[2015.11.26-16.46.31:465][655]LogTexture:Display: Building textures: ShadowMapTexture2D_78 (G8)
+[2015.11.26-16.46.31:467][655]LogTexture:Display: Building textures: ShadowMapTexture2D_79 (G8)
+[2015.11.26-16.46.31:471][655]LogTexture:Display: Building textures: ShadowMapTexture2D_80 (G8)
+[2015.11.26-16.46.31:474][655]LogTexture:Display: Building textures: ShadowMapTexture2D_81 (G8)
+[2015.11.26-16.46.31:478][655]LogTexture:Display: Building textures: ShadowMapTexture2D_82 (G8)
+[2015.11.26-16.46.31:481][655]LogTexture:Display: Building textures: ShadowMapTexture2D_83 (G8)
+[2015.11.26-16.46.31:483][655]LogTexture:Display: Building textures: ShadowMapTexture2D_84 (G8)
+[2015.11.26-16.46.31:509][655]Lightmass on CRODAWIN10: 3.97 sec total, 244 ms importing, 207 ms setup, 362 ms photons, 3.13 sec processing, 0 ms extra exporting [18/18 mappings]. Threads: 21.7 sec total, 11.3 sec processing.
+[2015.11.26-16.46.31:554][655]LogStaticLightingSystem: Illumination: 9.11 sec (353 ms encoding lightmaps)
+[2015.11.26-16.46.31:554][655]LogStaticLightingSystem: Lightmap texture memory:  0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 34 textures
+[2015.11.26-16.46.31:554][655]LogStaticLightingSystem: Shadowmap texture memory: 0.8 MB (0.8 MB streaming, 0.0 MB non-streaming), 85 textures
+[2015.11.26-16.46.31:947][656]Cmd: UpdateLandscapeEditorData
+[2015.11.26-16.46.31:947][656]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.11.26-16.46.31:947][656]MapCheck: New page: MemoryCardEntry - Nov 26, 2015, 6:46:31 AM
+[2015.11.26-16.46.32:391][656]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 444.373ms to complete.
+[2015.11.26-16.48.42:693][447]LogSavePackage: Save=246.682938ms
+[2015.11.26-16.48.42:693][447]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/MemoryCardEntry_Auto3117F13B642054DC81A70E19F24ACB849.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/Autosaves/Game/Maps/MemoryCardEntry_Auto3.umap'
+[2015.11.26-16.48.42:696][447]LogSavePackage: Total save time: 263.816789ms
+[2015.11.26-16.48.42:696][447]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/Autosaves/Game/Maps/MemoryCardEntry_Auto3.umap
+[2015.11.26-16.48.42:698][447]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MemoryCardEntry' took 0.310
+[2015.11.26-16.48.42:698][447]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.310
+[2015.11.26-17.10.23:205][272]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-17.10.28:958][614]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-17.10.28:968][614]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-17.10.28:978][614]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-17.10.29:034][614]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-17.10.37:267][107]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-17.10.37:320][107]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-17.10.44:929][560]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-17.10.48:697][786]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-17.11.24:424][904]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-17.12.28:913][657]LogSavePackage: Save=241.353439ms
+[2015.11.26-17.12.28:913][657]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/MemoryCardEntry_Auto434CF2CDA47860F7EFA67CDA1DF75913C.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/Autosaves/Game/Maps/MemoryCardEntry_Auto4.umap'
+[2015.11.26-17.12.28:916][657]LogSavePackage: Total save time: 260.855913ms
+[2015.11.26-17.12.28:916][657]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/Autosaves/Game/Maps/MemoryCardEntry_Auto4.umap
+[2015.11.26-17.12.28:918][657]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MemoryCardEntry' took 0.311
+[2015.11.26-17.12.28:918][657]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.311
+[2015.11.26-17.12.28:926][657]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/TopDownCity/Houses/AutoHouse] ([1] browsable assets)...
+[2015.11.26-17.12.28:926][657]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/TopDownCity/Houses/AutoHouse]
+[2015.11.26-17.12.28:998][657]LogSavePackage: Save=61.988338ms
+[2015.11.26-17.12.28:998][657]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/AutoHouse_Auto428482BC2469C3F42A3ECAA8A781DD44E.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/Autosaves/Game/Assets/TopDownCity/Houses/AutoHouse_Auto4.uasset'
+[2015.11.26-17.12.29:001][657]LogSavePackage: Total save time: 73.827282ms
+[2015.11.26-17.12.29:001][657]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/Autosaves/Game/Assets/TopDownCity/Houses/AutoHouse_Auto4.uasset
+[2015.11.26-17.12.29:001][657]LogFileHelpers: Auto-saving content packages took 0.082
+[2015.11.26-17.18.59:497][708]LogMaterial: Missing cached shader map for material SnowGenHouse_MSTR_Mat, compiling. 
+[2015.11.26-17.18.59:581][708]LogMaterial: Missing cached shader map for material SnowGenHouse_MSTR_Mat, compiling. 
+[2015.11.26-17.18.59:587][708]LogMaterial: 0.000080 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.26-17.18.59:611][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2015.11.26-17.18.59:615][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_5, compiling. 
+[2015.11.26-17.18.59:619][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_8, compiling. 
+[2015.11.26-17.18.59:623][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionBumpOffset_0, compiling. 
+[2015.11.26-17.18.59:628][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_9, compiling. 
+[2015.11.26-17.18.59:632][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.11.26-17.18.59:636][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2015.11.26-17.18.59:640][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_6, compiling. 
+[2015.11.26-17.18.59:644][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2015.11.26-17.18.59:648][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLinearInterpolate_8, compiling. 
+[2015.11.26-17.18.59:652][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2015.11.26-17.18.59:656][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2015.11.26-17.19.01:153][782]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 85 instructions
+[2015.11.26-17.19.01:154][782]MaterialEditorStats: Info Vertex shader: 34 instructions
+[2015.11.26-17.19.01:154][782]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.11.26-17.19.49:191][565]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-17.20.01:249][287]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-17.20.48:062][ 93]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-17.20.49:217][161]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-17.20.49:933][203]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-17.20.56:862][611]LogSavePackage: Save=63.150032ms
+[2015.11.26-17.20.56:862][611]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/AutoHouseC6774DE942ABC4B1522979BFC9DA11B0.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset'
+[2015.11.26-17.20.56:870][611]LogSavePackage: Total save time: 79.809479ms
+[2015.11.26-17.20.56:871][611]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset
+[2015.11.26-17.21.39:667][656]LogSavePackage: Save=62.133549ms
+[2015.11.26-17.21.39:667][656]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/AutoHouse0F12D39F4ADC116F5BF037BEDADB857F.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset'
+[2015.11.26-17.21.39:670][656]LogSavePackage: Total save time: 70.403781ms
+[2015.11.26-17.21.39:670][656]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset
+[2015.11.26-17.21.40:697][717]BlueprintLog: New page: Compile AutoHouse
+[2015.11.26-17.21.40:807][717]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-17.21.40:808][717]BlueprintEditorCompileResults: Info [6995.06] Compile of AutoHouse successful! [in 110 ms]
+[2015.11.26-17.21.40:832][717]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-17.22.06:813][847]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-17.22.06:867][847]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-17.22.09:466][996]LogSavePackage: Save=71.904556ms
+[2015.11.26-17.22.09:466][996]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/AutoHouse4FDCBC6643A07A30C19459BCC05358E8.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset'
+[2015.11.26-17.22.09:471][996]LogSavePackage: Total save time: 80.364853ms
+[2015.11.26-17.22.09:471][996]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset
+[2015.11.26-17.22.12:265][162]BlueprintLog: New page: Compile AutoHouse
+[2015.11.26-17.22.12:389][162]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-17.22.12:389][162]BlueprintEditorCompileResults: Info [7026.64] Compile of AutoHouse successful! [in 123 ms]
+[2015.11.26-17.22.12:422][162]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-17.23.05:206][759]LogSavePackage: Save=72.878082ms
+[2015.11.26-17.23.05:206][759]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/AutoHouse246C760D408B0EC88CC872B8D446725D.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset'
+[2015.11.26-17.23.05:209][759]LogSavePackage: Total save time: 79.803776ms
+[2015.11.26-17.23.05:209][759]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset
+[2015.11.26-17.23.05:734][790]BlueprintLog: New page: Compile AutoHouse
+[2015.11.26-17.23.05:874][790]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-17.23.05:874][790]BlueprintEditorCompileResults: Info [7080.13] Compile of AutoHouse successful! [in 139 ms]
+[2015.11.26-17.23.05:906][790]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-17.23.10:436][ 48]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008ED5A82480
+[2015.11.26-17.23.10:755][ 48]LogSavePackage: Save=298.866058ms
+[2015.11.26-17.23.10:755][ 48]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/MemoryCardEntry5E829D6846DAA1E7A1DE87AB0EECC570.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap'
+[2015.11.26-17.23.10:759][ 48]LogSavePackage: Total save time: 318.026412ms
+[2015.11.26-17.23.10:759][ 48]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap
+[2015.11.26-17.27.29:472][221]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-17.27.56:187][818]LogSavePackage: Save=67.026657ms
+[2015.11.26-17.27.56:187][818]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/AutoHouse81C8BA6D4FA388CE62637F99098E10A0.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset'
+[2015.11.26-17.27.56:192][818]LogSavePackage: Total save time: 80.265641ms
+[2015.11.26-17.27.56:192][818]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset
+[2015.11.26-17.27.57:409][891]BlueprintLog: New page: Compile AutoHouse
+[2015.11.26-17.27.57:507][891]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008D81C9BD80
+[2015.11.26-17.27.57:519][891]BlueprintEditorCompileResults: Info [7371.77] Compile of AutoHouse successful! [in 110 ms]
+[2015.11.26-17.30.43:955][818]LogSavePackage: Save=59.195103ms
+[2015.11.26-17.30.43:955][818]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/AutoHouse9B097E9F4E06262B77F24BB3570887EE.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset'
+[2015.11.26-17.30.43:965][818]LogSavePackage: Total save time: 75.068805ms
+[2015.11.26-17.30.43:965][818]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset
+[2015.11.26-17.30.45:136][888]BlueprintLog: New page: Compile AutoHouse
+[2015.11.26-17.30.45:263][888]BlueprintEditorCompileResults: Info [7539.51] Compile of AutoHouse successful! [in 126 ms]
+[2015.11.26-17.31.36:757][903]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008EC2ACC540
+[2015.11.26-17.31.37:075][903]LogSavePackage: Save=290.506500ms
+[2015.11.26-17.31.37:075][903]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/MemoryCardEntry40A081C3461310FB6CA0868B3AD7D958.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap'
+[2015.11.26-17.31.37:079][903]LogSavePackage: Total save time: 311.858330ms
+[2015.11.26-17.31.37:079][903]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap
+[2015.11.26-17.37.10:936][383]LogSavePackage: Save=60.263283ms
+[2015.11.26-17.37.10:936][383]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/AutoHouse85E4EEE846E2791180671BA850E6E4BE.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset'
+[2015.11.26-17.37.10:940][383]LogSavePackage: Total save time: 73.585898ms
+[2015.11.26-17.37.10:940][383]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset
+[2015.11.26-17.37.12:065][450]BlueprintLog: New page: Compile AutoHouse
+[2015.11.26-17.37.12:172][450]BlueprintEditorCompileResults: Info [7926.42] Compile of AutoHouse successful! [in 106 ms]
+[2015.11.26-17.37.23:317][108]LogSavePackage: Save=65.129021ms
+[2015.11.26-17.37.23:317][108]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/AutoHouse618903DF48F61FF1834F62BF61CF763B.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset'
+[2015.11.26-17.37.23:319][108]LogSavePackage: Total save time: 71.708787ms
+[2015.11.26-17.37.23:319][108]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset
+[2015.11.26-17.37.24:278][166]BlueprintLog: New page: Compile AutoHouse
+[2015.11.26-17.37.24:402][166]BlueprintEditorCompileResults: Info [7938.65] Compile of AutoHouse successful! [in 122 ms]
+[2015.11.26-17.39.32:522][810]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-17.40.51:506][533]LogSavePackage: Save=67.712799ms
+[2015.11.26-17.40.51:507][533]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/AutoHouse41FBEBEA4E47EFB5EA0570A819C78EC0.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset'
+[2015.11.26-17.40.51:517][533]LogSavePackage: Total save time: 83.490331ms
+[2015.11.26-17.40.51:517][533]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset
+[2015.11.26-17.40.52:510][593]BlueprintLog: New page: Compile AutoHouse
+[2015.11.26-17.40.52:650][593]BlueprintEditorCompileResults: Info [8146.90] Compile of AutoHouse successful! [in 140 ms]
+[2015.11.26-17.41.48:514][921]LogSavePackage: Save=292.585083ms
+[2015.11.26-17.41.48:514][921]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/MemoryCardEntry5C3812D24C43C40026AA80905A2C729E.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap'
+[2015.11.26-17.41.48:518][921]LogSavePackage: Total save time: 312.458944ms
+[2015.11.26-17.41.48:518][921]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap
+[2015.11.26-17.44.20:453][ 33]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-17.44.29:257][555]LogSavePackage: Save=65.089485ms
+[2015.11.26-17.44.29:257][555]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/AutoHouseEE668B1D46F7332302939D98A1E3ED9C.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset'
+[2015.11.26-17.44.29:263][555]LogSavePackage: Total save time: 77.728231ms
+[2015.11.26-17.44.29:263][555]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset
+[2015.11.26-17.44.29:905][594]BlueprintLog: New page: Compile AutoHouse
+[2015.11.26-17.44.30:036][594]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-17.44.30:036][594]BlueprintEditorCompileResults: Info [8364.29] Compile of AutoHouse successful! [in 131 ms]
+[2015.11.26-17.44.30:054][594]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.26-17.45.49:050][322]LogSavePackage: Save=61.188152ms
+[2015.11.26-17.45.49:050][322]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/AutoHouseF3FDBE5547C843E4ED39ACBB8CBDA69D.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset'
+[2015.11.26-17.45.49:054][322]LogSavePackage: Total save time: 71.254142ms
+[2015.11.26-17.45.49:054][322]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset
+[2015.11.26-17.45.50:114][386]BlueprintLog: New page: Compile AutoHouse
+[2015.11.26-17.45.50:232][386]BlueprintEditorCompileResults: Info [8444.48] Compile of AutoHouse successful! [in 117 ms]
+[2015.11.26-17.45.55:410][695]MapCheck: New page: Map Check
+[2015.11.26-17.45.55:424][695]Cmd: MAP REBUILD ALLVISIBLE
+[2015.11.26-17.45.55:424][695]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.11.26-17.45.55:632][695]MapCheck:Warning: Warning WorldInfo_0 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.11.26-17.45.55:632][695]LogStats:          STAT_HLOD_BuildClusters - 32.189 ms
+[2015.11.26-17.45.55:632][695]LightingResults: New page: Lighting Build - Nov 26, 2015, 7:45:55 AM
+[2015.11.26-17.46.00:159][695]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.11.26-17.46.00:159][695]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.11.26-17.46.00:159][695]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.11.26-17.46.00:160][695]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.11.26-17.46.00:160][695]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.11.26-17.46.00:279][695]LogEditorBuildUtils: Build time 0:00:04
+[2015.11.26-17.46.00:302][696]Cmd: UpdateLandscapeEditorData
+[2015.11.26-17.46.04:436][918]Job is a success!
+[2015.11.26-17.46.04:651][919]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.11.26-17.46.04:663][919]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1)
+[2015.11.26-17.46.04:664][919]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT)
+[2015.11.26-17.46.04:671][919]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
+[2015.11.26-17.46.04:681][919]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
+[2015.11.26-17.46.04:690][919]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1)
+[2015.11.26-17.46.04:700][919]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT)
+[2015.11.26-17.46.04:715][919]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1)
+[2015.11.26-17.46.04:726][919]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
+[2015.11.26-17.46.04:738][919]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
+[2015.11.26-17.46.04:745][919]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2015.11.26-17.46.04:751][919]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
+[2015.11.26-17.46.04:757][919]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2015.11.26-17.46.04:763][919]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2015.11.26-17.46.04:772][919]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2015.11.26-17.46.04:781][919]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2015.11.26-17.46.04:790][919]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2015.11.26-17.46.04:805][919]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2015.11.26-17.46.04:811][919]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2015.11.26-17.46.04:818][919]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2015.11.26-17.46.04:827][919]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2015.11.26-17.46.04:838][919]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2015.11.26-17.46.04:846][919]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2015.11.26-17.46.04:854][919]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2015.11.26-17.46.04:862][919]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.11.26-17.46.04:869][919]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.11.26-17.46.04:880][919]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.11.26-17.46.04:893][919]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.11.26-17.46.04:901][919]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.11.26-17.46.04:908][919]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.11.26-17.46.04:909][919]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.11.26-17.46.04:911][919]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.11.26-17.46.04:924][919]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.11.26-17.46.04:934][919]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.11.26-17.46.04:946][919]LogTexture:Display: Building textures: ShadowMapTexture2D_85 (G8)
+[2015.11.26-17.46.04:950][919]LogTexture:Display: Building textures: ShadowMapTexture2D_86 (G8)
+[2015.11.26-17.46.04:953][919]LogTexture:Display: Building textures: ShadowMapTexture2D_87 (G8)
+[2015.11.26-17.46.04:957][919]LogTexture:Display: Building textures: ShadowMapTexture2D_88 (G8)
+[2015.11.26-17.46.04:961][919]LogTexture:Display: Building textures: ShadowMapTexture2D_89 (G8)
+[2015.11.26-17.46.04:964][919]LogTexture:Display: Building textures: ShadowMapTexture2D_90 (G8)
+[2015.11.26-17.46.04:967][919]LogTexture:Display: Building textures: ShadowMapTexture2D_91 (G8)
+[2015.11.26-17.46.04:970][919]LogTexture:Display: Building textures: ShadowMapTexture2D_92 (G8)
+[2015.11.26-17.46.04:974][919]LogTexture:Display: Building textures: ShadowMapTexture2D_93 (G8)
 [2015.11.26
