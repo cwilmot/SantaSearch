@@ -1,0 +1,647 @@
+﻿[2015.11.27-03.53.15:275][  0]Log file open, 11/26/15 22:53:15
+[2015.11.27-03.53.15:275][  0]LogInit:Display: Running engine for game: SantaSearch
+[2015.11.27-03.53.15:275][  0]LogInit:Display: RandInit(1137449362) SRandInit(1137449363).
+[2015.11.27-03.53.15:275][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.27-03.53.15:275][  0]LogStats: Stats thread started at 0.079332
+[2015.11.27-03.53.15:275][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.27-03.53.15:275][  0]LogInit: API Version: 2672455
+[2015.11.27-03.53.15:275][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.11.27-03.53.15:275][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.27-03.53.15:275][  0]LogInit: Build Configuration: Development
+[2015.11.27-03.53.15:275][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.27-03.53.15:275][  0]LogInit: Command line:  
+[2015.11.27-03.53.15:275][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.27-03.53.15:275][  0]LogInit: Rocket: 1
+[2015.11.27-03.53.15:287][  0]LogInit: Using libcurl 7.41.0
+[2015.11.27-03.53.15:287][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.27-03.53.15:287][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.27-03.53.15:287][  0]LogInit:  - other features:
+[2015.11.27-03.53.15:287][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.27-03.53.15:287][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.27-03.53.15:287][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.27-03.53.15:287][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.27-03.53.15:287][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.27-03.53.15:287][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.27-03.53.15:288][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.27-03.53.15:288][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.27-03.53.15:288][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.27-03.53.15:288][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.27-03.53.15:296][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.27-03.53.15:306][  0]LogInit: Object subsystem initialized
+[2015.11.27-03.53.15:307][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set ('Scalability' has a lower priority than 'ProjectSetting')
+[2015.11.27-03.53.15:307][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.27-03.53.15:307][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.27-03.53.15:319][  0]LogInit: Computer: CRODAWIN10
+[2015.11.27-03.53.15:319][  0]LogInit: User: croda
+[2015.11.27-03.53.15:319][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.27-03.53.15:319][  0]LogInit: High frequency timer resolution =2.630640 MHz
+[2015.11.27-03.53.15:319][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.11.27-03.53.15:319][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.27-03.53.15:319][  0]LogMemory: Process Physical Memory: 54.26 MB used, 54.26 MB peak
+[2015.11.27-03.53.15:319][  0]LogMemory: Process Virtual Memory: 55.32 MB used, 55.32 MB peak
+[2015.11.27-03.53.15:319][  0]LogMemory: Physical Memory: 7792.64 MB used, 16323.13 MB total
+[2015.11.27-03.53.15:319][  0]LogMemory: Virtual Memory: 364.64 MB used, 134217728.00 MB total
+[2015.11.27-03.53.15:347][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.11.27-03.53.16:107][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA Quadro K5100M (Feature Level 11_0)
+[2015.11.27-03.53.16:107][  0]LogD3D11RHI: Adapter has 8100MB of dedicated video memory, 0MB of dedicated system memory, and 8161MB of shared system memory, 1 output[s]
+[2015.11.27-03.53.16:109][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.27-03.53.16:109][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8161MB of shared system memory, 0 output[s]
+[2015.11.27-03.53.16:109][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.27-03.53.16:115][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.27-03.53.16:115][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.27-03.53.16:130][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.27-03.53.16:146][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Intermediate/Shaders/WorkingDirectory/7700/).
+[2015.11.27-03.53.16:146][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Intermediate/Shaders/tmp/54C89972472C834CD32ED0A2EB7FC820/'.
+[2015.11.27-03.53.16:146][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.27-03.53.17:186][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.27-03.53.17:192][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.27-03.53.17:197][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.27-03.53.17:203][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.27-03.53.17:210][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.27-03.53.17:216][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.27-03.53.17:220][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.27-03.53.17:225][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.27-03.53.17:229][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.27-03.53.17:232][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.27-03.53.17:235][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.27-03.53.17:240][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.27-03.53.17:241][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.27-03.53.17:259][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.27-03.53.17:262][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.27-03.53.17:265][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.27-03.53.17:269][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.27-03.53.17:269][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.27-03.53.17:363][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.27-03.53.17:403][  0]LogDerivedDataCache: Loaded boot cache 0.04s 42MB C:/Users/croda/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.27-03.53.17:403][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/croda/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.27-03.53.17:403][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.27-03.53.17:403][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.27-03.53.17:403][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.27-03.53.17:403][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.27-03.53.17:539][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.27-03.53.17:551][  0]LogDerivedDataCache: Using Local data cache path C:/Users/croda/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.27-03.53.17:733][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.27-03.53.17:736][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.27-03.53.17:852][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.27-03.53.17:852][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.27-03.53.18:095][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.27-03.53.18:952][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.27-03.53.19:055][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2015.11.27-03.53.19:243][  0]SourceControl: Info Source control is disabled
+[2015.11.27-03.53.19:243][  0]SourceControl: Info Source control is disabled
+[2015.11.27-03.53.19:256][  0]SourceControl: Info Source control is disabled
+[2015.11.27-03.53.19:267][  0]SourceControl: Info Source control is disabled
+[2015.11.27-03.53.19:359][  0]LogHoudiniEngine: Starting the Houdini Engine module.
+[2015.11.27-03.53.19:360][  0]LogHoudiniEngine: Loaded libHAPIL.dll from Registry path C:\Program Files\Side Effects Software\Houdini 15.0.244.16/bin
+[2015.11.27-03.53.19:361][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_logo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.27-03.53.19:363][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_default_material.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.27-03.53.19:988][  0]LogHoudiniEngine: Successfully intialized the Houdini Engine API module.
+[2015.11.27-03.53.20:096][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.27-03.53.20:189][  0]LeapPluginLog: Using LeapPlugin version 0.9.6
+[2015.11.27-03.53.20:195][  0]LogObj: 29100 objects as part of root set at end of initial load.
+[2015.11.27-03.53.20:195][  0]LogUObjectAllocator: 6175168 out of 0 bytes used by permanent object pool.
+[2015.11.27-03.53.20:258][  0]LogEngine: Initializing Engine...
+[2015.11.27-03.53.20:260][  0]OCULUS: Info: 11/27/15 03:53:20: [CAPI] LibOVR module is located at C:\Windows\SYSTEM32\LibOVRRT64_0_7.dll
+
+[2015.11.27-03.53.20:860][  0]OCULUS: Error: 11/27/15 03:53:20: [CAPI] ovr_Create failed to complete within the timeout period.
+[2015.11.27-03.53.20:962][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.27-03.53.21:105][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.27-03.53.21:112][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.27-03.53.21:127][  0]LogInit: FAudioDevice initialized.
+[2015.11.27-03.53.21:246][  0]LogDerivedDataCache: Saved boot cache 0.12s 42MB C:/Users/croda/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.27-03.53.21:249][  0]LogInit: Texture streaming: Enabled
+[2015.11.27-03.53.21:255][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.27-03.53.21:255][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.27-03.53.21:255][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 38384f7f4fe22369eef2c4908fb1257c|6dee01914e174258b8c89718799d58e5|4a372342-4369-4fb5-aabc-8ff6b2bfbeff
+[2015.11.27-03.53.21:255][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.27-03.53.21:293][  0]LogInit: Transaction tracking system initialized
+[2015.11.27-03.53.21:332][  0]BlueprintLog: New page: Editor Load
+[2015.11.27-03.53.21:434][  0]LocalizationService: Info Localization service is disabled
+[2015.11.27-03.53.21:514][  0]LogConsoleResponse:Display: 
+[2015.11.27-03.53.21:645][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.27-03.53.21:687][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croda/Documents/Unreal Projects/SantaSearch/Content/' took 0.02s
+[2015.11.27-03.53.21:687][  0]LogHoudiniEngineEditor: Starting the Houdini Engine Editor module.
+[2015.11.27-03.53.21:728][  0]SourceControl: Info Source control is disabled
+[2015.11.27-03.53.21:728][  0]Cmd: MAP LOAD FILE="../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.27-03.53.21:732][  0]LightingResults: New page: Lighting Build
+[2015.11.27-03.53.21:736][  0]MapCheck: New page: Map Check
+[2015.11.27-03.53.21:736][  0]LightingResults: New page: Lighting Build
+[2015.11.27-03.53.21:748][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F2C97482C0
+[2015.11.27-03.53.22:021][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2015.11.27-03.53.22:021][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2015.11.27-03.53.22:021][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.27-03.53.22:021][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2015.11.27-03.53.22:021][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2015.11.27-03.53.22:021][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2015.11.27-03.53.22:025][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0007.29] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 9 ms]
+[2015.11.27-03.53.22:025][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0007.29] Compile of Ue4ASP_Character successful, but with 7 Warning(s) [in 0 ms]
+[2015.11.27-03.53.22:025][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0007.29] Compile of Ue4ASP_Character successful, but with 8 Warning(s) [in 0 ms]
+[2015.11.27-03.53.22:070][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2015.11.27-03.53.22:071][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2015.11.27-03.53.22:071][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.27-03.53.22:071][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2015.11.27-03.53.22:072][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2015.11.27-03.53.22:072][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2015.11.27-03.53.22:076][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0007.34] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 11 ms]
+[2015.11.27-03.53.22:076][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0007.34] Compile of Ue4ASP_Character successful, but with 7 Warning(s) [in 0 ms]
+[2015.11.27-03.53.22:077][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0007.34] Compile of Ue4ASP_Character successful, but with 8 Warning(s) [in 0 ms]
+[2015.11.27-03.53.22:753][  0]LogBlueprint:Warning: ExposeOnSpawn ambiguity. Property 'IntProperty /Game/Blueprints/BP_CardMem.BP_CardMem_C:CardIType', MetaData 'True', Flag 'False'
+[2015.11.27-03.53.23:079][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /LeapMotion/Character/Basic/BasicCharacter_AnimBlueprint.BasicCharacter_AnimBlueprint_C:AnimGraphNode_Fabrik_8C904C7A415FB588652E8A91FDC811AE'. Unknown structure.
+[2015.11.27-03.53.23:079][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /LeapMotion/Character/Basic/BasicCharacter_AnimBlueprint.BasicCharacter_AnimBlueprint_C:AnimGraphNode_Fabrik_416EC86F435836563C4E49AD6D016C3C'. Unknown structure.
+[2015.11.27-03.53.23:081][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /LeapMotion/Character/Basic/BasicCharacter_AnimBlueprint.BasicCharacter_AnimBlueprint_C:AnimGraphNode_Fabrik_9FF4326C4CAD2373B92D6F9E3AC3F57A'. Unknown structure.
+[2015.11.27-03.53.23:082][  0]LogAnimation:Warning: Invalid animation root node index 54 on '/LeapMotion/Character/Basic/BasicCharacter_AnimBlueprint.BasicCharacter_AnimBlueprint_C' (only 52 nodes)
+[2015.11.27-03.53.27:207][  0]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: bValidRootIndex [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Runtime\Engine\Private\Animation\AnimBlueprintGeneratedClass.cpp] [Line: 234]
+
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:175]
+UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\private\misc\outputdevice.cpp:258]
+UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\private\misc\outputdevice.cpp:368]
+UE4Editor-Engine.dll!UAnimBlueprintGeneratedClass::Link() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\engine\private\animation\animblueprintgeneratedclass.cpp:234]
+UE4Editor-CoreUObject.dll!UClass::Serialize() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\class.cpp:3393]
+UE4Editor-Engine.dll!UBlueprintGeneratedClass::Serialize() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\engine\private\blueprintgeneratedclass.cpp:757]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Preload() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3143]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3792]
+UE4Editor-CoreUObject.dll!FLinkerLoad::IndexToObject() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3982]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3505]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExportAndPreload() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2661]
+UE4Editor-CoreUObject.dll!FLinkerLoad::LoadAllObjects() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2769]
+UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1032]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2354]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2402]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Verify() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1905]
+UE4Editor-CoreUObject.dll!FLinkerLoad::FinalizeCreation() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1815]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:666]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:404]
+UE4Editor-CoreUObject.dll!GetPackageLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linker.cpp:570]
+UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:936]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2354]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2402]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3926]
+UE4Editor-CoreUObject.dll!FLinkerLoad::ResolveAllImports() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\blueprint\blueprintsupport.cpp:1026]
+UE4Editor-CoreUObject.dll!FLinkerLoad::FinalizeBlueprint() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\blueprint\blueprintsupport.cpp:1103]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Preload() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3190]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3792]
+UE4Editor-CoreUObject.dll!FLinkerLoad::IndexToObject() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3982]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3505]
+UE4Editor-CoreUObject.dll!FLinkerLoad::IndexToObject() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3982]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3505]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExportAndPreload() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2661]
+UE4Editor-CoreUObject.dll!FLinkerLoad::LoadAllObjects() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2769]
+UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1032]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2354]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2402]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Verify() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1905]
+UE4Editor-CoreUObject.dll!FLinkerLoad::FinalizeCreation() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1815]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:666]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:404]
+UE4Editor-CoreUObject.dll!GetPackageLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linker.cpp:570]
+UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:936]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2354]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2402]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Verify() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1905]
+UE4Editor-CoreUObject.dll!FLinkerLoad::FinalizeCreation() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1815]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:666]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:404]
+UE4Editor-CoreUObject.dll!GetPackageLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linker.cpp:570]
+UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:936]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2354]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2402]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Verify() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1905]
+UE4Editor-CoreUObject.dll!FLinkerLoad::FinalizeCreation() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1815]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:666]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:404]
+UE4Editor-CoreUObject.dll!GetPackageLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linker.cpp:570]
+UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:936]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2354]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2402]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Verify() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1905]
+UE4Editor-CoreUObject.dll!FLinkerLoad::FinalizeCreation() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1815]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:666]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:404]
+UE4Editor-CoreUObject.dll!GetPackageLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linker.cpp:570]
+UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:936]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2354]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2402]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2402]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Verify() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1905]
+UE4Editor-CoreUObject.dll!FLinkerLoad::FinalizeCreation() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1815]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:666]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:404]
+UE4Editor-CoreUObject.dll!GetPackageLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linker.cpp:570]
+UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:936]
+UE4Editor-UnrealEd.dll
+[2015.11.27-03.53.27:530][  0]LogAnimation:Warning: Invalid animation root node index 54 on '/LeapMotion/Character/Basic/BasicCharacter_AnimBlueprint.BasicCharacter_AnimBlueprint_C' (only 52 nodes)
+[2015.11.27-03.53.27:846][  0]LogAnimation:Warning: Invalid animation root node index 54 on '/Engine/Transient.REINST_BasicCharacter_AnimBlueprint_C_2' (only 52 nodes)
+[2015.11.27-03.53.27:979][  0]LogClass:Warning: Property AnimGraphNode_Fabrik_8C904C7A415FB588652E8A91FDC811AE of BasicCharacter_AnimBlueprint_C has a struct type mismatch (tag FallbackStruct != prop AnimNode_Fabrik) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2015.11.27-03.53.27:979][  0]LogClass:Warning: Property AnimGraphNode_Fabrik_416EC86F435836563C4E49AD6D016C3C of BasicCharacter_AnimBlueprint_C has a struct type mismatch (tag FallbackStruct != prop AnimNode_Fabrik) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2015.11.27-03.53.27:979][  0]LogClass:Warning: Property AnimGraphNode_Fabrik_9FF4326C4CAD2373B92D6F9E3AC3F57A of BasicCharacter_AnimBlueprint_C has a struct type mismatch (tag FallbackStruct != prop AnimNode_Fabrik) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2015.11.27-03.53.28:268][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2015.11.27-03.53.28:268][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2015.11.27-03.53.28:268][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2015.11.27-03.53.28:269][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2015.11.27-03.53.28:269][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.27-03.53.28:269][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2015.11.27-03.53.28:269][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2015.11.27-03.53.28:274][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0013.54] Compile of LeapBasicRiggedCharacter successful, but with 7 Warning(s) [in 13 ms]
+[2015.11.27-03.53.28:274][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0013.54] Compile of LeapBasicRiggedCharacter successful, but with 8 Warning(s) [in 0 ms]
+[2015.11.27-03.53.28:274][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0013.54] Compile of LeapBasicRiggedCharacter successful, but with 9 Warning(s) [in 0 ms]
+[2015.11.27-03.53.28:795][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2015.11.27-03.53.28:795][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2015.11.27-03.53.28:796][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2015.11.27-03.53.28:796][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2015.11.27-03.53.28:796][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.27-03.53.28:796][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2015.11.27-03.53.28:797][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2015.11.27-03.53.28:801][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0014.06] Compile of LeapBasicRiggedCharacter successful, but with 7 Warning(s) [in 14 ms]
+[2015.11.27-03.53.28:802][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0014.06] Compile of LeapBasicRiggedCharacter successful, but with 8 Warning(s) [in 0 ms]
+[2015.11.27-03.53.28:802][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0014.06] Compile of LeapBasicRiggedCharacter successful, but with 9 Warning(s) [in 0 ms]
+[2015.11.27-03.53.30:236][  0]LogAIModule: Creating AISystem for world MemoryCardEntry
+[2015.11.27-03.53.30:237][  0]LogMaterial:Warning: Material /Game/Assets/Materials/M_GameBoard.M_GameBoard needed to have new flag set bUsedWithStaticLighting !
+[2015.11.27-03.53.30:238][  0]LogMaterial: Missing cached shader map for material M_GameBoard, compiling. 
+[2015.11.27-03.53.30:248][  0]MapCheck:Warning: Warning M_GameBoard Material /Game/Assets/Materials/M_GameBoard.M_GameBoard was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2015.11.27-03.53.30:248][  0]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.27-03.53.30:248][  0]LogMaterial:Warning: Material /Game/Assets/Materials/M_Background.M_Background needed to have new flag set bUsedWithStaticLighting !
+[2015.11.27-03.53.30:251][  0]LogMaterial: Missing cached shader map for material M_Background, compiling. 
+[2015.11.27-03.53.30:255][  0]MapCheck:Warning: Warning M_Background Material /Game/Assets/Materials/M_Background.M_Background was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2015.11.27-03.53.30:255][  0]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.27-03.53.30:355][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_1.Lamp
+Current X=-3190.000000 Y=-3790.000000 Z=-410.000000 Cached X=-2979.135010 Y=-3602.358154 Z=-130.207977
+[2015.11.27-03.53.30:362][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_4.Lamp
+Current X=-3420.000000 Y=-5630.000000 Z=-450.000000 Cached X=-3009.345459 Y=-5617.249023 Z=-155.468170
+[2015.11.27-03.53.30:364][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_5.Lamp
+Current X=-3580.000000 Y=-6800.000000 Z=-460.000000 Cached X=-2990.000000 Y=-6680.000000 Z=-220.000000
+[2015.11.27-03.53.30:367][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_17476.Lamp
+Current X=-3440.000000 Y=-8064.000000 Z=-420.000000 Cached X=-3060.000732 Y=-7644.000000 Z=-130.000000
+[2015.11.27-03.53.30:371][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse2_53317.Lamp
+Current X=-2110.000000 Y=-7980.000000 Z=-420.000000 Cached X=-2300.000000 Y=-7570.000000 Z=-70.000000
+[2015.11.27-03.53.30:374][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse3_77062.Lamp
+Current X=-750.000000 Y=-8140.000000 Z=-410.000000 Cached X=-919.999634 Y=-7560.000000 Z=-190.000000
+[2015.11.27-03.53.30:377][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.27-03.53.30:377][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.27-03.53.30:593][  0]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 215.826ms to complete.
+[2015.11.27-03.53.30:600][  0]LogFileHelpers: Loading map 'MemoryCardEntry' took 8.871
+[2015.11.27-03.53.30:724][  0]LogCollectionManager: Loaded 0 collections in 0.003552 seconds
+[2015.11.27-03.53.30:773][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croda/Documents/Unreal Projects/SantaSearch/Saved/Collections/' took 0.01s
+[2015.11.27-03.53.30:773][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croda/Documents/Unreal Projects/SantaSearch/Content/Developers/croda/Collections/' took 0.01s
+[2015.11.27-03.53.30:773][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croda/Documents/Unreal Projects/SantaSearch/Content/Collections/' took 0.01s
+[2015.11.27-03.53.30:773][  0]LogContentBrowser: Native class hierarchy populated in 0.0127 seconds. Added 1919 classes and 342 folders.
+[2015.11.27-03.53.30:781][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.11.27-03.53.30:791][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.11.27-03.53.30:867][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.11.27-03.53.30:881][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2015.11.27-03.53.30:988][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.27-03.53.30:994][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.27-03.53.31:019][  0]LogLoad: Full Startup: 16.28 seconds (BP compile: 1.27 seconds)
+[2015.11.27-03.53.31:182][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.27-03.53.31:334][  0]LogRenderer: Reallocating scene render targets to support 876x576 (Frame:2).
+[2015.11.27-03.53.31:423][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.11.27-03.53.31:442][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/croda/Documents/Unreal Projects/SantaSearch/Content/' took 0.39s
+[2015.11.27-03.53.31:992][ 13]LogAssetRegistry: Asset discovery search completed in 12.9475 seconds
+[2015.11.27-03.53.31:992][ 13]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2015.11.27-03.53.31:992][ 13]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000043 seconds (updated 0 objects)
+[2015.11.27-03.53.37:777][354]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.27-03.53.38:407][354]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 107 classes and 0 folders.
+[2015.11.27-03.53.38:899][354]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2015.11.27-03.53.53:388][198]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.27-03.53.58:109][469]LogSavePackage: Save=129.119537ms
+[2015.11.27-03.53.58:110][469]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/AutoHouseA4B7B6D3456663AF358814BFAD7F7B26.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset'
+[2015.11.27-03.53.58:112][469]LogSavePackage: Total save time: 149.107441ms
+[2015.11.27-03.53.58:112][469]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/TopDownCity/Houses/AutoHouse.uasset
+[2015.11.27-03.53.58:692][504]BlueprintLog: New page: Compile AutoHouse
+[2015.11.27-03.53.58:853][504]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_0.Lamp
+Current X=-2110.000000 Y=-7980.000000 Z=-420.000000 Cached X=-2300.000000 Y=-7570.000000 Z=-70.000000
+[2015.11.27-03.53.58:856][504]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_2.Lamp
+Current X=-750.000000 Y=-8140.000000 Z=-410.000000 Cached X=-919.999695 Y=-7560.000000 Z=-190.000000
+[2015.11.27-03.53.58:858][504]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_6.Lamp
+Current X=-3440.000000 Y=-8064.000000 Z=-420.000000 Cached X=-3060.000732 Y=-7644.000000 Z=-130.000000
+[2015.11.27-03.53.58:860][504]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_7.Lamp
+Current X=-3190.000000 Y=-3790.000000 Z=-410.000000 Cached X=-2979.135010 Y=-3602.358154 Z=-130.207977
+[2015.11.27-03.53.58:865][504]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_9.Lamp
+Current X=-3420.000000 Y=-5630.000000 Z=-450.000000 Cached X=-3009.345459 Y=-5617.249023 Z=-155.468170
+[2015.11.27-03.53.58:866][504]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_10.Lamp
+Current X=-3580.000000 Y=-6800.000000 Z=-460.000000 Cached X=-2990.000000 Y=-6680.000000 Z=-220.000000
+[2015.11.27-03.53.58:868][504]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.27-03.53.58:991][504]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.27-03.53.59:019][504]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.27-03.53.59:046][504]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_0.Lamp
+Current X=-2110.000000 Y=-7980.000000 Z=-420.000000 Cached X=-2300.000000 Y=-7570.000000 Z=-70.000000
+[2015.11.27-03.53.59:049][504]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_2.Lamp
+Current X=-750.000000 Y=-8140.000000 Z=-410.000000 Cached X=-919.999695 Y=-7560.000000 Z=-190.000000
+[2015.11.27-03.53.59:051][504]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_6.Lamp
+Current X=-3440.000000 Y=-8064.000000 Z=-420.000000 Cached X=-3060.000732 Y=-7644.000000 Z=-130.000000
+[2015.11.27-03.53.59:053][504]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_7.Lamp
+Current X=-3190.000000 Y=-3790.000000 Z=-410.000000 Cached X=-2979.135010 Y=-3602.358154 Z=-130.207977
+[2015.11.27-03.53.59:059][504]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_9.Lamp
+Current X=-3420.000000 Y=-5630.000000 Z=-450.000000 Cached X=-3009.345459 Y=-5617.249023 Z=-155.468170
+[2015.11.27-03.53.59:061][504]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_10.Lamp
+Current X=-3580.000000 Y=-6800.000000 Z=-460.000000 Cached X=-2990.000000 Y=-6680.000000 Z=-220.000000
+[2015.11.27-03.53.59:065][504]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.27-03.53.59:066][504]BlueprintEditorCompileResults: Info [0044.33] Compile of AutoHouse successful! [in 373 ms]
+[2015.11.27-03.53.59:091][504]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AutoHouse', cached variable property's owner is '/Game/Assets/TopDownCity/Houses/AutoHouse.SKEL_AutoHouse_C'
+[2015.11.27-03.54.44:207][207]MapCheck: New page: Map Check
+[2015.11.27-03.54.44:235][207]Cmd: MAP REBUILD ALLVISIBLE
+[2015.11.27-03.54.44:235][207]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.11.27-03.54.44:349][207]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_0.Lamp
+Current X=-2110.000000 Y=-7980.000000 Z=-420.000000 Cached X=-2300.000000 Y=-7570.000000 Z=-70.000000
+[2015.11.27-03.54.44:352][207]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_2.Lamp
+Current X=-750.000000 Y=-8140.000000 Z=-410.000000 Cached X=-919.999695 Y=-7560.000000 Z=-190.000000
+[2015.11.27-03.54.44:354][207]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_6.Lamp
+Current X=-3440.000000 Y=-8064.000000 Z=-420.000000 Cached X=-3060.000732 Y=-7644.000000 Z=-130.000000
+[2015.11.27-03.54.44:356][207]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_7.Lamp
+Current X=-3190.000000 Y=-3790.000000 Z=-410.000000 Cached X=-2979.135010 Y=-3602.358154 Z=-130.207977
+[2015.11.27-03.54.44:363][207]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_9.Lamp
+Current X=-3420.000000 Y=-5630.000000 Z=-450.000000 Cached X=-3009.345459 Y=-5617.249023 Z=-155.468170
+[2015.11.27-03.54.44:365][207]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_10.Lamp
+Current X=-3580.000000 Y=-6800.000000 Z=-460.000000 Cached X=-2990.000000 Y=-6680.000000 Z=-220.000000
+[2015.11.27-03.54.44:394][207]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F3814ED620
+[2015.11.27-03.54.44:400][207]MapCheck:Warning: Warning WorldInfo_0 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.11.27-03.54.44:400][207]LogStats:          STAT_HLOD_BuildClusters - 34.488 ms
+[2015.11.27-03.54.44:418][207]LightingResults: New page: Lighting Build - Nov 26, 2015, 5:54:44 PM
+[2015.11.27-03.54.48:525][207]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.11.27-03.54.48:526][207]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.11.27-03.54.48:526][207]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.11.27-03.54.48:526][207]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.11.27-03.54.48:526][207]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.11.27-03.54.48:718][207]LogEditorBuildUtils: Build time 0:00:04
+[2015.11.27-03.54.48:752][208]Cmd: UpdateLandscapeEditorData
+[2015.11.27-03.54.59:821][826]Job is a success!
+[2015.11.27-03.55.00:284][827]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.11.27-03.55.00:624][827]LogTexture:Display: Building textures: LQ_Lightmap_1_21 (DXT1)
+[2015.11.27-03.55.00:625][827]LogTexture:Display: Building textures: HQ_Lightmap1_21 (AutoDXT)
+[2015.11.27-03.55.00:628][827]LogTexture:Display: Building textures: LQ_Lightmap_1_20 (DXT1)
+[2015.11.27-03.55.00:637][827]LogTexture:Display: Building textures: HQ_Lightmap1_20 (AutoDXT)
+[2015.11.27-03.55.00:650][827]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1)
+[2015.11.27-03.55.00:660][827]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT)
+[2015.11.27-03.55.00:674][827]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
+[2015.11.27-03.55.00:684][827]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
+[2015.11.27-03.55.00:698][827]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
+[2015.11.27-03.55.00:708][827]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
+[2015.11.27-03.55.00:723][827]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
+[2015.11.27-03.55.00:729][827]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
+[2015.11.27-03.55.00:742][827]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2015.11.27-03.55.00:751][827]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2015.11.27-03.55.00:763][827]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
+[2015.11.27-03.55.00:770][827]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2015.11.27-03.55.00:780][827]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
+[2015.11.27-03.55.00:790][827]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
+[2015.11.27-03.55.00:804][827]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2015.11.27-03.55.00:814][827]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2015.11.27-03.55.00:832][827]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2015.11.27-03.55.00:837][827]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2015.11.27-03.55.00:852][827]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2015.11.27-03.55.00:859][827]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2015.11.27-03.55.00:872][827]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2015.11.27-03.55.00:879][827]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2015.11.27-03.55.00:891][827]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2015.11.27-03.55.00:899][827]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2015.11.27-03.55.00:911][827]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.11.27-03.55.00:917][827]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.11.27-03.55.00:932][827]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.11.27-03.55.00:942][827]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.11.27-03.55.00:955][827]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.11.27-03.55.00:963][827]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.11.27-03.55.00:977][827]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.11.27-03.55.01:038][827]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.11.27-03.55.01:122][827]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.11.27-03.55.01:190][827]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.11.27-03.55.01:318][827]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.11.27-03.55.01:419][827]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.11.27-03.55.01:571][827]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.11.27-03.55.01:902][827]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2015.11.27-03.55.01:959][827]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2015.11.27-03.55.01:997][827]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2015.11.27-03.55.02:036][827]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
+[2015.11.27-03.55.02:090][827]Lightmass on CRODAWIN10: 12.2 sec total, 327 ms importing, 246 ms setup, 364 ms photons, 11.2 sec processing, 0 ms extra exporting [38/38 mappings]. Threads: 1:18 min total, 43.0 sec processing.
+[2015.11.27-03.55.02:135][827]LogStaticLightingSystem: Illumination: 17.6 sec (1.92 sec encoding lightmaps)
+[2015.11.27-03.55.02:135][827]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 42 textures
+[2015.11.27-03.55.02:135][827]LogStaticLightingSystem: Shadowmap texture memory: 1.2 MB (1.2 MB streaming, 0.0 MB non-streaming), 4 textures
+[2015.11.27-03.55.02:537][828]Cmd: UpdateLandscapeEditorData
+[2015.11.27-03.55.02:538][828]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.11.27-03.55.02:538][828]MapCheck: New page: MemoryCardEntry - Nov 26, 2015, 5:55:02 PM
+[2015.11.27-03.55.02:729][828]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 191.061ms to complete.
+[2015.11.27-03.55.14:347][525]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/MemoryCardEntry.HQ_Lightmap1_17. Streaming mips will be recached.
+[2015.11.27-03.55.14:350][525]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT)
+[2015.11.27-03.55.58:867][783]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.27-03.55.59:116][784]Cmd: QUIT_EDITOR
+[2015.11.27-03.55.59:423][784]LogExit: Preparing to exit.
+[2015.11.27-03.56.00:187][784]LogExit: Editor shut down
+[2015.11.27-03.56.00:187][784]LogExit: Transaction tracking system shut down
+[2015.11.27-03.56.00:196][784]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F3709B1940
+[2015.11.27-03.56.00:197][784]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F37088B920
+[2015.11.27-03.56.00:197][784]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F377A42480
+[2015.11.27-03.56.00:197][784]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F38161B380
+[2015.11.27-03.56.00:200][784]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F3A3032D40
+[2015.11.27-03.56.00:228][784]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.27-03.56.00:256][784]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.27-03.56.00:468][784]LogExit: Object subsystem successfully closed.
+[2015.11.27-03.56.00:482][784]LogD3D11RHI: Shutdown
+[2015.11.27-03.56.00:482][784]LogD3D11RHI: CleanupD3DDevice
+[2015.11.27-03.56.00:550][784]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.27-03.56.00:567][784]LogModuleManager: Shutting down and abandoning module TextureEditor (202)
+[2015.11.27-03.56.00:567][784]LogModuleManager: Shutting down and abandoning module BlueprintGraph (201)
+[2015.11.27-03.56.00:567][784]LogModuleManager: Shutting down and abandoning module CrashTracker (200)
+[2015.11.27-03.56.00:567][784]LogModuleManager: Shutting down and abandoning module SceneOutliner (199)
+[2015.11.27-03.56.00:567][784]LogModuleManager: Shutting down and abandoning module SuperSearch (198)
+[2015.11.27-03.56.00:567][784]LogModuleManager: Shutting down and abandoning module WidgetCarousel (197)
+[2015.11.27-03.56.00:567][784]LogModuleManager: Shutting down and abandoning module AddContentDialog (196)
+[2015.11.27-03.56.00:570][784]LogModuleManager: Shutting down and abandoning module EditorWidgets (195)
+[2015.11.27-03.56.00:570][784]LogModuleManager: Shutting down and abandoning module CollectionManager (194)
+[2015.11.27-03.56.00:571][784]LogModuleManager: Shutting down and abandoning module StatsViewer (193)
+[2015.11.27-03.56.00:571][784]LogModuleManager: Shutting down and abandoning module FoliageEdit (192)
+[2015.11.27-03.56.00:571][784]LogModuleManager: Shutting down and abandoning module LandscapeEditor (191)
+[2015.11.27-03.56.00:571][784]LogModuleManager: Shutting down and abandoning module ActorPickerMode (190)
+[2015.11.27-03.56.00:571][784]LogModuleManager: Shutting down and abandoning module GeometryMode (189)
+[2015.11.27-03.56.00:571][784]LogModuleManager: Shutting down and abandoning module TextureAlignMode (188)
+[2015.11.27-03.56.00:571][784]LogModuleManager: Shutting down and abandoning module BspMode (187)
+[2015.11.27-03.56.00:571][784]LogModuleManager: Shutting down and abandoning module PlacementMode (186)
+[2015.11.27-03.56.00:571][784]LogModuleManager: Shutting down and abandoning module AutomationWorker (185)
+[2015.11.27-03.56.00:571][784]LogModuleManager: Shutting down and abandoning module HoudiniEngineEditor (184)
+[2015.11.27-03.56.00:571][784]LogHoudiniEngineEditor: Shutting down the Houdini Engine Editor module.
+[2015.11.27-03.56.00:571][784]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2015.11.27-03.56.00:571][784]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2015.11.27-03.56.00:571][784]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2015.11.27-03.56.00:571][784]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2015.11.27-03.56.00:571][784]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2015.11.27-03.56.00:571][784]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2015.11.27-03.56.00:571][784]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2015.11.27-03.56.00:571][784]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2015.11.27-03.56.00:571][784]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2015.11.27-03.56.00:571][784]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2015.11.27-03.56.01:518][784]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2015.11.27-03.56.01:518][784]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2015.11.27-03.56.01:518][784]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2015.11.27-03.56.01:518][784]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2015.11.27-03.56.01:518][784]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2015.11.27-03.56.01:518][784]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2015.11.27-03.56.01:518][784]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2015.11.27-03.56.01:518][784]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2015.11.27-03.56.01:518][784]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2015.11.27-03.56.01:518][784]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2015.11.27-03.56.01:518][784]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2015.11.27-03.56.01:518][784]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2015.11.27-03.56.01:518][784]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2015.11.27-03.56.01:518][784]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2015.11.27-03.56.01:519][784]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2015.11.27-03.56.01:519][784]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2015.11.27-03.56.01:519][784]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2015.11.27-03.56.01:519][784]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2015.11.27-03.56.01:519][784]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2015.11.27-03.56.01:519][784]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2015.11.27-03.56.01:519][784]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2015.11.27-03.56.01:519][784]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2015.11.27-03.56.01:519][784]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2015.11.27-03.56.01:519][784]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2015.11.27-03.56.01:519][784]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2015.11.27-03.56.01:519][784]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2015.11.27-03.56.01:519][784]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2015.11.27-03.56.01:519][784]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2015.11.27-03.56.01:519][784]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2015.11.27-03.56.01:519][784]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2015.11.27-03.56.01:519][784]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2015.11.27-03.56.01:519][784]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2015.11.27-03.56.01:520][784]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2015.11.27-03.56.01:520][784]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2015.11.27-03.56.01:520][784]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2015.11.27-03.56.01:520][784]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2015.11.27-03.56.01:520][784]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2015.11.27-03.56.01:520][784]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2015.11.27-03.56.01:520][784]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2015.11.27-03.56.01:520][784]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2015.11.27-03.56.01:520][784]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2015.11.27-03.56.01:520][784]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2015.11.27-03.56.01:520][784]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2015.11.27-03.56.01:520][784]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2015.11.27-03.56.01:520][784]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2015.11.27-03.56.01:520][784]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2015.11.27-03.56.01:520][784]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2015.11.27-03.56.01:520][784]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2015.11.27-03.56.01:520][784]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2015.11.27-03.56.01:520][784]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2015.11.27-03.56.01:606][784]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2015.11.27-03.56.01:606][784]LogModuleManager: Shutting down and abandoning module LeapMotion (122)
+[2015.11.27-03.56.01:618][784]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.11.27-03.56.01:618][784]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.11.27-03.56.01:618][784]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.11.27-03.56.01:618][784]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.11.27-03.56.01:618][784]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2015.11.27-03.56.01:618][784]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2015.11.27-03.56.01:618][784]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.11.27-03.56.01:633][784]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.11.27-03.56.01:633][784]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.11.27-03.56.01:633][784]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.11.27-03.56.01:633][784]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.11.27-03.56.01:633][784]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.11.27-03.56.01:633][784]LogModuleManager: Shutting down and abandoning module HoudiniEngineRuntime (109)
+[2015.11.27-03.56.01:633][784]LogHoudiniEngine: Shutting down the Houdini Engine module.
+[2015.11.27-03.56.01:634][784]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.11.27-03.56.01:634][784]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.11.27-03.56.01:634][784]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.11.27-03.56.01:634][784]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.11.27-03.56.01:634][784]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.11.27-03.56.01:634][784]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.11.27-03.56.01:634][784]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.11.27-03.56.01:634][784]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.11.27-03.56.01:634][784]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.11.27-03.56.01:634][784]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.11.27-03.56.01:634][784]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.11.27-03.56.01:634][784]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.11.27-03.56.01:634][784]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.11.27-03.56.01:634][784]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.11.27-03.56.01:634][784]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.11.27-03.56.01:634][784]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.11.27-03.56.01:634][784]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.11.27-03.56.01:634][784]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.11.27-03.56.01:634][784]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.11.27-03.56.01:635][784]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.11.27-03.56.01:638][784]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.11.27-03.56.01:778][784]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.11.27-03.56.01:779][784]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.11.27-03.56.01:779][784]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.11.27-03.56.01:879][784]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.11.27-03.56.01:879][784]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.11.27-03.56.01:879][784]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.11.27-03.56.01:884][784]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.11.27-03.56.01:884][784]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.11.27-03.56.01:884][784]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.11.27-03.56.01:884][784]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.11.27-03.56.01:884][784]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.11.27-03.56.01:884][784]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.11.27-03.56.01:884][784]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.11.27-03.56.01:885][784]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.11.27-03.56.01:885][784]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.11.27-03.56.01:885][784]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.11.27-03.56.01:885][784]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.11.27-03.56.01:885][784]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.11.27-03.56.01:885][784]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.11.27-03.56.01:885][784]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.11.27-03.56.01:885][784]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.11.27-03.56.01:885][784]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.11.27-03.56.01:888][784]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.11.27-03.56.01:888][784]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.11.27-03.56.01:888][784]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.11.27-03.56.01:888][784]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.11.27-03.56.01:888][784]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.11.27-03.56.01:888][784]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.11.27-03.56.01:888][784]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.11.27-03.56.01:888][784]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.11.27-03.56.01:888][784]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.11.27-03.56.01:888][784]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.11.27-03.56.01:890][784]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.11.27-03.56.01:897][784]LogDerivedDataCache: Shutdown
+[2015.11.27-03.56.01:897][784]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.11.27-03.56.01:897][784]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.11.27-03.56.01:897][784]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.11.27-03.56.01:897][784]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.11.27-03.56.01:897][784]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.11.27-03.56.01:897][784]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.11.27-03.56.01:897][784]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.11.27-03.56.01:897][784]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.11.27-03.56.01:897][784]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.11.27-03.56.01:897][784]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.11.27-03.56.01:897][784]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.11.27-03.56.01:897][784]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.11.27-03.56.01:897][784]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.11.27-03.56.01:897][784]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.11.27-03.56.01:897][784]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.11.27-03.56.01:897][784]LogModul
