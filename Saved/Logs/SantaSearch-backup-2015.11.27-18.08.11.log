@@ -1,0 +1,1294 @@
+﻿[2015.11.27-22.25.01:265][  0]Log file open, 11/27/15 17:25:01
+[2015.11.27-22.25.01:265][  0]LogInit:Display: Running engine for game: SantaSearch
+[2015.11.27-22.25.01:265][  0]LogInit:Display: RandInit(543400037) SRandInit(543400038).
+[2015.11.27-22.25.01:265][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.27-22.25.01:265][  0]LogStats: Stats thread started at 0.105513
+[2015.11.27-22.25.01:265][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.27-22.25.01:265][  0]LogInit: API Version: 2672455
+[2015.11.27-22.25.01:265][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.11.27-22.25.01:265][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.27-22.25.01:265][  0]LogInit: Build Configuration: Development
+[2015.11.27-22.25.01:265][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.27-22.25.01:265][  0]LogInit: Command line:  
+[2015.11.27-22.25.01:265][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.27-22.25.01:265][  0]LogInit: Rocket: 1
+[2015.11.27-22.25.01:278][  0]LogInit: Using libcurl 7.41.0
+[2015.11.27-22.25.01:278][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.27-22.25.01:278][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.27-22.25.01:278][  0]LogInit:  - other features:
+[2015.11.27-22.25.01:278][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.27-22.25.01:278][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.27-22.25.01:278][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.27-22.25.01:278][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.27-22.25.01:278][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.27-22.25.01:278][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.27-22.25.01:278][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.27-22.25.01:278][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.27-22.25.01:278][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.27-22.25.01:278][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.27-22.25.01:285][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.27-22.25.01:290][  0]LogInit: Object subsystem initialized
+[2015.11.27-22.25.01:292][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set ('Scalability' has a lower priority than 'ProjectSetting')
+[2015.11.27-22.25.01:292][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.27-22.25.01:292][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.27-22.25.01:299][  0]LogInit: Computer: CRODAWIN10
+[2015.11.27-22.25.01:299][  0]LogInit: User: croda
+[2015.11.27-22.25.01:299][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.27-22.25.01:299][  0]LogInit: High frequency timer resolution =2.630640 MHz
+[2015.11.27-22.25.01:299][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.11.27-22.25.01:299][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.27-22.25.01:299][  0]LogMemory: Process Physical Memory: 54.19 MB used, 54.19 MB peak
+[2015.11.27-22.25.01:299][  0]LogMemory: Process Virtual Memory: 57.24 MB used, 57.24 MB peak
+[2015.11.27-22.25.01:299][  0]LogMemory: Physical Memory: 3038.75 MB used, 16323.13 MB total
+[2015.11.27-22.25.01:299][  0]LogMemory: Virtual Memory: 366.57 MB used, 134217728.00 MB total
+[2015.11.27-22.25.01:333][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.11.27-22.25.02:077][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA Quadro K5100M (Feature Level 11_0)
+[2015.11.27-22.25.02:077][  0]LogD3D11RHI: Adapter has 8100MB of dedicated video memory, 0MB of dedicated system memory, and 8161MB of shared system memory, 1 output[s]
+[2015.11.27-22.25.02:090][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.27-22.25.02:091][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8161MB of shared system memory, 0 output[s]
+[2015.11.27-22.25.02:091][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.27-22.25.02:094][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.27-22.25.02:094][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.27-22.25.02:111][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.27-22.25.02:137][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Intermediate/Shaders/WorkingDirectory/21308/).
+[2015.11.27-22.25.02:137][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Intermediate/Shaders/tmp/030A1A904A026C90713209B73D5D92FD/'.
+[2015.11.27-22.25.02:137][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.27-22.25.03:671][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.27-22.25.03:676][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.27-22.25.03:681][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.27-22.25.03:686][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.27-22.25.03:691][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.27-22.25.03:695][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.27-22.25.03:698][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.27-22.25.03:702][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.27-22.25.03:705][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.27-22.25.03:708][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.27-22.25.03:712][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.27-22.25.03:716][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.27-22.25.03:716][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.27-22.25.03:744][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.27-22.25.03:747][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.27-22.25.03:750][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.27-22.25.03:755][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.27-22.25.03:755][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.27-22.25.03:921][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.27-22.25.04:086][  0]LogDerivedDataCache: Loaded boot cache 0.17s 42MB C:/Users/croda/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.27-22.25.04:086][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/croda/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.27-22.25.04:086][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.27-22.25.04:087][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.27-22.25.04:087][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.27-22.25.04:087][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.27-22.25.04:223][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.27-22.25.04:235][  0]LogDerivedDataCache: Using Local data cache path C:/Users/croda/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.27-22.25.05:531][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.27-22.25.05:540][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.27-22.25.05:740][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.27-22.25.05:740][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.27-22.25.06:183][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.27-22.25.07:959][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.27-22.25.08:100][  0]LogAssetRegistry: FAssetRegistry took 0.0123 seconds to start up
+[2015.11.27-22.25.08:361][  0]SourceControl: Info Source control is disabled
+[2015.11.27-22.25.08:361][  0]SourceControl: Info Source control is disabled
+[2015.11.27-22.25.08:375][  0]SourceControl: Info Source control is disabled
+[2015.11.27-22.25.08:384][  0]SourceControl: Info Source control is disabled
+[2015.11.27-22.25.08:463][  0]LogHoudiniEngine: Starting the Houdini Engine module.
+[2015.11.27-22.25.08:473][  0]LogHoudiniEngine: Loaded libHAPIL.dll from Registry path C:\Program Files\Side Effects Software\Houdini 15.0.244.16/bin
+[2015.11.27-22.25.08:475][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_logo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.27-22.25.08:479][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_default_material.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.27-22.25.10:270][  0]LogHoudiniEngine: Successfully intialized the Houdini Engine API module.
+[2015.11.27-22.25.10:379][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.27-22.25.10:476][  0]LeapPluginLog: Using LeapPlugin version 0.9.6
+[2015.11.27-22.25.10:481][  0]LogObj: 29100 objects as part of root set at end of initial load.
+[2015.11.27-22.25.10:481][  0]LogUObjectAllocator: 6175176 out of 0 bytes used by permanent object pool.
+[2015.11.27-22.25.10:570][  0]LogEngine: Initializing Engine...
+[2015.11.27-22.25.10:574][  0]OCULUS: Info: 11/27/15 22:25:10: [CAPI] LibOVR module is located at C:\Windows\SYSTEM32\LibOVRRT64_0_7.dll
+
+[2015.11.27-22.25.11:174][  0]OCULUS: Error: 11/27/15 22:25:11: [CAPI] ovr_Create failed to complete within the timeout period.
+[2015.11.27-22.25.11:280][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.27-22.25.11:446][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.27-22.25.11:459][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.27-22.25.11:589][  0]LogInit: FAudioDevice initialized.
+[2015.11.27-22.25.11:708][  0]LogDerivedDataCache: Saved boot cache 0.12s 42MB C:/Users/croda/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.27-22.25.11:712][  0]LogInit: Texture streaming: Enabled
+[2015.11.27-22.25.11:718][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.27-22.25.11:718][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.27-22.25.11:719][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 38384f7f4fe22369eef2c4908fb1257c|6dee01914e174258b8c89718799d58e5|4a372342-4369-4fb5-aabc-8ff6b2bfbeff
+[2015.11.27-22.25.11:719][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.27-22.25.11:793][  0]LogInit: Transaction tracking system initialized
+[2015.11.27-22.25.11:834][  0]BlueprintLog: New page: Editor Load
+[2015.11.27-22.25.11:979][  0]LocalizationService: Info Localization service is disabled
+[2015.11.27-22.25.12:070][  0]LogConsoleResponse:Display: 
+[2015.11.27-22.25.12:252][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.27-22.25.12:290][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croda/Documents/Unreal Projects/SantaSearch/Content/' took 0.02s
+[2015.11.27-22.25.12:291][  0]LogHoudiniEngineEditor: Starting the Houdini Engine Editor module.
+[2015.11.27-22.25.12:366][  0]SourceControl: Info Source control is disabled
+[2015.11.27-22.25.12:367][  0]Cmd: MAP LOAD FILE="../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.27-22.25.12:370][  0]LightingResults: New page: Lighting Build
+[2015.11.27-22.25.12:376][  0]MapCheck: New page: Map Check
+[2015.11.27-22.25.12:376][  0]LightingResults: New page: Lighting Build
+[2015.11.27-22.25.12:391][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000079F00FC2C0
+[2015.11.27-22.25.12:648][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2015.11.27-22.25.12:649][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2015.11.27-22.25.12:649][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.27-22.25.12:649][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2015.11.27-22.25.12:649][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2015.11.27-22.25.12:649][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2015.11.27-22.25.12:652][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0011.92] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 7 ms]
+[2015.11.27-22.25.12:653][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0011.93] Compile of Ue4ASP_Character successful, but with 7 Warning(s) [in 0 ms]
+[2015.11.27-22.25.12:653][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0011.93] Compile of Ue4ASP_Character successful, but with 8 Warning(s) [in 0 ms]
+[2015.11.27-22.25.12:684][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2015.11.27-22.25.12:684][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2015.11.27-22.25.12:684][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.27-22.25.12:684][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2015.11.27-22.25.12:684][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2015.11.27-22.25.12:685][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2015.11.27-22.25.12:687][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0011.96] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 7 ms]
+[2015.11.27-22.25.12:687][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0011.96] Compile of Ue4ASP_Character successful, but with 7 Warning(s) [in 0 ms]
+[2015.11.27-22.25.12:688][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0011.96] Compile of Ue4ASP_Character successful, but with 8 Warning(s) [in 0 ms]
+[2015.11.27-22.25.13:283][  0]LogBlueprint:Warning: ExposeOnSpawn ambiguity. Property 'IntProperty /Game/Blueprints/BP_CardMem.BP_CardMem_C:CardIType', MetaData 'True', Flag 'False'
+[2015.11.27-22.25.13:577][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /LeapMotion/Character/Basic/BasicCharacter_AnimBlueprint.BasicCharacter_AnimBlueprint_C:AnimGraphNode_Fabrik_8C904C7A415FB588652E8A91FDC811AE'. Unknown structure.
+[2015.11.27-22.25.13:577][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /LeapMotion/Character/Basic/BasicCharacter_AnimBlueprint.BasicCharacter_AnimBlueprint_C:AnimGraphNode_Fabrik_416EC86F435836563C4E49AD6D016C3C'. Unknown structure.
+[2015.11.27-22.25.13:578][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /LeapMotion/Character/Basic/BasicCharacter_AnimBlueprint.BasicCharacter_AnimBlueprint_C:AnimGraphNode_Fabrik_9FF4326C4CAD2373B92D6F9E3AC3F57A'. Unknown structure.
+[2015.11.27-22.25.13:579][  0]LogAnimation:Warning: Invalid animation root node index 54 on '/LeapMotion/Character/Basic/BasicCharacter_AnimBlueprint.BasicCharacter_AnimBlueprint_C' (only 52 nodes)
+[2015.11.27-22.25.25:918][  0]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: bValidRootIndex [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Runtime\Engine\Private\Animation\AnimBlueprintGeneratedClass.cpp] [Line: 234]
+
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:175]
+UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\private\misc\outputdevice.cpp:258]
+UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\core\private\misc\outputdevice.cpp:368]
+UE4Editor-Engine.dll!UAnimBlueprintGeneratedClass::Link() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\engine\private\animation\animblueprintgeneratedclass.cpp:234]
+UE4Editor-CoreUObject.dll!UClass::Serialize() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\class.cpp:3393]
+UE4Editor-Engine.dll!UBlueprintGeneratedClass::Serialize() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\engine\private\blueprintgeneratedclass.cpp:757]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Preload() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3143]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3792]
+UE4Editor-CoreUObject.dll!FLinkerLoad::IndexToObject() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3982]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3505]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExportAndPreload() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2661]
+UE4Editor-CoreUObject.dll!FLinkerLoad::LoadAllObjects() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2769]
+UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1032]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2354]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2402]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Verify() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1905]
+UE4Editor-CoreUObject.dll!FLinkerLoad::FinalizeCreation() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1815]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:666]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:404]
+UE4Editor-CoreUObject.dll!GetPackageLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linker.cpp:570]
+UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:936]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2354]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2402]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3926]
+UE4Editor-CoreUObject.dll!FLinkerLoad::ResolveAllImports() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\blueprint\blueprintsupport.cpp:1026]
+UE4Editor-CoreUObject.dll!FLinkerLoad::FinalizeBlueprint() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\blueprint\blueprintsupport.cpp:1103]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Preload() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3190]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3792]
+UE4Editor-CoreUObject.dll!FLinkerLoad::IndexToObject() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3982]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3505]
+UE4Editor-CoreUObject.dll!FLinkerLoad::IndexToObject() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3982]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:3505]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateExportAndPreload() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2661]
+UE4Editor-CoreUObject.dll!FLinkerLoad::LoadAllObjects() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2769]
+UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:1032]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2354]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2402]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Verify() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1905]
+UE4Editor-CoreUObject.dll!FLinkerLoad::FinalizeCreation() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1815]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:666]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:404]
+UE4Editor-CoreUObject.dll!GetPackageLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linker.cpp:570]
+UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:936]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2354]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2402]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Verify() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1905]
+UE4Editor-CoreUObject.dll!FLinkerLoad::FinalizeCreation() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1815]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:666]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:404]
+UE4Editor-CoreUObject.dll!GetPackageLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linker.cpp:570]
+UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:936]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2354]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2402]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Verify() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1905]
+UE4Editor-CoreUObject.dll!FLinkerLoad::FinalizeCreation() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1815]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:666]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:404]
+UE4Editor-CoreUObject.dll!GetPackageLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linker.cpp:570]
+UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:936]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2354]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2402]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Verify() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1905]
+UE4Editor-CoreUObject.dll!FLinkerLoad::FinalizeCreation() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1815]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:666]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:404]
+UE4Editor-CoreUObject.dll!GetPackageLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linker.cpp:570]
+UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:936]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2354]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2402]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImportInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2402]
+UE4Editor-CoreUObject.dll!FLinkerLoad::VerifyImport() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:2115]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Verify() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1905]
+UE4Editor-CoreUObject.dll!FLinkerLoad::FinalizeCreation() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:1815]
+UE4Editor-CoreUObject.dll!FLinkerLoad::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:666]
+UE4Editor-CoreUObject.dll!FLinkerLoad::CreateLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linkerload.cpp:404]
+UE4Editor-CoreUObject.dll!GetPackageLinker() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\linker.cpp:570]
+UE4Editor-CoreUObject.dll!LoadPackageInternal() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.9\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:936]
+UE4Editor-UnrealEd.dll
+[2015.11.27-22.25.26:436][  0]LogAnimation:Warning: Invalid animation root node index 54 on '/LeapMotion/Character/Basic/BasicCharacter_AnimBlueprint.BasicCharacter_AnimBlueprint_C' (only 52 nodes)
+[2015.11.27-22.25.26:705][  0]LogAnimation:Warning: Invalid animation root node index 54 on '/Engine/Transient.REINST_BasicCharacter_AnimBlueprint_C_2' (only 52 nodes)
+[2015.11.27-22.25.26:812][  0]LogClass:Warning: Property AnimGraphNode_Fabrik_8C904C7A415FB588652E8A91FDC811AE of BasicCharacter_AnimBlueprint_C has a struct type mismatch (tag FallbackStruct != prop AnimNode_Fabrik) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2015.11.27-22.25.26:812][  0]LogClass:Warning: Property AnimGraphNode_Fabrik_416EC86F435836563C4E49AD6D016C3C of BasicCharacter_AnimBlueprint_C has a struct type mismatch (tag FallbackStruct != prop AnimNode_Fabrik) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2015.11.27-22.25.26:812][  0]LogClass:Warning: Property AnimGraphNode_Fabrik_9FF4326C4CAD2373B92D6F9E3AC3F57A of BasicCharacter_AnimBlueprint_C has a struct type mismatch (tag FallbackStruct != prop AnimNode_Fabrik) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2015.11.27-22.25.27:051][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2015.11.27-22.25.27:051][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2015.11.27-22.25.27:052][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2015.11.27-22.25.27:052][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2015.11.27-22.25.27:052][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.27-22.25.27:052][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2015.11.27-22.25.27:052][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2015.11.27-22.25.27:055][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0026.33] Compile of LeapBasicRiggedCharacter successful, but with 7 Warning(s) [in 9 ms]
+[2015.11.27-22.25.27:055][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0026.33] Compile of LeapBasicRiggedCharacter successful, but with 8 Warning(s) [in 0 ms]
+[2015.11.27-22.25.27:055][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0026.33] Compile of LeapBasicRiggedCharacter successful, but with 9 Warning(s) [in 0 ms]
+[2015.11.27-22.25.27:486][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2015.11.27-22.25.27:486][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2015.11.27-22.25.27:486][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2015.11.27-22.25.27:486][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2015.11.27-22.25.27:486][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.27-22.25.27:486][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2015.11.27-22.25.27:487][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2015.11.27-22.25.27:491][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0026.76] Compile of LeapBasicRiggedCharacter successful, but with 7 Warning(s) [in 11 ms]
+[2015.11.27-22.25.27:491][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0026.76] Compile of LeapBasicRiggedCharacter successful, but with 8 Warning(s) [in 0 ms]
+[2015.11.27-22.25.27:491][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0026.76] Compile of LeapBasicRiggedCharacter successful, but with 9 Warning(s) [in 0 ms]
+[2015.11.27-22.25.28:589][  0]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT)
+[2015.11.27-22.25.28:603][  0]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
+[2015.11.27-22.25.28:616][  0]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
+[2015.11.27-22.25.28:628][  0]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
+[2015.11.27-22.25.28:643][  0]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT)
+[2015.11.27-22.25.28:657][  0]LogTexture:Display: Building textures: HQ_Lightmap0_26 (AutoDXT)
+[2015.11.27-22.25.28:668][  0]LogTexture:Display: Building textures: HQ_Lightmap0_27 (AutoDXT)
+[2015.11.27-22.25.28:698][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.11.27-22.25.28:976][  0]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2015.11.27-22.25.29:046][  0]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2015.11.27-22.25.29:076][  0]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2015.11.27-22.25.29:092][  0]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2015.11.27-22.25.29:104][  0]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
+[2015.11.27-22.25.29:117][  0]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT)
+[2015.11.27-22.25.29:129][  0]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
+[2015.11.27-22.25.29:142][  0]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT)
+[2015.11.27-22.25.29:156][  0]LogTexture:Display: Building textures: HQ_Lightmap1_18 (AutoDXT)
+[2015.11.27-22.25.29:183][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.11.27-22.25.29:500][  0]LogTexture:Display: Building textures: HQ_Lightmap1_23 (AutoDXT)
+[2015.11.27-22.25.29:516][  0]LogTexture:Display: Building textures: HQ_Lightmap1_25 (AutoDXT)
+[2015.11.27-22.25.29:529][  0]LogTexture:Display: Building textures: HQ_Lightmap1_28 (AutoDXT)
+[2015.11.27-22.25.29:558][  0]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.11.27-22.25.29:946][  0]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.11.27-22.25.30:254][  0]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.11.27-22.25.30:429][  0]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.11.27-22.25.30:549][  0]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2015.11.27-22.25.30:804][  0]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2015.11.27-22.25.30:936][  0]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2015.11.27-22.25.31:659][  0]LogAIModule: Creating AISystem for world MemoryCardEntry
+[2015.11.27-22.25.31:663][  0]LogMaterial:Warning: Material /Game/Assets/Materials/M_GameBoard.M_GameBoard needed to have new flag set bUsedWithStaticLighting !
+[2015.11.27-22.25.31:665][  0]LogMaterial: Missing cached shader map for material M_GameBoard, compiling. 
+[2015.11.27-22.25.31:674][  0]MapCheck:Warning: Warning M_GameBoard Material /Game/Assets/Materials/M_GameBoard.M_GameBoard was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2015.11.27-22.25.31:675][  0]LogMaterial: 0.000346 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.27-22.25.31:675][  0]LogMaterial:Warning: Material /Game/Assets/Materials/M_Background.M_Background needed to have new flag set bUsedWithStaticLighting !
+[2015.11.27-22.25.31:678][  0]LogMaterial: Missing cached shader map for material M_Background, compiling. 
+[2015.11.27-22.25.31:681][  0]MapCheck:Warning: Warning M_Background Material /Game/Assets/Materials/M_Background.M_Background was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2015.11.27-22.25.31:681][  0]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.27-22.25.31:779][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_0.Lamp
+Current X=-2110.000000 Y=-7980.000000 Z=-420.000000 Cached X=-2299.999756 Y=-7570.000000 Z=-70.000000
+[2015.11.27-22.25.31:784][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_1.Lamp
+Current X=-750.000000 Y=-8140.000000 Z=-410.000000 Cached X=-919.999451 Y=-7560.000000 Z=-190.000000
+[2015.11.27-22.25.31:787][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_2.Lamp
+Current X=-3440.000000 Y=-8064.000000 Z=-420.000000 Cached X=-3060.000488 Y=-7644.000488 Z=-130.000000
+[2015.11.27-22.25.31:789][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_3.Lamp
+Current X=-3190.000000 Y=-3790.000000 Z=-410.000000 Cached X=-2979.135010 Y=-3602.358154 Z=-130.207977
+[2015.11.27-22.25.31:795][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_6.Lamp
+Current X=-3420.000000 Y=-5630.000000 Z=-450.000000 Cached X=-3009.345459 Y=-5617.249023 Z=-155.468170
+[2015.11.27-22.25.31:797][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_7.Lamp
+Current X=-3580.000000 Y=-6800.000000 Z=-460.000000 Cached X=-2990.000000 Y=-6680.000000 Z=-220.000000
+[2015.11.27-22.25.31:799][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_9.Lamp
+Current X=1850.000000 Y=-7880.000000 Z=-340.000000 Cached X=1850.000122 Y=-7570.000000 Z=-140.000000
+[2015.11.27-22.25.31:802][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_10.Lamp
+Current X=320.000000 Y=-7760.000000 Z=-380.000000 Cached X=319.999268 Y=-7600.000000 Z=-190.000000
+[2015.11.27-22.25.31:805][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_13.Lamp
+Current X=1020.000000 Y=-7880.000000 Z=-360.000000 Cached X=1020.000122 Y=-7570.000000 Z=-160.000000
+[2015.11.27-22.25.31:807][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.BridgeHouse2.Lamp
+Current X=-500.000000 Y=-4900.000000 Z=-480.000000 Cached X=-509.995850 Y=-4720.000000 Z=247.495605
+[2015.11.27-22.25.31:809][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_15.Lamp
+Current X=2980.000000 Y=-8170.000000 Z=-380.000000 Cached X=2540.000488 Y=-7519.999512 Z=-50.000000
+[2015.11.27-22.25.31:811][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_16.Lamp
+Current X=3260.000000 Y=-6490.000000 Z=-360.000000 Cached X=2660.000732 Y=-6350.000488 Z=-60.000000
+[2015.11.27-22.25.31:814][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_17.Lamp
+Current X=3020.000000 Y=-5120.000000 Z=-320.000000 Cached X=2660.032471 Y=-5130.000000 Z=-40.000000
+[2015.11.27-22.25.31:816][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_18.Lamp
+Current X=3130.000000 Y=-3740.000000 Z=-220.000000 Cached X=2690.000000 Y=-3700.000000 Z=130.000000
+[2015.11.27-22.25.31:818][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.BridgeHouse.Lamp
+Current X=-1320.000000 Y=-4830.000000 Z=-470.000000 Cached X=-1600.000000 Y=-4910.000000 Z=-300.000000
+[2015.11.27-22.25.31:820][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.BridgeHouse3.Lamp
+Current X=310.000000 Y=-4760.000000 Z=-440.000000 Cached X=625.718506 Y=-5082.856934 Z=-207.004379
+[2015.11.27-22.25.31:831][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.27-22.25.31:833][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.27-22.25.32:041][  0]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 207.002ms to complete.
+[2015.11.27-22.25.32:050][  0]LogFileHelpers: Loading map 'MemoryCardEntry' took 19.683
+[2015.11.27-22.25.32:199][  0]LogCollectionManager: Loaded 0 collections in 0.003548 seconds
+[2015.11.27-22.25.32:251][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croda/Documents/Unreal Projects/SantaSearch/Saved/Collections/' took 0.01s
+[2015.11.27-22.25.32:251][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croda/Documents/Unreal Projects/SantaSearch/Content/Developers/croda/Collections/' took 0.01s
+[2015.11.27-22.25.32:251][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croda/Documents/Unreal Projects/SantaSearch/Content/Collections/' took 0.01s
+[2015.11.27-22.25.32:251][  0]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 1919 classes and 342 folders.
+[2015.11.27-22.25.32:264][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000009 seconds
+[2015.11.27-22.25.32:277][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.11.27-22.25.32:421][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.11.27-22.25.32:437][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.11.27-22.25.32:572][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.27-22.25.32:580][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.27-22.25.32:603][  0]LogLoad: Full Startup: 31.87 seconds (BP compile: 1.07 seconds)
+[2015.11.27-22.25.32:723][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.27-22.25.32:896][  0]LogRenderer: Reallocating scene render targets to support 856x576 (Frame:2).
+[2015.11.27-22.25.32:991][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.11.27-22.25.32:995][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/croda/Documents/Unreal Projects/SantaSearch/Content/' took 0.36s
+[2015.11.27-22.25.33:034][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2015.11.27-22.25.33:537][ 12]LogAssetRegistry: Asset discovery search completed in 25.4482 seconds
+[2015.11.27-22.25.33:537][ 12]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000011 seconds (updated 0 objects)
+[2015.11.27-22.25.42:848][568]MapCheck: New page: Map Check
+[2015.11.27-22.25.42:880][568]Cmd: MAP REBUILD ALLVISIBLE
+[2015.11.27-22.25.42:880][568]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.11.27-22.25.43:009][568]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_0.Lamp
+Current X=-2110.000000 Y=-7980.000000 Z=-420.000000 Cached X=-2299.999756 Y=-7570.000000 Z=-70.000000
+[2015.11.27-22.25.43:011][568]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_1.Lamp
+Current X=-750.000000 Y=-8140.000000 Z=-410.000000 Cached X=-919.999451 Y=-7560.000000 Z=-190.000000
+[2015.11.27-22.25.43:014][568]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_2.Lamp
+Current X=-3440.000000 Y=-8064.000000 Z=-420.000000 Cached X=-3060.000488 Y=-7644.000488 Z=-130.000000
+[2015.11.27-22.25.43:016][568]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_3.Lamp
+Current X=-3190.000000 Y=-3790.000000 Z=-410.000000 Cached X=-2979.135010 Y=-3602.358154 Z=-130.207977
+[2015.11.27-22.25.43:022][568]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_6.Lamp
+Current X=-3420.000000 Y=-5630.000000 Z=-450.000000 Cached X=-3009.345459 Y=-5617.249023 Z=-155.468170
+[2015.11.27-22.25.43:024][568]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_7.Lamp
+Current X=-3580.000000 Y=-6800.000000 Z=-460.000000 Cached X=-2990.000000 Y=-6680.000000 Z=-220.000000
+[2015.11.27-22.25.43:026][568]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_9.Lamp
+Current X=1850.000000 Y=-7880.000000 Z=-340.000000 Cached X=1850.000122 Y=-7570.000000 Z=-140.000000
+[2015.11.27-22.25.43:028][568]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_10.Lamp
+Current X=320.000000 Y=-7760.000000 Z=-380.000000 Cached X=319.999329 Y=-7600.000000 Z=-190.000000
+[2015.11.27-22.25.43:031][568]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_13.Lamp
+Current X=1020.000000 Y=-7880.000000 Z=-360.000000 Cached X=1020.000122 Y=-7570.000000 Z=-160.000000
+[2015.11.27-22.25.43:033][568]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.BridgeHouse2.Lamp
+Current X=-500.000000 Y=-4900.000000 Z=-480.000000 Cached X=-509.995850 Y=-4720.000000 Z=247.495605
+[2015.11.27-22.25.43:035][568]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_15.Lamp
+Current X=2980.000000 Y=-8170.000000 Z=-380.000000 Cached X=2540.000488 Y=-7519.999512 Z=-50.000000
+[2015.11.27-22.25.43:037][568]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_16.Lamp
+Current X=3260.000000 Y=-6490.000000 Z=-360.000000 Cached X=2660.000732 Y=-6350.000488 Z=-60.000000
+[2015.11.27-22.25.43:039][568]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_17.Lamp
+Current X=3020.000000 Y=-5120.000000 Z=-320.000000 Cached X=2660.032471 Y=-5130.000000 Z=-40.000000
+[2015.11.27-22.25.43:041][568]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_18.Lamp
+Current X=3130.000000 Y=-3740.000000 Z=-220.000000 Cached X=2690.000000 Y=-3700.000000 Z=130.000000
+[2015.11.27-22.25.43:044][568]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.BridgeHouse.Lamp
+Current X=-1320.000000 Y=-4830.000000 Z=-470.000000 Cached X=-1600.000000 Y=-4910.000000 Z=-300.000000
+[2015.11.27-22.25.43:045][568]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.BridgeHouse3.Lamp
+Current X=310.000000 Y=-4760.000000 Z=-440.000000 Cached X=625.718506 Y=-5082.856934 Z=-207.004379
+[2015.11.27-22.25.43:054][568]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.27-22.25.43:145][568]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.27-22.25.43:166][568]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.27-22.25.43:189][568]MapCheck:Warning: Warning WorldInfo_0 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.11.27-22.25.43:189][568]LogStats:          STAT_HLOD_BuildClusters - 135.033 ms
+[2015.11.27-22.25.43:190][568]LightingResults: New page: Lighting Build - Nov 27, 2015, 12:25:43 PM
+[2015.11.27-22.25.43:200][568]LightingResults:Warning: Warning InstancedFoliageActor_0 Instanced meshes don't yet support unique static lighting for each LOD, lighting on LOD 1+ may be incorrect
+[2015.11.27-22.25.46:586][568]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.11.27-22.25.46:586][568]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.11.27-22.25.46:586][568]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.11.27-22.25.46:586][568]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.11.27-22.25.46:586][568]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.11.27-22.25.46:751][568]LogEditorBuildUtils: Build time 0:00:03
+[2015.11.27-22.25.46:779][569]Cmd: UpdateLandscapeEditorData
+[2015.11.27-22.26.10:211][923]Job is a success!
+[2015.11.27-22.26.11:116][924]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.11.27-22.26.11:386][924]LogTexture:Display: Building textures: LQ_Lightmap_1_28 (DXT1)
+[2015.11.27-22.26.11:394][924]LogTexture:Display: Building textures: HQ_Lightmap1_28 (AutoDXT)
+[2015.11.27-22.26.11:407][924]LogTexture:Display: Building textures: LQ_Lightmap_0_27 (DXT1)
+[2015.11.27-22.26.11:418][924]LogTexture:Display: Building textures: HQ_Lightmap0_27 (AutoDXT)
+[2015.11.27-22.26.11:430][924]LogTexture:Display: Building textures: LQ_Lightmap_0_26 (DXT1)
+[2015.11.27-22.26.11:440][924]LogTexture:Display: Building textures: HQ_Lightmap0_26 (AutoDXT)
+[2015.11.27-22.26.11:454][924]LogTexture:Display: Building textures: LQ_Lightmap_1_25 (DXT1)
+[2015.11.27-22.26.11:464][924]LogTexture:Display: Building textures: HQ_Lightmap1_25 (AutoDXT)
+[2015.11.27-22.26.11:477][924]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1)
+[2015.11.27-22.26.11:482][924]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT)
+[2015.11.27-22.26.11:494][924]LogTexture:Display: Building textures: LQ_Lightmap_1_23 (DXT1)
+[2015.11.27-22.26.11:500][924]LogTexture:Display: Building textures: HQ_Lightmap1_23 (AutoDXT)
+[2015.11.27-22.26.11:512][924]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
+[2015.11.27-22.26.11:520][924]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
+[2015.11.27-22.26.11:533][924]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1)
+[2015.11.27-22.26.11:544][924]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
+[2015.11.27-22.26.11:556][924]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
+[2015.11.27-22.26.11:563][924]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
+[2015.11.27-22.26.11:575][924]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1)
+[2015.11.27-22.26.11:589][924]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT)
+[2015.11.27-22.26.11:601][924]LogTexture:Display: Building textures: LQ_Lightmap_1_18 (DXT1)
+[2015.11.27-22.26.11:613][924]LogTexture:Display: Building textures: HQ_Lightmap1_18 (AutoDXT)
+[2015.11.27-22.26.11:625][924]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1)
+[2015.11.27-22.26.11:637][924]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT)
+[2015.11.27-22.26.11:651][924]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
+[2015.11.27-22.26.11:662][924]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
+[2015.11.27-22.26.11:674][924]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1)
+[2015.11.27-22.26.11:683][924]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT)
+[2015.11.27-22.26.11:695][924]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1)
+[2015.11.27-22.26.11:707][924]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
+[2015.11.27-22.26.11:720][924]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
+[2015.11.27-22.26.11:726][924]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2015.11.27-22.26.11:740][924]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
+[2015.11.27-22.26.11:750][924]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2015.11.27-22.26.11:763][924]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2015.11.27-22.26.11:781][924]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2015.11.27-22.26.11:819][924]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2015.11.27-22.26.11:864][924]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2015.11.27-22.26.11:935][924]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2015.11.27-22.26.11:985][924]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2015.11.27-22.26.12:075][924]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2015.11.27-22.26.12:159][924]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2015.11.27-22.26.12:290][924]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2015.11.27-22.26.12:444][924]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2015.11.27-22.26.12:704][924]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2015.11.27-22.26.12:788][924]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.11.27-22.26.12:904][924]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.11.27-22.26.13:011][924]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.11.27-22.26.13:177][924]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.11.27-22.26.13:355][924]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.11.27-22.26.13:669][924]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.11.27-22.26.13:871][924]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.11.27-22.26.14:229][924]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.11.27-22.26.14:396][924]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.11.27-22.26.14:685][924]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.11.27-22.26.14:948][924]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2015.11.27-22.26.15:095][924]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2015.11.27-22.26.15:236][924]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2015.11.27-22.26.15:290][924]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
+[2015.11.27-22.26.15:423][924]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8)
+[2015.11.27-22.26.15:471][924]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8)
+[2015.11.27-22.26.15:505][924]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8)
+[2015.11.27-22.26.15:540][924]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8)
+[2015.11.27-22.26.15:574][924]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8)
+[2015.11.27-22.26.15:587][924]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2015.11.27-22.26.15:591][924]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2015.11.27-22.26.15:595][924]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
+[2015.11.27-22.26.15:647][924]Lightmass on CRODAWIN10: 27.5 sec total, 447 ms importing, 276 ms setup, 675 ms photons, 26.1 sec processing, 0 ms extra exporting [128/128 mappings]. Threads: 3:02 min total, 2:00 min processing.
+[2015.11.27-22.26.15:680][924]LogStaticLightingSystem: Illumination: 32.4 sec (4.96 sec encoding lightmaps)
+[2015.11.27-22.26.15:680][924]LogStaticLightingSystem: Lightmap texture memory:  8.8 MB (8.8 MB streaming, 0.0 MB non-streaming), 56 textures
+[2015.11.27-22.26.15:680][924]LogStaticLightingSystem: Shadowmap texture memory: 5.8 MB (5.8 MB streaming, 0.0 MB non-streaming), 12 textures
+[2015.11.27-22.26.16:603][925]Cmd: UpdateLandscapeEditorData
+[2015.11.27-22.26.16:603][925]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.11.27-22.26.16:603][925]MapCheck: New page: MemoryCardEntry - Nov 27, 2015, 12:26:16 PM
+[2015.11.27-22.26.16:812][925]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 208.9ms to complete.
+[2015.11.27-22.26.58:484][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Landscape/conifer2" FILE="../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/Landscape/conifer2.uasset" SILENT=true
+[2015.11.27-22.26.58:507][170]LogSavePackage: Save=12.318675ms
+[2015.11.27-22.26.58:507][170]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/conifer2BE7312DE42A79173E720E7A44BB10EB5.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/Landscape/conifer2.uasset'
+[2015.11.27-22.26.58:511][170]LogSavePackage: Total save time: 25.594532ms
+[2015.11.27-22.26.58:512][170]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/Landscape/conifer2.uasset
+[2015.11.27-22.27.13:930][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Landscape/Forest" FILE="../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/Landscape/Forest.uasset" SILENT=true
+[2015.11.27-22.27.13:938][858]LogSavePackage: Save=2.168674ms
+[2015.11.27-22.27.13:938][858]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/ForestFC96E3C94A98FD1BB98B97A7411A3163.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/Landscape/Forest.uasset'
+[2015.11.27-22.27.13:942][858]LogSavePackage: Total save time: 11.280905ms
+[2015.11.27-22.27.13:942][858]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/Landscape/Forest.uasset
+[2015.11.27-22.27.25:964][528]LogStaticMesh:Display: Discarded foliage hierarchy of 40 elements build due to concurrent removal (0.0s)
+[2015.11.27-22.27.45:941][609]LogStaticMesh:Display: Discarded foliage hierarchy of 42 elements build due to concurrent removal (0.0s)
+[2015.11.27-22.27.45:941][609]LogStaticMesh:Display: Discarded foliage hierarchy of 8 elements build due to concurrent removal (0.0s)
+[2015.11.27-22.27.47:673][711]LogStaticMesh:Display: Discarded foliage hierarchy of 42 elements build due to concurrent removal (0.0s)
+[2015.11.27-22.27.47:674][711]LogStaticMesh:Display: Discarded foliage hierarchy of 8 elements build due to concurrent removal (0.0s)
+[2015.11.27-22.27.51:902][965]MapCheck: New page: Map Check
+[2015.11.27-22.27.51:917][965]Cmd: MAP REBUILD ALLVISIBLE
+[2015.11.27-22.27.51:917][965]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.11.27-22.27.52:069][965]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_0.Lamp
+Current X=-2110.000000 Y=-7980.000000 Z=-420.000000 Cached X=-2299.999756 Y=-7570.000000 Z=-70.000000
+[2015.11.27-22.27.52:071][965]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_1.Lamp
+Current X=-750.000000 Y=-8140.000000 Z=-410.000000 Cached X=-919.999451 Y=-7560.000000 Z=-190.000000
+[2015.11.27-22.27.52:074][965]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_2.Lamp
+Current X=-3440.000000 Y=-8064.000000 Z=-420.000000 Cached X=-3060.000488 Y=-7644.000488 Z=-130.000000
+[2015.11.27-22.27.52:076][965]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_3.Lamp
+Current X=-3190.000000 Y=-3790.000000 Z=-410.000000 Cached X=-2979.135010 Y=-3602.358154 Z=-130.207977
+[2015.11.27-22.27.52:082][965]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_6.Lamp
+Current X=-3420.000000 Y=-5630.000000 Z=-450.000000 Cached X=-3009.345459 Y=-5617.249023 Z=-155.468170
+[2015.11.27-22.27.52:084][965]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_7.Lamp
+Current X=-3580.000000 Y=-6800.000000 Z=-460.000000 Cached X=-2990.000000 Y=-6680.000000 Z=-220.000000
+[2015.11.27-22.27.52:086][965]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_9.Lamp
+Current X=1850.000000 Y=-7880.000000 Z=-340.000000 Cached X=1850.000122 Y=-7570.000000 Z=-140.000000
+[2015.11.27-22.27.52:089][965]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_10.Lamp
+Current X=320.000000 Y=-7760.000000 Z=-380.000000 Cached X=319.999329 Y=-7600.000000 Z=-190.000000
+[2015.11.27-22.27.52:091][965]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_13.Lamp
+Current X=1020.000000 Y=-7880.000000 Z=-360.000000 Cached X=1020.000122 Y=-7570.000000 Z=-160.000000
+[2015.11.27-22.27.52:094][965]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.BridgeHouse2.Lamp
+Current X=-500.000000 Y=-4900.000000 Z=-480.000000 Cached X=-509.995850 Y=-4720.000000 Z=247.495605
+[2015.11.27-22.27.52:095][965]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_15.Lamp
+Current X=2980.000000 Y=-8170.000000 Z=-380.000000 Cached X=2540.000488 Y=-7519.999512 Z=-50.000000
+[2015.11.27-22.27.52:097][965]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_16.Lamp
+Current X=3260.000000 Y=-6490.000000 Z=-360.000000 Cached X=2660.000732 Y=-6350.000488 Z=-60.000000
+[2015.11.27-22.27.52:099][965]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_17.Lamp
+Current X=3020.000000 Y=-5120.000000 Z=-320.000000 Cached X=2660.032471 Y=-5130.000000 Z=-40.000000
+[2015.11.27-22.27.52:101][965]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_18.Lamp
+Current X=3130.000000 Y=-3740.000000 Z=-220.000000 Cached X=2690.000000 Y=-3700.000000 Z=130.000000
+[2015.11.27-22.27.52:103][965]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.BridgeHouse.Lamp
+Current X=-1320.000000 Y=-4830.000000 Z=-470.000000 Cached X=-1600.000000 Y=-4910.000000 Z=-300.000000
+[2015.11.27-22.27.52:105][965]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.BridgeHouse3.Lamp
+Current X=310.000000 Y=-4760.000000 Z=-440.000000 Cached X=625.718506 Y=-5082.856934 Z=-207.004379
+[2015.11.27-22.27.52:138][965]MapCheck:Warning: Warning WorldInfo_0 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.11.27-22.27.52:138][965]LogStats:          STAT_HLOD_BuildClusters - 24.253 ms
+[2015.11.27-22.27.52:138][965]LightingResults: New page: Lighting Build - Nov 27, 2015, 12:27:52 PM
+[2015.11.27-22.27.52:146][965]LightingResults:Warning: Warning InstancedFoliageActor_0 Instanced meshes don't yet support unique static lighting for each LOD, lighting on LOD 1+ may be incorrect
+[2015.11.27-22.27.52:146][965]LightingResults:Warning: Warning InstancedFoliageActor_0 The total lightmap size for this InstancedStaticMeshComponent is large, consider reducing the component's lightmap resolution or number of mesh instances in this component
+[2015.11.27-22.27.52:146][965]LightingResults:Warning: Warning InstancedFoliageActor_0 Instanced meshes don't yet support unique static lighting for each LOD, lighting on LOD 1+ may be incorrect
+[2015.11.27-22.27.56:702][965]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.11.27-22.27.56:702][965]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.11.27-22.27.56:702][965]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.11.27-22.27.56:702][965]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.11.27-22.27.56:702][965]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.11.27-22.27.56:806][965]LogEditorBuildUtils: Build time 0:00:04
+[2015.11.27-22.27.56:834][966]Cmd: UpdateLandscapeEditorData
+[2015.11.27-22.29.01:091][751]Job is a success!
+[2015.11.27-22.29.03:732][752]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.11.27-22.29.09:069][752]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
+[2015.11.27-22.29.09:075][752]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
+[2015.11.27-22.29.09:087][752]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
+[2015.11.27-22.29.09:101][752]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
+[2015.11.27-22.29.09:117][752]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2015.11.27-22.29.09:122][752]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2015.11.27-22.29.09:135][752]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
+[2015.11.27-22.29.09:139][752]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2015.11.27-22.29.09:151][752]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
+[2015.11.27-22.29.09:159][752]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
+[2015.11.27-22.29.09:171][752]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2015.11.27-22.29.09:181][752]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2015.11.27-22.29.09:193][752]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2015.11.27-22.29.09:206][752]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2015.11.27-22.29.09:219][752]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2015.11.27-22.29.09:230][752]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2015.11.27-22.29.09:243][752]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2015.11.27-22.29.09:256][752]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2015.11.27-22.29.09:272][752]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2015.11.27-22.29.09:283][752]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2015.11.27-22.29.09:296][752]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.11.27-22.29.09:307][752]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.11.27-22.29.09:322][752]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.11.27-22.29.09:329][752]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.11.27-22.29.09:343][752]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.11.27-22.29.09:352][752]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.11.27-22.29.09:364][752]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.11.27-22.29.09:373][752]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.11.27-22.29.09:386][752]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.11.27-22.29.09:391][752]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.11.27-22.29.09:405][752]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.11.27-22.29.09:548][752]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.11.27-22.29.09:823][752]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.11.27-22.29.12:383][752]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8)
+[2015.11.27-22.29.12:533][752]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8)
+[2015.11.27-22.29.12:718][752]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8)
+[2015.11.27-22.29.12:867][752]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (G8)
+[2015.11.27-22.29.13:042][752]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (G8)
+[2015.11.27-22.29.13:106][752]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (G8)
+[2015.11.27-22.29.13:145][752]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (G8)
+[2015.11.27-22.29.13:182][752]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (BGRA8)
+[2015.11.27-22.29.13:220][752]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (G8)
+[2015.11.27-22.29.13:226][752]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (BGRA8)
+[2015.11.27-22.29.13:230][752]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (BGRA8)
+[2015.11.27-22.29.13:252][752]Lightmass on CRODAWIN10: 1:15 min total, 332 ms importing, 254 ms setup, 776 ms photons, 1:13 min processing, 0 ms extra exporting [139/139 mappings]. Threads: 8:36 min total, 5:47 min processing.
+[2015.11.27-22.29.13:290][752]LogStaticLightingSystem: Illumination: 1:21 min (10.9 sec encoding lightmaps)
+[2015.11.27-22.29.13:290][752]LogStaticLightingSystem: Lightmap texture memory:  23.0 MB (23.0 MB streaming, 0.0 MB non-streaming), 34 textures
+[2015.11.27-22.29.13:290][752]LogStaticLightingSystem: Shadowmap texture memory: 12.3 MB (12.3 MB streaming, 0.0 MB non-streaming), 23 textures
+[2015.11.27-22.29.18:738][753]Cmd: UpdateLandscapeEditorData
+[2015.11.27-22.29.18:738][753]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.11.27-22.29.18:738][753]MapCheck: New page: MemoryCardEntry - Nov 27, 2015, 12:29:18 PM
+[2015.11.27-22.29.18:938][753]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 199.889ms to complete.
+[2015.11.27-22.29.35:284][693]LogRenderer: Reallocating scene render targets to support 856x720 (Frame:12448).
+[2015.11.27-22.29.46:103][335]LogSavePackage: Save=18.968388ms
+[2015.11.27-22.29.46:103][335]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/Conifer2DBB4191D4DEE7D2122ACADA8F6C45528.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/NaturePackage/Content/Flora/Conifer2.uasset'
+[2015.11.27-22.29.46:107][335]LogSavePackage: Total save time: 26.346058ms
+[2015.11.27-22.29.46:107][335]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/NaturePackage/Content/Flora/Conifer2.uasset
+[2015.11.27-22.29.51:221][640]LogSavePackage: Save=5.896284ms
+[2015.11.27-22.29.51:221][640]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/Conifer2C1CD63A04E3166508AC0EA965D494C59.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/NaturePackage/Content/Flora/Conifer2.uasset'
+[2015.11.27-22.29.51:223][640]LogSavePackage: Total save time: 11.057384ms
+[2015.11.27-22.29.51:223][640]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/NaturePackage/Content/Flora/Conifer2.uasset
+[2015.11.27-22.29.54:927][857]LogStaticMesh:Display: Discarded foliage hierarchy of 42 elements build due to concurrent removal (0.0s)
+[2015.11.27-22.29.54:927][857]LogStaticMesh:Display: Discarded foliage hierarchy of 8 elements build due to concurrent removal (0.0s)
+[2015.11.27-22.29.58:836][ 92]MapCheck: New page: Map Check
+[2015.11.27-22.29.58:854][ 92]Cmd: MAP REBUILD ALLVISIBLE
+[2015.11.27-22.29.58:854][ 92]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.11.27-22.29.59:001][ 92]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_0.Lamp
+Current X=-2110.000000 Y=-7980.000000 Z=-420.000000 Cached X=-2299.999756 Y=-7570.000000 Z=-70.000000
+[2015.11.27-22.29.59:003][ 92]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_1.Lamp
+Current X=-750.000000 Y=-8140.000000 Z=-410.000000 Cached X=-919.999451 Y=-7560.000000 Z=-190.000000
+[2015.11.27-22.29.59:006][ 92]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_2.Lamp
+Current X=-3440.000000 Y=-8064.000000 Z=-420.000000 Cached X=-3060.000488 Y=-7644.000488 Z=-130.000000
+[2015.11.27-22.29.59:008][ 92]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_3.Lamp
+Current X=-3190.000000 Y=-3790.000000 Z=-410.000000 Cached X=-2979.135010 Y=-3602.358154 Z=-130.207977
+[2015.11.27-22.29.59:014][ 92]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_6.Lamp
+Current X=-3420.000000 Y=-5630.000000 Z=-450.000000 Cached X=-3009.345459 Y=-5617.249023 Z=-155.468170
+[2015.11.27-22.29.59:016][ 92]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_7.Lamp
+Current X=-3580.000000 Y=-6800.000000 Z=-460.000000 Cached X=-2990.000000 Y=-6680.000000 Z=-220.000000
+[2015.11.27-22.29.59:017][ 92]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_9.Lamp
+Current X=1850.000000 Y=-7880.000000 Z=-340.000000 Cached X=1850.000122 Y=-7570.000000 Z=-140.000000
+[2015.11.27-22.29.59:020][ 92]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_10.Lamp
+Current X=320.000000 Y=-7760.000000 Z=-380.000000 Cached X=319.999329 Y=-7600.000000 Z=-190.000000
+[2015.11.27-22.29.59:022][ 92]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_13.Lamp
+Current X=1020.000000 Y=-7880.000000 Z=-360.000000 Cached X=1020.000122 Y=-7570.000000 Z=-160.000000
+[2015.11.27-22.29.59:025][ 92]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.BridgeHouse2.Lamp
+Current X=-500.000000 Y=-4900.000000 Z=-480.000000 Cached X=-509.995850 Y=-4720.000000 Z=247.495605
+[2015.11.27-22.29.59:026][ 92]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_15.Lamp
+Current X=2980.000000 Y=-8170.000000 Z=-380.000000 Cached X=2540.000488 Y=-7519.999512 Z=-50.000000
+[2015.11.27-22.29.59:029][ 92]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_16.Lamp
+Current X=3260.000000 Y=-6490.000000 Z=-360.000000 Cached X=2660.000732 Y=-6350.000488 Z=-60.000000
+[2015.11.27-22.29.59:031][ 92]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_17.Lamp
+Current X=3020.000000 Y=-5120.000000 Z=-320.000000 Cached X=2660.032471 Y=-5130.000000 Z=-40.000000
+[2015.11.27-22.29.59:033][ 92]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_18.Lamp
+Current X=3130.000000 Y=-3740.000000 Z=-220.000000 Cached X=2690.000000 Y=-3700.000000 Z=130.000000
+[2015.11.27-22.29.59:035][ 92]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.BridgeHouse.Lamp
+Current X=-1320.000000 Y=-4830.000000 Z=-470.000000 Cached X=-1600.000000 Y=-4910.000000 Z=-300.000000
+[2015.11.27-22.29.59:037][ 92]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.BridgeHouse3.Lamp
+Current X=310.000000 Y=-4760.000000 Z=-440.000000 Cached X=625.718506 Y=-5082.856934 Z=-207.004379
+[2015.11.27-22.29.59:063][ 92]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000079D695BA60
+[2015.11.27-22.29.59:070][ 92]MapCheck:Warning: Warning WorldInfo_0 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.11.27-22.29.59:071][ 92]LogStats:          STAT_HLOD_BuildClusters - 25.533 ms
+[2015.11.27-22.29.59:071][ 92]LightingResults: New page: Lighting Build - Nov 27, 2015, 12:29:59 PM
+[2015.11.27-22.29.59:079][ 92]LightingResults:Warning: Warning InstancedFoliageActor_0 Instanced meshes don't yet support unique static lighting for each LOD, lighting on LOD 1+ may be incorrect
+[2015.11.27-22.29.59:079][ 92]LightingResults:Warning: Warning InstancedFoliageActor_0 The total lightmap size for this InstancedStaticMeshComponent is large, consider reducing the component's lightmap resolution or number of mesh instances in this component
+[2015.11.27-22.29.59:079][ 92]LightingResults:Warning: Warning InstancedFoliageActor_0 Instanced meshes don't yet support unique static lighting for each LOD, lighting on LOD 1+ may be incorrect
+[2015.11.27-22.30.03:592][ 92]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.11.27-22.30.03:592][ 92]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.11.27-22.30.03:592][ 92]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.11.27-22.30.03:592][ 92]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.11.27-22.30.03:592][ 92]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.11.27-22.30.03:773][ 92]LogEditorBuildUtils: Build time 0:00:04
+[2015.11.27-22.30.03:821][ 93]Cmd: UpdateLandscapeEditorData
+[2015.11.27-22.31.08:877][931]Job is a success!
+[2015.11.27-22.31.11:437][932]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.11.27-22.31.17:033][932]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
+[2015.11.27-22.31.17:040][932]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
+[2015.11.27-22.31.17:053][932]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
+[2015.11.27-22.31.17:067][932]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
+[2015.11.27-22.31.17:083][932]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1)
+[2015.11.27-22.31.17:088][932]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT)
+[2015.11.27-22.31.17:102][932]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1)
+[2015.11.27-22.31.17:107][932]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
+[2015.11.27-22.31.17:122][932]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
+[2015.11.27-22.31.17:132][932]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2015.11.27-22.31.17:145][932]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
+[2015.11.27-22.31.17:154][932]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2015.11.27-22.31.17:169][932]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2015.11.27-22.31.17:180][932]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2015.11.27-22.31.17:194][932]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2015.11.27-22.31.17:206][932]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2015.11.27-22.31.17:221][932]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2015.11.27-22.31.17:232][932]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2015.11.27-22.31.17:245][932]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2015.11.27-22.31.17:255][932]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2015.11.27-22.31.17:271][932]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2015.11.27-22.31.17:283][932]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2015.11.27-22.31.17:297][932]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2015.11.27-22.31.17:305][932]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.11.27-22.31.17:319][932]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.11.27-22.31.17:330][932]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.11.27-22.31.17:345][932]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.11.27-22.31.17:355][932]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.11.27-22.31.17:367][932]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.11.27-22.31.17:374][932]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.11.27-22.31.17:387][932]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.11.27-22.31.17:528][932]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.11.27-22.31.17:792][932]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.11.27-22.31.20:394][932]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (G8)
+[2015.11.27-22.31.20:529][932]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (G8)
+[2015.11.27-22.31.20:667][932]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (BGRA8)
+[2015.11.27-22.31.20:805][932]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (G8)
+[2015.11.27-22.31.20:938][932]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (G8)
+[2015.11.27-22.31.20:988][932]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (G8)
+[2015.11.27-22.31.21:022][932]LogTexture:Display: Building textures: ShadowMapTexture2D_29 (G8)
+[2015.11.27-22.31.21:066][932]LogTexture:Display: Building textures: ShadowMapTexture2D_30 (BGRA8)
+[2015.11.27-22.31.21:100][932]LogTexture:Display: Building textures: ShadowMapTexture2D_31 (G8)
+[2015.11.27-22.31.21:106][932]LogTexture:Display: Building textures: ShadowMapTexture2D_32 (BGRA8)
+[2015.11.27-22.31.21:110][932]LogTexture:Display: Building textures: ShadowMapTexture2D_33 (BGRA8)
+[2015.11.27-22.31.21:136][932]Lightmass on CRODAWIN10: 1:16 min total, 303 ms importing, 283 ms setup, 804 ms photons, 1:14 min processing, 0 ms extra exporting [139/139 mappings]. Threads: 8:42 min total, 5:52 min processing.
+[2015.11.27-22.31.21:176][932]LogStaticLightingSystem: Illumination: 1:22 min (11.0 sec encoding lightmaps)
+[2015.11.27-22.31.21:176][932]LogStaticLightingSystem: Lightmap texture memory:  23.0 MB (23.0 MB streaming, 0.0 MB non-streaming), 34 textures
+[2015.11.27-22.31.21:176][932]LogStaticLightingSystem: Shadowmap texture memory: 18.9 MB (18.9 MB streaming, 0.0 MB non-streaming), 34 textures
+[2015.11.27-22.31.21:623][933]Cmd: UpdateLandscapeEditorData
+[2015.11.27-22.31.21:623][933]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.11.27-22.31.21:623][933]MapCheck: New page: MemoryCardEntry - Nov 27, 2015, 12:31:21 PM
+[2015.11.27-22.31.21:823][933]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 199.372ms to complete.
+[2015.11.27-22.31.45:678][273]LogRenderer: Reallocating scene render targets to support 964x720 (Frame:19739).
+[2015.11.27-22.31.45:982][291]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/MemoryCardEntry.HQ_Lightmap0_5. Streaming mips will be recached.
+[2015.11.27-22.31.45:987][291]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.11.27-22.31.46:001][291]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/MemoryCardEntry.HQ_Lightmap0_12. Streaming mips will be recached.
+[2015.11.27-22.31.46:001][291]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2015.11.27-22.32.17:585][ 84]LogSavePackage: Save=12.577548ms
+[2015.11.27-22.32.17:585][ 84]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/Conifer2A80EA96C413D94374F8523A3AC09F056.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/NaturePackage/Content/Flora/Conifer2.uasset'
+[2015.11.27-22.32.17:589][ 84]LogSavePackage: Total save time: 26.846316ms
+[2015.11.27-22.32.17:589][ 84]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/NaturePackage/Content/Flora/Conifer2.uasset
+[2015.11.27-22.32.21:527][285]LogStaticMesh:Display: Discarded foliage hierarchy of 42 elements build due to concurrent removal (0.0s)
+[2015.11.27-22.32.21:527][285]LogStaticMesh:Display: Discarded foliage hierarchy of 8 elements build due to concurrent removal (0.0s)
+[2015.11.27-22.32.25:362][481]MapCheck: New page: Map Check
+[2015.11.27-22.32.25:371][481]Cmd: MAP REBUILD ALLVISIBLE
+[2015.11.27-22.32.25:372][481]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.11.27-22.32.25:539][481]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_0.Lamp
+Current X=-2110.000000 Y=-7980.000000 Z=-420.000000 Cached X=-2299.999756 Y=-7570.000000 Z=-70.000000
+[2015.11.27-22.32.25:541][481]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_1.Lamp
+Current X=-750.000000 Y=-8140.000000 Z=-410.000000 Cached X=-919.999451 Y=-7560.000000 Z=-190.000000
+[2015.11.27-22.32.25:544][481]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_2.Lamp
+Current X=-3440.000000 Y=-8064.000000 Z=-420.000000 Cached X=-3060.000488 Y=-7644.000488 Z=-130.000000
+[2015.11.27-22.32.25:546][481]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_3.Lamp
+Current X=-3190.000000 Y=-3790.000000 Z=-410.000000 Cached X=-2979.135010 Y=-3602.358154 Z=-130.207977
+[2015.11.27-22.32.25:552][481]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_6.Lamp
+Current X=-3420.000000 Y=-5630.000000 Z=-450.000000 Cached X=-3009.345459 Y=-5617.249023 Z=-155.468170
+[2015.11.27-22.32.25:554][481]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_7.Lamp
+Current X=-3580.000000 Y=-6800.000000 Z=-460.000000 Cached X=-2990.000000 Y=-6680.000000 Z=-220.000000
+[2015.11.27-22.32.25:556][481]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_9.Lamp
+Current X=1850.000000 Y=-7880.000000 Z=-340.000000 Cached X=1850.000122 Y=-7570.000000 Z=-140.000000
+[2015.11.27-22.32.25:560][481]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_10.Lamp
+Current X=320.000000 Y=-7760.000000 Z=-380.000000 Cached X=319.999329 Y=-7600.000000 Z=-190.000000
+[2015.11.27-22.32.25:563][481]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_13.Lamp
+Current X=1020.000000 Y=-7880.000000 Z=-360.000000 Cached X=1020.000122 Y=-7570.000000 Z=-160.000000
+[2015.11.27-22.32.25:566][481]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.BridgeHouse2.Lamp
+Current X=-500.000000 Y=-4900.000000 Z=-480.000000 Cached X=-509.995850 Y=-4720.000000 Z=247.495605
+[2015.11.27-22.32.25:567][481]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_15.Lamp
+Current X=2980.000000 Y=-8170.000000 Z=-380.000000 Cached X=2540.000488 Y=-7519.999512 Z=-50.000000
+[2015.11.27-22.32.25:570][481]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_16.Lamp
+Current X=3260.000000 Y=-6490.000000 Z=-360.000000 Cached X=2660.000732 Y=-6350.000488 Z=-60.000000
+[2015.11.27-22.32.25:572][481]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_17.Lamp
+Current X=3020.000000 Y=-5120.000000 Z=-320.000000 Cached X=2660.032471 Y=-5130.000000 Z=-40.000000
+[2015.11.27-22.32.25:574][481]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_18.Lamp
+Current X=3130.000000 Y=-3740.000000 Z=-220.000000 Cached X=2690.000000 Y=-3700.000000 Z=130.000000
+[2015.11.27-22.32.25:576][481]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.BridgeHouse.Lamp
+Current X=-1320.000000 Y=-4830.000000 Z=-470.000000 Cached X=-1600.000000 Y=-4910.000000 Z=-300.000000
+[2015.11.27-22.32.25:578][481]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.BridgeHouse3.Lamp
+Current X=310.000000 Y=-4760.000000 Z=-440.000000 Cached X=625.718506 Y=-5082.856934 Z=-207.004379
+[2015.11.27-22.32.25:614][481]MapCheck:Warning: Warning WorldInfo_0 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.11.27-22.32.25:614][481]LogStats:          STAT_HLOD_BuildClusters - 27.284 ms
+[2015.11.27-22.32.25:614][481]LightingResults: New page: Lighting Build - Nov 27, 2015, 12:32:25 PM
+[2015.11.27-22.32.25:623][481]LightingResults:Warning: Warning InstancedFoliageActor_0 Instanced meshes don't yet support unique static lighting for each LOD, lighting on LOD 1+ may be incorrect
+[2015.11.27-22.32.25:623][481]LightingResults:Warning: Warning InstancedFoliageActor_0 Instanced meshes don't yet support unique static lighting for each LOD, lighting on LOD 1+ may be incorrect
+[2015.11.27-22.32.30:139][481]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.11.27-22.32.30:139][481]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.11.27-22.32.30:139][481]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.11.27-22.32.30:139][481]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.11.27-22.32.30:139][481]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.11.27-22.32.30:316][481]LogEditorBuildUtils: Build time 0:00:04
+[2015.11.27-22.32.30:348][482]Cmd: UpdateLandscapeEditorData
+[2015.11.27-22.32.56:119][977]Job is a success!
+[2015.11.27-22.32.57:088][978]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.11.27-22.32.57:378][978]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1)
+[2015.11.27-22.32.57:386][978]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT)
+[2015.11.27-22.32.57:396][978]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1)
+[2015.11.27-22.32.57:400][978]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT)
+[2015.11.27-22.32.57:413][978]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1)
+[2015.11.27-22.32.57:417][978]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT)
+[2015.11.27-22.32.57:431][978]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
+[2015.11.27-22.32.57:440][978]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
+[2015.11.27-22.32.57:453][978]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1)
+[2015.11.27-22.32.57:462][978]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
+[2015.11.27-22.32.57:474][978]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
+[2015.11.27-22.32.57:481][978]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
+[2015.11.27-22.32.57:494][978]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1)
+[2015.11.27-22.32.57:507][978]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT)
+[2015.11.27-22.32.57:521][978]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
+[2015.11.27-22.32.57:534][978]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
+[2015.11.27-22.32.57:547][978]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
+[2015.11.27-22.32.57:559][978]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
+[2015.11.27-22.32.57:572][978]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
+[2015.11.27-22.32.57:585][978]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
+[2015.11.27-22.32.57:599][978]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2015.11.27-22.32.57:606][978]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2015.11.27-22.32.57:620][978]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
+[2015.11.27-22.32.57:630][978]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2015.11.27-22.32.57:642][978]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
+[2015.11.27-22.32.57:654][978]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
+[2015.11.27-22.32.57:669][978]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2015.11.27-22.32.57:680][978]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2015.11.27-22.32.57:692][978]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2015.11.27-22.32.57:703][978]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2015.11.27-22.32.57:715][978]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2015.11.27-22.32.57:736][978]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2015.11.27-22.32.57:780][978]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2015.11.27-22.32.57:983][978]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2015.11.27-22.32.58:262][978]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2015.11.27-22.32.58:333][978]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2015.11.27-22.32.58:444][978]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.11.27-22.32.58:658][978]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.11.27-22.32.59:034][978]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.11.27-22.32.59:171][978]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.11.27-22.32.59:432][978]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.11.27-22.32.59:500][978]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.11.27-22.32.59:613][978]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.11.27-22.32.59:701][978]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.11.27-22.32.59:836][978]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.11.27-22.33.00:030][978]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.11.27-22.33.00:420][978]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.11.27-22.33.00:581][978]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.11.27-22.33.00:871][978]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.11.27-22.33.01:169][978]LogTexture:Display: Building textures: ShadowMapTexture2D_34 (G8)
+[2015.11.27-22.33.01:223][978]LogTexture:Display: Building textures: ShadowMapTexture2D_35 (G8)
+[2015.11.27-22.33.01:373][978]LogTexture:Display: Building textures: ShadowMapTexture2D_36 (G8)
+[2015.11.27-22.33.01:510][978]LogTexture:Display: Building textures: ShadowMapTexture2D_37 (G8)
+[2015.11.27-22.33.01:678][978]LogTexture:Display: Building textures: ShadowMapTexture2D_38 (BGRA8)
+[2015.11.27-22.33.01:824][978]LogTexture:Display: Building textures: ShadowMapTexture2D_39 (G8)
+[2015.11.27-22.33.01:869][978]LogTexture:Display: Building textures: ShadowMapTexture2D_40 (G8)
+[2015.11.27-22.33.01:903][978]LogTexture:Display: Building textures: ShadowMapTexture2D_41 (BGRA8)
+[2015.11.27-22.33.01:937][978]LogTexture:Display: Building textures: ShadowMapTexture2D_42 (G8)
+[2015.11.27-22.33.01:942][978]LogTexture:Display: Building textures: ShadowMapTexture2D_43 (BGRA8)
+[2015.11.27-22.33.01:945][978]LogTexture:Display: Building textures: ShadowMapTexture2D_44 (BGRA8)
+[2015.11.27-22.33.01:967][978]Lightmass on CRODAWIN10: 30.2 sec total, 320 ms importing, 268 ms setup, 747 ms photons, 28.8 sec processing, 0 ms extra exporting [139/139 mappings]. Threads: 3:22 min total, 2:13 min processing.
+[2015.11.27-22.33.02:009][978]LogStaticLightingSystem: Illumination: 36.3 sec (5.41 sec encoding lightmaps)
+[2015.11.27-22.33.02:009][978]LogStaticLightingSystem: Lightmap texture memory:  9.4 MB (9.4 MB streaming, 0.0 MB non-streaming), 50 textures
+[2015.11.27-22.33.02:009][978]LogStaticLightingSystem: Shadowmap texture memory: 25.5 MB (25.5 MB streaming, 0.0 MB non-streaming), 45 textures
+[2015.11.27-22.33.03:183][979]Cmd: UpdateLandscapeEditorData
+[2015.11.27-22.33.03:183][979]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.11.27-22.33.03:183][979]MapCheck: New page: MemoryCardEntry - Nov 27, 2015, 12:33:03 PM
+[2015.11.27-22.33.03:389][979]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 205.9ms to complete.
+[2015.11.27-22.33.21:801][751]LogDerivedDataCache:Warning: C:/Users/croda/AppData/Local/UnrealEngine/Common/DerivedDataCache access is very slow (0.00MB/s), consider disabling it.
+[2015.11.27-22.34.26:814][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Landscape/conifer8" FILE="../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/Landscape/conifer8.uasset" SILENT=true
+[2015.11.27-22.34.26:832][384]LogSavePackage: Save=11.759496ms
+[2015.11.27-22.34.26:832][384]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/conifer8625571F54A09260339A37C932FAC77C0.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/Landscape/conifer8.uasset'
+[2015.11.27-22.34.26:837][384]LogSavePackage: Total save time: 21.576118ms
+[2015.11.27-22.34.26:837][384]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/Landscape/conifer8.uasset
+[2015.11.27-22.35.03:538][572]LogSavePackage: Save=11.577031ms
+[2015.11.27-22.35.03:538][572]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/Conifer82637482E460ADF604BC9D29508D36549.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/NaturePackage/Content/Flora/Conifer8.uasset'
+[2015.11.27-22.35.03:542][572]LogSavePackage: Total save time: 18.582553ms
+[2015.11.27-22.35.03:542][572]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/NaturePackage/Content/Flora/Conifer8.uasset
+[2015.11.27-22.35.19:868][284]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Landscape/Forest" FILE="../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/Landscape/Forest.uasset" SILENT=true
+[2015.11.27-22.35.19:876][284]LogSavePackage: Save=2.324909ms
+[2015.11.27-22.35.19:876][284]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/Forest37AF50424ED20DF2C41F8F984CE93745.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/Landscape/Forest.uasset'
+[2015.11.27-22.35.19:880][284]LogSavePackage: Total save time: 10.054588ms
+[2015.11.27-22.35.19:880][284]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/Landscape/Forest.uasset
+[2015.11.27-22.35.23:635][474]LogQuadTree:Warning: Adding element (bIsValid=true, Min=(X=-5508.305 Y=3166.371), Max=(X=-5308.305 Y=3366.371)) that is outside the bounds of the quadtree root (bIsValid=true, Min=(X=-5000.000 Y=-5000.000), Max=(X=15000.000 Y=15000.000)). Consider resizing.
+[2015.11.27-22.35.23:635][474]LogQuadTree:Warning: Adding element (bIsValid=true, Min=(X=-5606.887 Y=6990.556), Max=(X=-5406.887 Y=7190.556)) that is outside the bounds of the quadtree root (bIsValid=true, Min=(X=-5000.000 Y=-5000.000), Max=(X=15000.000 Y=15000.000)). Consider resizing.
+[2015.11.27-22.35.23:635][474]LogQuadTree:Warning: Adding element (bIsValid=true, Min=(X=-5584.182 Y=6678.459), Max=(X=-5384.182 Y=6878.459)) that is outside the bounds of the quadtree root (bIsValid=true, Min=(X=-5000.000 Y=-5000.000), Max=(X=15000.000 Y=15000.000)). Consider resizing.
+[2015.11.27-22.35.23:635][474]LogQuadTree:Warning: Adding element (bIsValid=true, Min=(X=15149.451 Y=2455.766), Max=(X=15349.451 Y=2655.766)) that is outside the bounds of the quadtree root (bIsValid=true, Min=(X=-5000.000 Y=-5000.000), Max=(X=15000.000 Y=15000.000)). Consider resizing.
+[2015.11.27-22.35.23:677][474]LogStaticMesh:Display: Discarded foliage hierarchy of 42 elements build due to concurrent removal (0.0s)
+[2015.11.27-22.35.23:677][474]LogStaticMesh:Display: Discarded foliage hierarchy of 8 elements build due to concurrent removal (0.0s)
+[2015.11.27-22.35.39:641][432]MapCheck: New page: Map Check
+[2015.11.27-22.35.39:660][432]Cmd: MAP REBUILD ALLVISIBLE
+[2015.11.27-22.35.39:661][432]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.11.27-22.35.39:852][432]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_0.Lamp
+Current X=-2110.000000 Y=-7980.000000 Z=-420.000000 Cached X=-2299.999756 Y=-7570.000000 Z=-70.000000
+[2015.11.27-22.35.39:854][432]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_1.Lamp
+Current X=-750.000000 Y=-8140.000000 Z=-410.000000 Cached X=-919.999451 Y=-7560.000000 Z=-190.000000
+[2015.11.27-22.35.39:857][432]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_2.Lamp
+Current X=-3440.000000 Y=-8064.000000 Z=-420.000000 Cached X=-3060.000488 Y=-7644.000488 Z=-130.000000
+[2015.11.27-22.35.39:859][432]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_3.Lamp
+Current X=-3190.000000 Y=-3790.000000 Z=-410.000000 Cached X=-2979.135010 Y=-3602.358154 Z=-130.207977
+[2015.11.27-22.35.39:865][432]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_6.Lamp
+Current X=-3420.000000 Y=-5630.000000 Z=-450.000000 Cached X=-3009.345459 Y=-5617.249023 Z=-155.468170
+[2015.11.27-22.35.39:866][432]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_7.Lamp
+Current X=-3580.000000 Y=-6800.000000 Z=-460.000000 Cached X=-2990.000000 Y=-6680.000000 Z=-220.000000
+[2015.11.27-22.35.39:868][432]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_9.Lamp
+Current X=1850.000000 Y=-7880.000000 Z=-340.000000 Cached X=1850.000122 Y=-7570.000000 Z=-140.000000
+[2015.11.27-22.35.39:871][432]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_10.Lamp
+Current X=320.000000 Y=-7760.000000 Z=-380.000000 Cached X=319.999329 Y=-7600.000000 Z=-190.000000
+[2015.11.27-22.35.39:873][432]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_13.Lamp
+Current X=1020.000000 Y=-7880.000000 Z=-360.000000 Cached X=1020.000122 Y=-7570.000000 Z=-160.000000
+[2015.11.27-22.35.39:876][432]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.BridgeHouse2.Lamp
+Current X=-500.000000 Y=-4900.000000 Z=-480.000000 Cached X=-509.995850 Y=-4720.000000 Z=247.495605
+[2015.11.27-22.35.39:877][432]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_15.Lamp
+Current X=2980.000000 Y=-8170.000000 Z=-380.000000 Cached X=2540.000488 Y=-7519.999512 Z=-50.000000
+[2015.11.27-22.35.39:880][432]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_16.Lamp
+Current X=3260.000000 Y=-6490.000000 Z=-360.000000 Cached X=2660.000732 Y=-6350.000488 Z=-60.000000
+[2015.11.27-22.35.39:882][432]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_17.Lamp
+Current X=3020.000000 Y=-5120.000000 Z=-320.000000 Cached X=2660.032471 Y=-5130.000000 Z=-40.000000
+[2015.11.27-22.35.39:884][432]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.AutoHouse_C_18.Lamp
+Current X=3130.000000 Y=-3740.000000 Z=-220.000000 Cached X=2690.000000 Y=-3700.000000 Z=130.000000
+[2015.11.27-22.35.39:886][432]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.BridgeHouse.Lamp
+Current X=-1320.000000 Y=-4830.000000 Z=-470.000000 Cached X=-1600.000000 Y=-4910.000000 Z=-300.000000
+[2015.11.27-22.35.39:888][432]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.BridgeHouse3.Lamp
+Current X=310.000000 Y=-4760.000000 Z=-440.000000 Cached X=625.718506 Y=-5082.856934 Z=-207.004379
+[2015.11.27-22.35.39:912][432]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000079D6F71DA0
+[2015.11.27-22.35.39:926][432]MapCheck:Warning: Warning WorldInfo_0 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.11.27-22.35.39:926][432]LogStats:          STAT_HLOD_BuildClusters - 29.908 ms
+[2015.11.27-22.35.39:926][432]LightingResults: New page: Lighting Build - Nov 27, 2015, 12:35:39 PM
+[2015.11.27-22.35.39:934][432]LightingResults:Warning: Warning InstancedFoliageActor_0 Instanced meshes don't yet support unique static lighting for each LOD, lighting on LOD 1+ may be incorrect
+[2015.11.27-22.35.39:934][432]LightingResults:Warning: Warning InstancedFoliageActor_0 Instanced meshes don't yet support unique static lighting for each LOD, lighting on LOD 1+ may be incorrect
+[2015.11.27-22.35.39:934][432]LightingResults:Warning: Warning InstancedFoliageActor_0 Instanced meshes don't yet support unique static lighting for each LOD, lighting on LOD 1+ may be incorrect
+[2015.11.27-22.35.44:451][432]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.11.27-22.35.44:451][432]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.11.27-22.35.44:451][432]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.11.27-22.35.44:451][432]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.11.27-22.35.44:451][432]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.11.27-22.36.09:577][432]LogEditorBuildUtils: Build time 0:00:29
+[2015.11.27-22.36.09:609][433]Cmd: UpdateLandscapeEditorData
+[2015.11.27-22.36.31:268][456]LogSavePackage: Save=574.915222ms
+[2015.11.27-22.36.31:268][456]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/MemoryCardEntry_Auto1E1F7074D4FAB63B514D850A6A09F7AE5.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/Autosaves/Game/Maps/MemoryCardEntry_Auto1.umap'
+[2015.11.27-22.36.56:272][456]LogSavePackage: Total save time: 25778.029300ms
+[2015.11.27-22.36.56:272][456]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/Autosaves/Game/Maps/MemoryCardEntry_Auto1.umap
+[2015.11.27-22.36.56:277][456]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MemoryCardEntry' took 25.812
+[2015.11.27-22.36.56:277][456]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 25.812
+[2015.11.27-22.46.57:236][890]Job is a success!
+[2015.11.27-23.02.21:312][891]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.11.27-23.02.21:599][891]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
+[2015.11.27-23.02.21:603][891]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2015.11.27-23.02.21:613][891]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2015.11.27-23.02.21:640][891]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2015.11.27-23.02.21:679][891]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2015.11.27-23.02.21:868][891]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2015.11.27-23.02.22:170][891]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2015.11.27-23.02.22:244][891]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2015.11.27-23.02.22:384][891]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2015.11.27-23.02.22:734][891]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2015.11.27-23.02.23:365][891]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2015.11.27-23.02.23:657][891]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2015.11.27-23.02.24:185][891]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2015.11.27-23.02.24:412][891]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.11.27-23.02.24:785][891]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.11.27-23.02.24:966][891]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.11.27-23.02.25:291][891]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.11.27-23.02.25:588][891]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.11.27-23.02.25:830][891]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.11.27-23.02.25:974][891]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.11.27-23.02.26:227][891]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.11.27-23.02.26:364][891]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.11.27-23.02.26:600][891]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.11.27-23.02.26:901][891]LogTexture:Display: Building textures: ShadowMapTexture2D_45 (G8)
+[2015.11.27-23.02.27:036][891]LogTexture:Display: Building textures: ShadowMapTexture2D_46 (G8)
+[2015.11.27-23.02.27:167][891]LogTexture:Display: Building textures: ShadowMapTexture2D_47 (G8)
+[2015.11.27-23.02.27:301][891]LogTexture:Display: Building textures: ShadowMapTexture2D_48 (G8)
+[2015.11.27-23.02.27:343][891]LogTexture:Display: Building textures: ShadowMapTexture2D_49 (G8)
+[2015.11.27-23.02.27:376][891]LogTexture:Display: Building textures: ShadowMapTexture2D_50 (G8)
+[2015.11.27-23.02.27:510][891]LogTexture:Display: Building textures: ShadowMapTexture2D_51 (G8)
+[2015.11.27-23.02.27:649][891]LogTexture:Display: Building textures: ShadowMapTexture2D_52 (BGRA8)
+[2015.11.27-23.02.27:792][891]LogTexture:Display: Building textures: ShadowMapTexture2D_53 (BGRA8)
+[2015.11.27-23.02.27:840][891]Lightmass on CRODAWIN10: 19:23 min total, 3:30 min importing, 307 ms setup, 856 ms photons, 15:52 min processing, 0 ms extra exporting [445/445 mappings]. Threads: 1:51:07 hours total, 2:06 min processing.
+[2015.11.27-23.02.27:884][891]LogStaticLightingSystem: Illumination: 26:47 min (7.17 sec encoding lightmaps)
+[2015.11.27-23.02.27:884][891]LogStaticLightingSystem: Lightmap texture memory:  10.4 MB (10.4 MB streaming, 0.0 MB non-streaming), 24 textures
+[2015.11.27-23.02.27:884][891]LogStaticLightingSystem: Shadowmap texture memory: 34.5 MB (34.5 MB streaming, 0.0 MB non-streaming), 54 textures
+[2015.11.27-23.02.28:111][892]Cmd: UpdateLandscapeEditorData
+[2015.11.27-23.02.28:111][892]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.11.27-23.02.28:111][892]MapCheck: New page: MemoryCardEntry - Nov 27, 2015, 1:02:28 PM
+[2015.11.27-23.02.28:606][892]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 495.589ms to complete.
+[2015.11.27-23.02.28:624][893]LogHttp:Warning: Timeout processing Http request. 0000007ADE2E7F00
+[2015.11.27-23.02.48:803][950]LogSavePackage: Save=553.128113ms
+[2015.11.27-23.02.48:803][950]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/MemoryCardEntry_Auto2066B5961453C5133D5C07C8A3202BC8C.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/Autosaves/Game/Maps/MemoryCardEntry_Auto2.umap'
+[2015.11.27-23.02.48:806][950]LogSavePackage: Total save time: 699.925493ms
+[2015.11.27-23.02.48:806][950]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/Autosaves/Game/Maps/MemoryCardEntry_Auto2.umap
+[2015.11.27-23.02.48:807][950]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MemoryCardEntry' took 0.736
+[2015.11.27-23.02.48:807][950]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.736
+[2015.11.27-23.04.29:998][141]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.27-23.04.30:265][142]Cmd: QUIT_EDITOR
+[2015.11.27-23.04.30:538][142]LogExit: Preparing to exit.
+[2015.11.27-23.04.31:365][142]LogExit: Editor shut down
+[2015.11.27-23.04.31:365][142]LogExit: Transaction tracking system shut down
+[2015.11.27-23.04.31:372][142]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007A76BB7880
+[2015.11.27-23.04.31:373][142]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000079EFD1D580
+[2015.11.27-23.04.31:374][142]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007A7D6F3920
+[2015.11.27-23.04.31:374][142]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007A7DACDA80
+[2015.11.27-23.04.31:375][142]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007A8709D800
+[2015.11.27-23.04.31:375][142]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007A7BFA9120
+[2015.11.27-23.04.31:375][142]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000079D6F72020
+[2015.11.27-23.04.31:397][142]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.27-23.04.31:415][142]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.27-23.04.31:580][142]LogExit: Object subsystem successfully closed.
+[2015.11.27-23.04.31:593][142]LogD3D11RHI: Shutdown
+[2015.11.27-23.04.31:593][142]LogD3D11RHI: CleanupD3DDevice
+[2015.11.27-23.04.31:678][142]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.27-23.04.31:698][142]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (201)
+[2015.11.27-23.04.31:698][142]LogModuleManager: Shutting down and abandoning module CrashTracker (200)
+[2015.11.27-23.04.31:699][142]LogModuleManager: Shutting down and abandoning module SceneOutliner (199)
+[2015.11.27-23.04.31:699][142]LogModuleManager: Shutting down and abandoning module SuperSearch (198)
+[2015.11.27-23.04.31:699][142]LogModuleManager: Shutting down and abandoning module WidgetCarousel (197)
+[2015.11.27-23.04.31:699][142]LogModuleManager: Shutting down and abandoning module AddContentDialog (196)
+[2015.11.27-23.04.31:702][142]LogModuleManager: Shutting down and abandoning module EditorWidgets (195)
+[2015.11.27-23.04.31:702][142]LogModuleManager: Shutting down and abandoning module CollectionManager (194)
+[2015.11.27-23.04.31:702][142]LogModuleManager: Shutting down and abandoning module StatsViewer (193)
+[2015.11.27-23.04.31:702][142]LogModuleManager: Shutting down and abandoning module FoliageEdit (192)
+[2015.11.27-23.04.31:702][142]LogModuleManager: Shutting down and abandoning module LandscapeEditor (191)
+[2015.11.27-23.04.31:703][142]LogModuleManager: Shutting down and abandoning module ActorPickerMode (190)
+[2015.11.27-23.04.31:703][142]LogModuleManager: Shutting down and abandoning module GeometryMode (189)
+[2015.11.27-23.04.31:703][142]LogModuleManager: Shutting down and abandoning module TextureAlignMode (188)
+[2015.11.27-23.04.31:703][142]LogModuleManager: Shutting down and abandoning module BspMode (187)
+[2015.11.27-23.04.31:703][142]LogModuleManager: Shutting down and abandoning module PlacementMode (186)
+[2015.11.27-23.04.31:703][142]LogModuleManager: Shutting down and abandoning module AutomationWorker (185)
+[2015.11.27-23.04.31:703][142]LogModuleManager: Shutting down and abandoning module HoudiniEngineEditor (184)
+[2015.11.27-23.04.31:703][142]LogHoudiniEngineEditor: Shutting down the Houdini Engine Editor module.
+[2015.11.27-23.04.31:703][142]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2015.11.27-23.04.31:703][142]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2015.11.27-23.04.31:703][142]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2015.11.27-23.04.31:703][142]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2015.11.27-23.04.31:703][142]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2015.11.27-23.04.31:703][142]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2015.11.27-23.04.31:703][142]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2015.11.27-23.04.31:703][142]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2015.11.27-23.04.31:704][142]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2015.11.27-23.04.31:704][142]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2015.11.27-23.04.32:303][142]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2015.11.27-23.04.32:303][142]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2015.11.27-23.04.32:303][142]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2015.11.27-23.04.32:303][142]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2015.11.27-23.04.32:303][142]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2015.11.27-23.04.32:303][142]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2015.11.27-23.04.32:303][142]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2015.11.27-23.04.32:303][142]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2015.11.27-23.04.32:303][142]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2015.11.27-23.04.32:303][142]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2015.11.27-23.04.32:303][142]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2015.11.27-23.04.32:303][142]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2015.11.27-23.04.32:303][142]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2015.11.27-23.04.32:303][142]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2015.11.27-23.04.32:303][142]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2015.11.27-23.04.32:303][142]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2015.11.27-23.04.32:303][142]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2015.11.27-23.04.32:303][142]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2015.11.27-23.04.32:303][142]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2015.11.27-23.04.32:304][142]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2015.11.27-23.04.32:304][142]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2015.11.27-23.04.32:304][142]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2015.11.27-23.04.32:305][142]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2015.11.27-23.04.32:305][142]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2015.11.27-23.04.32:305][142]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2015.11.27-23.04.32:305][142]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2015.11.27-23.04.32:305][142]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2015.11.27-23.04.32:305][142]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2015.11.27-23.04.32:305][142]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2015.11.27-23.04.32:305][142]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2015.11.27-23.04.32:305][142]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2015.11.27-23.04.32:305][142]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2015.11.27-23.04.32:305][142]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2015.11.27-23.04.32:306][142]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2015.11.27-23.04.32:306][142]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2015.11.27-23.04.32:307][142]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2015.11.27-23.04.32:307][142]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2015.11.27-23.04.32:307][142]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2015.11.27-23.04.32:307][142]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2015.11.27-23.04.32:307][142]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2015.11.27-23.04.32:307][142]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2015.11.27-23.04.32:307][142]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2015.11.27-23.04.32:307][142]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2015.11.27-23.04.32:307][142]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2015.11.27-23.04.32:307][142]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2015.11.27-23.04.32:307][142]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2015.11.27-23.04.32:307][142]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2015.11.27-23.04.32:307][142]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2015.11.27-23.04.32:307][142]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2015.11.27-23.04.32:307][142]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2015.11.27-23.04.32:525][142]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2015.11.27-23.04.32:525][142]LogModuleManager: Shutting down and abandoning module LeapMotion (122)
+[2015.11.27-23.04.32:535][142]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.11.27-23.04.32:535][142]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.11.27-23.04.32:535][142]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.11.27-23.04.32:535][142]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.11.27-23.04.32:535][142]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2015.11.27-23.04.32:535][142]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2015.11.27-23.04.32:535][142]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.11.27-23.04.32:545][142]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.11.27-23.04.32:545][142]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.11.27-23.04.32:545][142]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.11.27-23.04.32:545][142]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.11.27-23.04.32:545][142]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.11.27-23.04.32:545][142]LogModuleManager: Shutting down and abandoning module HoudiniEngineRuntime (109)
+[2015.11.27-23.04.32:545][142]LogHoudiniEngine: Shutting down the Houdini Engine module.
+[2015.11.27-23.04.32:546][142]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.11.27-23.04.32:546][142]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.11.27-23.04.32:546][142]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.11.27-23.04.32:546][142]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.11.27-23.04.32:546][142]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.11.27-23.04.32:546][142]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.11.27-23.04.32:546][142]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.11.27-23.04.32:546][142]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.11.27-23.04.32:546][142]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.11.27-23.04.32:546][142]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.11.27-23.04.32:546][142]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.11.27-23.04.32:546][142]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.11.27-23.04.32:546][142]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.11.27-23.04.32:546][142]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.11.27-23.04.32:546][142]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.11.27-23.04.32:546][142]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.11.27-23.04.32:547][142]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.11.27-23.04.32:548][142]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.11.27-23.04.32:548][142]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.11.27-23.04.32:549][142]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.11.27-23.04.32:551][142]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.11.27-23.04.32:698][142]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.11.27-23.04.32:699][142]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.11.27-23.04.32:700][142]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.11.27-23.04.32:801][142]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.11.27-23.04.32:801][142]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.11.27-23.04.32:801][142]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.11.27-23.04.32:807][142]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.11.27-23.04.32:807][142]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.11.27-23.04.32:807][142]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.11.27-23.04.32:807][142]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.11.27-23.04.32:807][142]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.11.27-23.04.32:807][142]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.11.27-23.04.32:807][142]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.11.27-23.04.32:807][142]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.11.27-23.04.32:807][142]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.11.27-23.04.32:807][142]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.11.27-23.04.32:807][142]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.11.27-23.04.32:807][142]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.11.27-23.04.32:808][142]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.11.27-23.04.32:808][142]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.11.27-23.04.32:808][142]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.11.27-23.04.32:808][142]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.11.27-23.04.32:813][142]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.11.27-23.04.32:813][142]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.11.27-23.04.32:813][142]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.11.27-23.04.32:813][142]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.11.27-23.04.32:813][142]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.11.27-23.04.32:813][142]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.11.27-23.04.32:813][142]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.11.27-23.04.32:813][142]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.11.27-23.04.32:813][142]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.11.27-23.04.32:814][142]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.11.27-23.04.32:822][142]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.11.27-23.04.32:890][142]LogDerivedDataCache: Shutdown
+[2015.11.27-23.04.32:890][142]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.11.27-23.04.32:890][142]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.11.27-23.04.32:890][142]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.11.27-23.04.32:890][142]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.11.27-23.04.32:890][142]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.11.27-23.04.32:890][142]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.11.27-23.04.32:890][142]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.11.27-23.04.32:890][142]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.11.27-23.04.32:890][142]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.11.27-23.04.32:890][142]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.11.27-23.04.32:890][142]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.11.27-23.04.32:890][142]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.11.27-23.04.32:890][142]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.11.27-23.04.32:890][142]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.11.27-23.04.32:890][142]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.11.27-23.04.32:890][142]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.11.27-23.04.32:890][142]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.11.27-23.04.32:890][142]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.11.27-23.04.32:890][142]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.11.27-23.04.32:890][142]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.11.27-23.04.32:890][142]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.11.27-23.04.32:890][142]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.11.27-23.04.32:890][142]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.11.27-23.04.32:890][142]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.11.27-23.04.32:890][142]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.11.27-23.04.32:890][142]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.11.27-23.04.32:890][142]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.11.27-23.04.32:891][142]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.11.27-23.04.32:891][142]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.11.27-23.04.32:891][142]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.11.27-23.04.32:891][142]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.11.27-23.04.32:891][142]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.11.27-23.04.32:891][142]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.11.27-23.04.32:891][142]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.11.27-23.04.32:891][142]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.11.27-23.04.32:891][142]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.11.27-23.04.34:893][142]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.11.27-23.04.34:895][142]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.11.27-23.04.34:895][142]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.27-23.04.34:895][142]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.27-23.04.34:895][142]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.27-23.04.34:895][142]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.27-23.04.34:903][142]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.27-23.04.34:903][142]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.27-23.04.34:903][142]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.27-23.04.34:903][142]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.27-23.04.34:903][142]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.27-23.04.34:903][142]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.27-23.04.34:903][142]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.27-23.04.34:904][142]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.27-23.04.34:904][142]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.27-23.04.34:904][142]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.27-23.04.34:905][142]LogExit: Exiting.
+[2015.11.27-23.04.34:906][142]Log file closed, 11/27/15 18:04:34
