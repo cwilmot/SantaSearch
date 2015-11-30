@@ -416,4 +416,306 @@ Current X=310.000000 Y=-4760.000000 Z=-440.000000 Cached X=625.718506 Y=-5082.85
 [2015.11.30-14.17.15:242][100]LogInit: FAudioDevice initialized.
 [2015.11.30-14.17.15:275][100]LogWorld: Game class is 'BP_LogicMem_C'
 [2015.11.30-14.17.15:293][100]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MemoryCardEntry.MemoryCardEntry up for play (max tick rate 60) at 2015.11.30-09.17.15
-[2015.11.30-14.17.15:293][100]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MemoryCardEntry.MemoryCardEntry:PersistentLevel.GameSess
+[2015.11.30-14.17.15:293][100]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MemoryCardEntry.MemoryCardEntry:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.30-14.17.15:293][100]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MemoryCardEntry.MemoryCardEntry:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.30-14.17.15:295][100]LogWorld: Bringing up level for play took: 0.019047
+[2015.11.30-14.17.15:300][100]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_1
+[2015.11.30-14.17.15:301][100]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MemoryCardEntry -0.52
+[2015.11.30-14.17.15:301][100]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.MemoryCardEntry' with GeneratedClass '/Game/Maps/MemoryCardEntry.MemoryCardEntry_C' with ClassGeneratedBy '/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.MemoryCardEntry'
+[2015.11.30-14.17.16:671][153]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.MemoryCardEntry' with GeneratedClass '/Game/Maps/MemoryCardEntry.MemoryCardEntry_C' with ClassGeneratedBy '/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.MemoryCardEntry'
+[2015.11.30-14.17.16:683][153]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.30-14.17.16:721][153]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.MemoryCardEntry' with GeneratedClass '/Game/Maps/MemoryCardEntry.MemoryCardEntry_C' with ClassGeneratedBy '/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.MemoryCardEntry'
+[2015.11.30-14.17.16:759][153]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000011F2B3A020
+[2015.11.30-14.17.25:936][455]LogSavePackage: Save=1183.302490ms
+[2015.11.30-14.17.25:936][455]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/MemoryCardEntry43432E5F49CB20116B64F8B90FA2CA57.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap'
+[2015.11.30-14.17.25:943][455]LogSavePackage: Total save time: 1307.503879ms
+[2015.11.30-14.17.25:943][455]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap
+[2015.11.30-15.36.29:511][809]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.11.30-15.36.33:321][819]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.30-15.36.33:322][819]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.30-15.40.12:703][476]LogRenderer: Reallocating scene render targets to support 856x652 (Frame:9552).
+[2015.11.30-15.44.29:833][675]LogFactory: FactoryCreateBinary: HoudiniAsset with HoudiniAssetFactory (0 0 ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/StarScape/skydome.hdanc)
+[2015.11.30-15.44.51:809][991]LogHoudiniEngineEditor: PostSpawnActor, supplied Asset = 0x0000001202C3E320
+[2015.11.30-15.44.53:761][108]LogActorComponent: UnregisterComponent: (/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.HoudiniAssetActor_1.StaticMeshComponent_41) Not registered. Aborting.
+[2015.11.30-15.44.53:767][108]LogHoudiniEngineEditor: PostSpawnActor, supplied Asset = 0x0000001202C3E320
+[2015.11.30-15.44.53:821][108]LogHoudiniEngine: HAPI Asynchronous Instantiation Started. Component = 0x0, HoudiniAsset = 0x2c3e320, HapiGUID = 3DB4A87A412628819E34DEAA9B8FD547
+[2015.11.30-15.44.54:508][149]LogHoudiniEngine:     FinishedInstantiation.
+[2015.11.30-15.44.54:521][150]LogHoudiniEngine: HAPI Asynchronous Cooking Started. Component = 0x34d47580, HoudiniAsset = 0x0, AssetId = 0, HapiGUID = C73D7C834D032A49482D2F95B68E8601
+[2015.11.30-15.44.54:758][164]LogHoudiniEngine:     FinishedCooking.
+[2015.11.30-15.44.54:781][164]LogMaterial: Missing cached shader map for material skydome_0_AC0911C8, compiling. 
+[2015.11.30-15.44.54:812][164]LogMaterial: Missing cached shader map for material skydome_1_DC24F58E, compiling. 
+[2015.11.30-15.44.54:832][164]LogMaterial: Missing cached shader map for material skydome_2_9C83B41C, compiling. 
+[2015.11.30-15.44.54:854][164]LogMaterial: Missing cached shader map for material skydome_3_E6FFA822, compiling. 
+[2015.11.30-15.44.54:876][164]LogMaterial: Missing cached shader map for material skydome_4_BBE3AFB4, compiling. 
+[2015.11.30-15.44.54:900][164]LogMaterial: Missing cached shader map for material skydome_5_16493952, compiling. 
+[2015.11.30-15.44.54:917][164]LogMaterial: 0.002903 seconds spent updating 6 materials, 6 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.44.54:931][164]LogStaticMesh: Building static mesh skydome_0_0_0_0_main_geo_5EAC4490...
+[2015.11.30-15.44.54:937][164]LogStaticMesh: Built static mesh [0.006029.2s] /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_0_0_0_0_main_geo_5EAC4490.skydome_0_0_0_0_main_geo_5EAC4490
+[2015.11.30-15.44.54:995][164]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2015.11.30-15.46.00:239][985]LogMaterial: Missing cached shader map for material skydome_0_AC0911C8, compiling. 
+[2015.11.30-15.46.00:353][985]LogMaterial: Missing cached shader map for material skydome_0_AC0911C8, compiling. 
+[2015.11.30-15.46.00:360][985]LogMaterial: 0.000094 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.46.00:388][985]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2015.11.30-15.46.02:078][ 73]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2015.11.30-15.46.02:078][ 73]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.30-15.46.02:078][ 73]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.30-15.46.16:230][840]LogMaterial: Missing cached shader map for material skydome_0_AC0911C8, compiling. 
+[2015.11.30-15.46.16:236][840]LogMaterial: 0.000091 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.46.16:237][840]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.30-15.46.16:270][840]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2015.11.30-15.46.16:275][840]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.30-15.46.17:388][901]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2015.11.30-15.46.17:388][901]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.30-15.46.17:388][901]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.30-15.46.22:824][221]LogMaterial: Missing cached shader map for material skydome_0_AC0911C8, compiling. 
+[2015.11.30-15.46.22:829][221]LogMaterial: Missing cached shader map for material skydome_0_AC0911C8, compiling. 
+[2015.11.30-15.46.22:832][221]LogMaterial: 0.000037 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.46.23:183][240]MaterialEditorStats: Info Base pass shader without light map: 24 instructions
+[2015.11.30-15.46.23:183][240]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.30-15.46.23:183][240]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.30-15.46.26:808][456]LogMaterial: Missing cached shader map for material skydome_0_AC0911C8, compiling. 
+[2015.11.30-15.46.26:811][456]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.46.26:839][456]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.30-15.46.27:145][473]MaterialEditorStats: Info Base pass shader without light map: 26 instructions
+[2015.11.30-15.46.27:145][473]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.30-15.46.27:145][473]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.30-15.46.29:860][634]LogMaterial: Missing cached shader map for material skydome_0_AC0911C8, compiling. 
+[2015.11.30-15.46.29:863][634]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.46.30:154][649]MaterialEditorStats: Info Base pass shader without light map: 26 instructions
+[2015.11.30-15.46.30:154][649]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.30-15.46.30:154][649]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.30-15.46.55:712][181]LogMaterialEditor: Saving and Compiling material skydome_0_AC0911C8
+[2015.11.30-15.46.56:594][181]LogMaterial: Missing cached shader map for material skydome_0_AC0911C8, compiling. 
+[2015.11.30-15.46.56:603][181]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.46.56:649][181]LogMaterial: Missing cached shader map for material skydome_0_AC0911C8, compiling. 
+[2015.11.30-15.46.56:671][181]LogMaterial: Missing cached shader map for material skydome_0_AC0911C8, compiling. 
+[2015.11.30-15.46.56:680][181]LogMaterial: 0.002403 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.46.58:163][181]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.30-15.46.59:541][181]LogSavePackage: Save=1171.361694ms
+[2015.11.30-15.46.59:541][181]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/MemoryCardEntry9F3A016B40DC337530924BBFB6BB3F15.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap'
+[2015.11.30-15.46.59:547][181]LogSavePackage: Total save time: 1349.186510ms
+[2015.11.30-15.46.59:547][181]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap
+[2015.11.30-15.46.59:589][181]LogFileHelpers: Saving map 'MemoryCardEntry' took 2.858
+[2015.11.30-15.46.59:596][181]MaterialEditorStats: Info Base pass shader without light map: 48 instructions
+[2015.11.30-15.46.59:596][181]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.30-15.46.59:596][181]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.30-15.47.07:274][578]LogMaterial: Missing cached shader map for material skydome_1_DC24F58E, compiling. 
+[2015.11.30-15.47.07:369][578]LogMaterial: Missing cached shader map for material skydome_1_DC24F58E, compiling. 
+[2015.11.30-15.47.07:378][578]LogMaterial: 0.000053 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.47.07:407][578]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_1, compiling. 
+[2015.11.30-15.47.08:516][626]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2015.11.30-15.47.08:516][626]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.30-15.47.08:516][626]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.30-15.47.12:149][841]LogMaterial: Missing cached shader map for material skydome_1_DC24F58E, compiling. 
+[2015.11.30-15.47.12:156][841]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.47.13:182][896]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2015.11.30-15.47.13:182][896]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.30-15.47.13:182][896]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.30-15.47.14:802][992]LogMaterial: Missing cached shader map for material skydome_1_DC24F58E, compiling. 
+[2015.11.30-15.47.14:807][992]LogMaterial: Missing cached shader map for material skydome_1_DC24F58E, compiling. 
+[2015.11.30-15.47.14:810][992]LogMaterial: 0.000042 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.47.15:165][ 10]MaterialEditorStats: Info Base pass shader without light map: 24 instructions
+[2015.11.30-15.47.15:165][ 10]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.30-15.47.15:165][ 10]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.30-15.47.18:652][203]LogMaterial: Missing cached shader map for material skydome_1_DC24F58E, compiling. 
+[2015.11.30-15.47.18:655][203]LogMaterial: 0.000119 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.47.18:656][203]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.11.30-15.47.18:686][203]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.11.30-15.47.18:989][217]MaterialEditorStats: Info Base pass shader without light map: 24 instructions
+[2015.11.30-15.47.18:989][217]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.30-15.47.18:989][217]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.30-15.47.21:296][352]LogMaterial: Missing cached shader map for material skydome_1_DC24F58E, compiling. 
+[2015.11.30-15.47.21:300][352]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.47.21:330][352]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.11.30-15.47.21:621][367]MaterialEditorStats: Info Base pass shader without light map: 26 instructions
+[2015.11.30-15.47.21:621][367]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.30-15.47.21:622][367]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.30-15.47.24:419][531]LogMaterialEditor: Saving and Compiling material skydome_1_DC24F58E
+[2015.11.30-15.47.25:157][531]LogMaterial: Missing cached shader map for material skydome_1_DC24F58E, compiling. 
+[2015.11.30-15.47.25:166][531]LogMaterial: 0.000116 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.47.25:219][531]LogMaterial: Missing cached shader map for material skydome_1_DC24F58E, compiling. 
+[2015.11.30-15.47.25:237][531]LogMaterial: Missing cached shader map for material skydome_1_DC24F58E, compiling. 
+[2015.11.30-15.47.25:247][531]LogMaterial: 0.002735 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.47.27:555][531]LogSavePackage: Save=1169.307129ms
+[2015.11.30-15.47.27:555][531]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/MemoryCardEntry3C2963454AF946863096409962034295.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap'
+[2015.11.30-15.47.27:562][531]LogSavePackage: Total save time: 1179.500807ms
+[2015.11.30-15.47.27:562][531]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap
+[2015.11.30-15.47.27:609][531]LogFileHelpers: Saving map 'MemoryCardEntry' took 2.304
+[2015.11.30-15.47.27:616][531]MaterialEditorStats: Info Base pass shader without light map: 48 instructions
+[2015.11.30-15.47.27:616][531]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.30-15.47.27:616][531]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.30-15.47.32:127][766]LogMaterial: Missing cached shader map for material skydome_2_9C83B41C, compiling. 
+[2015.11.30-15.47.32:218][766]LogMaterial: Missing cached shader map for material skydome_2_9C83B41C, compiling. 
+[2015.11.30-15.47.32:225][766]LogMaterial: 0.000046 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.47.32:251][766]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_2, compiling. 
+[2015.11.30-15.47.33:307][810]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2015.11.30-15.47.33:308][810]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.30-15.47.33:308][810]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.30-15.47.37:133][ 30]LogMaterial: Missing cached shader map for material skydome_2_9C83B41C, compiling. 
+[2015.11.30-15.47.37:142][ 30]LogMaterial: 0.000089 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.47.38:151][ 79]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2015.11.30-15.47.38:151][ 79]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.30-15.47.38:151][ 79]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.30-15.47.51:794][823]LogMaterial: Missing cached shader map for material skydome_2_9C83B41C, compiling. 
+[2015.11.30-15.47.51:801][823]LogMaterial: 0.000109 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.47.51:802][823]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.11.30-15.47.51:830][823]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.11.30-15.47.52:889][870]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2015.11.30-15.47.52:889][870]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.30-15.47.52:890][870]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.30-15.47.56:389][ 73]LogMaterial: Missing cached shader map for material skydome_2_9C83B41C, compiling. 
+[2015.11.30-15.47.56:394][ 73]LogMaterial: Missing cached shader map for material skydome_2_9C83B41C, compiling. 
+[2015.11.30-15.47.56:396][ 73]LogMaterial: 0.000100 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.47.56:706][ 88]MaterialEditorStats: Info Base pass shader without light map: 24 instructions
+[2015.11.30-15.47.56:706][ 88]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.30-15.47.56:706][ 88]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.30-15.47.58:823][211]LogMaterial: Missing cached shader map for material skydome_2_9C83B41C, compiling. 
+[2015.11.30-15.47.58:826][211]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.47.58:851][211]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.11.30-15.47.59:243][228]MaterialEditorStats: Info Base pass shader without light map: 26 instructions
+[2015.11.30-15.47.59:243][228]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.30-15.47.59:243][228]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.30-15.48.03:688][487]LogMaterialEditor: Saving and Compiling material skydome_2_9C83B41C
+[2015.11.30-15.48.04:395][487]LogMaterial: Missing cached shader map for material skydome_2_9C83B41C, compiling. 
+[2015.11.30-15.48.04:405][487]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.48.04:451][487]LogMaterial: Missing cached shader map for material skydome_2_9C83B41C, compiling. 
+[2015.11.30-15.48.04:469][487]LogMaterial: Missing cached shader map for material skydome_2_9C83B41C, compiling. 
+[2015.11.30-15.48.04:478][487]LogMaterial: 0.002642 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.48.06:704][487]LogSavePackage: Save=1140.933716ms
+[2015.11.30-15.48.06:704][487]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/MemoryCardEntry6EE7A9EB4D63284971E1CC910703B111.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap'
+[2015.11.30-15.48.06:711][487]LogSavePackage: Total save time: 1154.156022ms
+[2015.11.30-15.48.06:711][487]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap
+[2015.11.30-15.48.06:751][487]LogFileHelpers: Saving map 'MemoryCardEntry' took 2.214
+[2015.11.30-15.48.06:759][487]MaterialEditorStats: Info Base pass shader without light map: 48 instructions
+[2015.11.30-15.48.06:759][487]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.30-15.48.06:760][487]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.30-15.48.11:895][722]LogMaterial: Missing cached shader map for material skydome_3_E6FFA822, compiling. 
+[2015.11.30-15.48.11:992][722]LogMaterial: Missing cached shader map for material skydome_3_E6FFA822, compiling. 
+[2015.11.30-15.48.11:998][722]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.48.12:022][722]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2015.11.30-15.48.13:105][763]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2015.11.30-15.48.13:105][763]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.30-15.48.13:105][763]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.30-15.48.20:335][155]LogMaterial: Missing cached shader map for material skydome_3_E6FFA822, compiling. 
+[2015.11.30-15.48.20:341][155]LogMaterial: 0.000080 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.48.21:357][201]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2015.11.30-15.48.21:357][201]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.30-15.48.21:357][201]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.30-15.48.23:625][330]LogMaterial: Missing cached shader map for material skydome_3_E6FFA822, compiling. 
+[2015.11.30-15.48.23:631][330]LogMaterial: Missing cached shader map for material skydome_3_E6FFA822, compiling. 
+[2015.11.30-15.48.23:634][330]LogMaterial: 0.000042 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.48.24:100][351]MaterialEditorStats: Info Base pass shader without light map: 24 instructions
+[2015.11.30-15.48.24:100][351]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.30-15.48.24:100][351]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.30-15.48.28:093][577]LogMaterial: Missing cached shader map for material skydome_3_E6FFA822, compiling. 
+[2015.11.30-15.48.28:096][577]LogMaterial: 0.000089 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.48.28:097][577]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.11.30-15.48.28:128][577]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.11.30-15.48.28:422][589]MaterialEditorStats: Info Base pass shader without light map: 24 instructions
+[2015.11.30-15.48.28:422][589]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.30-15.48.28:423][589]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.30-15.48.31:762][777]LogMaterial: Missing cached shader map for material skydome_3_E6FFA822, compiling. 
+[2015.11.30-15.48.31:765][777]LogMaterial: 0.000116 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.48.31:790][777]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.11.30-15.48.32:087][790]MaterialEditorStats: Info Base pass shader without light map: 26 instructions
+[2015.11.30-15.48.32:087][790]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.30-15.48.32:087][790]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.30-15.48.35:033][952]LogMaterialEditor: Saving and Compiling material skydome_3_E6FFA822
+[2015.11.30-15.48.35:701][952]LogMaterial: Missing cached shader map for material skydome_3_E6FFA822, compiling. 
+[2015.11.30-15.48.35:714][952]LogMaterial: 0.000100 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.48.35:760][952]LogMaterial: Missing cached shader map for material skydome_3_E6FFA822, compiling. 
+[2015.11.30-15.48.35:778][952]LogMaterial: Missing cached shader map for material skydome_3_E6FFA822, compiling. 
+[2015.11.30-15.48.35:788][952]LogMaterial: 0.002713 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.48.37:949][952]LogSavePackage: Save=1133.220825ms
+[2015.11.30-15.48.37:949][952]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/MemoryCardEntry9559C91343481B26AA5441B71AA76173.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap'
+[2015.11.30-15.48.37:957][952]LogSavePackage: Total save time: 1144.396041ms
+[2015.11.30-15.48.37:957][952]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap
+[2015.11.30-15.48.37:999][952]LogFileHelpers: Saving map 'MemoryCardEntry' took 2.153
+[2015.11.30-15.48.38:008][952]MaterialEditorStats: Info Base pass shader without light map: 48 instructions
+[2015.11.30-15.48.38:008][952]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.30-15.48.38:008][952]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.30-15.48.45:849][373]LogMaterialEditor: Saving and Compiling material skydome_3_E6FFA822
+[2015.11.30-15.48.47:304][373]LogSavePackage: Save=1131.015991ms
+[2015.11.30-15.48.47:304][373]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/MemoryCardEntry8727F47640AE9430F290318719F7E9FA.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap'
+[2015.11.30-15.48.47:308][373]LogSavePackage: Total save time: 1138.563238ms
+[2015.11.30-15.48.47:308][373]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap
+[2015.11.30-15.48.47:351][373]LogFileHelpers: Saving map 'MemoryCardEntry' took 1.467
+[2015.11.30-15.48.48:451][422]LogMaterial: Missing cached shader map for material skydome_4_BBE3AFB4, compiling. 
+[2015.11.30-15.48.48:557][422]LogMaterial: Missing cached shader map for material skydome_4_BBE3AFB4, compiling. 
+[2015.11.30-15.48.48:565][422]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.48.48:591][422]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_4, compiling. 
+[2015.11.30-15.48.49:793][467]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2015.11.30-15.48.49:793][467]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.30-15.48.49:793][467]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.30-15.48.53:978][679]LogMaterial: Missing cached shader map for material skydome_4_BBE3AFB4, compiling. 
+[2015.11.30-15.48.53:985][679]LogMaterial: 0.000131 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.48.53:986][679]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.11.30-15.48.54:019][679]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_4, compiling. 
+[2015.11.30-15.48.54:024][679]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.11.30-15.48.55:063][718]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2015.11.30-15.48.55:063][718]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.30-15.48.55:063][718]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.30-15.48.57:841][861]LogMaterial: Missing cached shader map for material skydome_4_BBE3AFB4, compiling. 
+[2015.11.30-15.48.57:848][861]LogMaterial: 0.000122 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.48.58:922][906]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2015.11.30-15.48.58:922][906]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.30-15.48.58:922][906]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.30-15.49.02:002][ 67]LogMaterial: Missing cached shader map for material skydome_4_BBE3AFB4, compiling. 
+[2015.11.30-15.49.02:007][ 67]LogMaterial: Missing cached shader map for material skydome_4_BBE3AFB4, compiling. 
+[2015.11.30-15.49.02:010][ 67]LogMaterial: 0.000101 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.49.02:302][ 79]MaterialEditorStats: Info Base pass shader without light map: 24 instructions
+[2015.11.30-15.49.02:302][ 79]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.30-15.49.02:302][ 79]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.30-15.49.04:355][193]LogMaterial: Missing cached shader map for material skydome_4_BBE3AFB4, compiling. 
+[2015.11.30-15.49.04:359][193]LogMaterial: 0.000093 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.49.04:385][193]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.11.30-15.49.04:700][205]MaterialEditorStats: Info Base pass shader without light map: 26 instructions
+[2015.11.30-15.49.04:700][205]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.30-15.49.04:700][205]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.30-15.49.06:970][323]LogMaterialEditor: Saving and Compiling material skydome_4_BBE3AFB4
+[2015.11.30-15.49.07:644][323]LogMaterial: Missing cached shader map for material skydome_4_BBE3AFB4, compiling. 
+[2015.11.30-15.49.07:652][323]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.49.07:700][323]LogMaterial: Missing cached shader map for material skydome_4_BBE3AFB4, compiling. 
+[2015.11.30-15.49.07:718][323]LogMaterial: Missing cached shader map for material skydome_4_BBE3AFB4, compiling. 
+[2015.11.30-15.49.07:728][323]LogMaterial: 0.002713 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.49.09:888][323]LogSavePackage: Save=1131.435303ms
+[2015.11.30-15.49.09:888][323]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/MemoryCardEntry472C70764760134F3F322F8656A86C28.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap'
+[2015.11.30-15.49.09:894][323]LogSavePackage: Total save time: 1140.796535ms
+[2015.11.30-15.49.09:894][323]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap
+[2015.11.30-15.49.09:948][323]LogFileHelpers: Saving map 'MemoryCardEntry' took 2.160
+[2015.11.30-15.49.09:957][323]MaterialEditorStats: Info Base pass shader without light map: 48 instructions
+[2015.11.30-15.49.09:957][323]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.30-15.49.09:957][323]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.30-15.49.13:675][507]LogMaterial: Missing cached shader map for material skydome_5_16493952, compiling. 
+[2015.11.30-15.49.13:780][507]LogMaterial: Missing cached shader map for material skydome_5_16493952, compiling. 
+[2015.11.30-15.49.13:787][507]LogMaterial: 0.000088 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.49.13:812][507]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_5, compiling. 
+[2015.11.30-15.49.14:855][543]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2015.11.30-15.49.14:856][543]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.30-15.49.14:856][543]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.30-15.49.20:640][826]LogMaterial: Missing cached shader map for material skydome_5_16493952, compiling. 
+[2015.11.30-15.49.20:646][826]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.49.21:647][865]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2015.11.30-15.49.21:647][865]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.30-15.49.21:647][865]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.30-15.49.25:791][ 77]LogMaterial: Missing cached shader map for material skydome_5_16493952, compiling. 
+[2015.11.30-15.49.25:797][ 77]LogMaterial: 0.000086 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.49.25:798][ 77]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.11.30-15.49.25:830][ 77]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.11.30-15.49.26:765][111]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2015.11.30-15.49.26:765][111]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.30-15.49.26:765][111]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.30-15.49.29:200][236]LogMaterial: Missing cached shader map for material skydome_5_16493952, compiling. 
+[2015.11.30-15.49.29:205][236]LogMaterial: Missing cached shader map for material skydome_5_16493952, compiling. 
+[2015.11.30-15.49.29:208][236]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.49.29:488][247]MaterialEditorStats: Info Base pass shader without light map: 24 instructions
+[2015.11.30-15.49.29:488][247]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.30-15.49.29:488][247]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.30-15.49.34:898][533]LogMaterial: Missing cached shader map for material skydome_5_16493952, compiling. 
+[2015.11.30-15.49.34:901][533]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.30-15.49.34:931][533]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.11.30-15.49.35:230][544]MaterialEditorStats: Info Base pass shader without light map: 26 instructions
+[2015.11.30-15.49.35:230][544]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.30-15.49.35:230][544]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.11.30-15.49.37:940][677]LogMaterialEditor: Saving and Compiling material skydome_5_16493952
+[2015.11.30-15.49.38:621][677]LogMaterial: Missing cached shader map for material skydo
