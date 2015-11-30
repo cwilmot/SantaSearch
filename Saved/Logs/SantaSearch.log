@@ -808,4 +808,93 @@ Referencers of Package /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome
 [2015.11.30-15.55.46:319][852]EditorErrors:Warning: Warning Object 'Package /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_4_BBE3AFB4' is in another map
 [2015.11.30-15.55.46:319][852]EditorErrors:Warning: Warning Object 'Material /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_5_16493952.skydome_5_16493952' is in another map
 [2015.11.30-15.55.46:319][852]EditorErrors:Warning: Warning Object 'Package /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_5_16493952' is in another map
-[2015.11.30-15.
+[2015.11.30-15.55.46:319][852]EditorErrors:Warning: Warning Can't save ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Assets/StarScape/skydome_bake0_0_0_0_0_main_geo.uasset: Graph is linked to object Material /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_5_16493952.skydome_5_16493952 (Materials) in external map
+[2015.11.30-15.56.53:323][576]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001220704540
+[2015.11.30-15.56.53:325][576]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000012576D1E40
+[2015.11.30-15.56.53:327][576]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001266D1B1A0
+[2015.11.30-15.56.53:329][576]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001230E95080
+[2015.11.30-15.56.53:329][576]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000127505A660
+[2015.11.30-15.56.53:330][576]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000012038E8A40
+[2015.11.30-15.56.54:458][576]LogSavePackage: Save=1118.958130ms
+[2015.11.30-15.56.54:458][576]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/MemoryCardEntryD47ABF464721BB71520E26859D4E0CDA.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap'
+[2015.11.30-15.56.54:463][576]LogSavePackage: Total save time: 1127.700862ms
+[2015.11.30-15.56.54:463][576]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap
+[2015.11.30-15.57.06:568][298]LogActorFactory: Actor Factory created skydome_bake0_0_0_0_0_main_geo
+[2015.11.30-15.57.07:410][348]LogActorFactory: Actor Factory created skydome_bake0_0_0_0_0_main_geo
+[2015.11.30-15.57.10:204][515]LogActorFactory: Actor Factory created skydome_bake0_0_0_0_0_main_geo
+[2015.11.30-15.58.04:614][642]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.30-15.58.05:982][642]LogSavePackage: Save=1206.134644ms
+[2015.11.30-15.58.05:982][642]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/MemoryCardEntry14D19BD841CCFCE18A8EA08EAF918D0F.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap'
+[2015.11.30-15.58.05:989][642]LogSavePackage: Total save time: 1332.685582ms
+[2015.11.30-15.58.05:990][642]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap
+[2015.11.30-16.00.01:008][319]Cmd: DELETE
+[2015.11.30-16.00.01:008][319]Cmd: ACTOR DELETE
+[2015.11.30-16.00.01:011][319]LogEditorActor: Deleted Actor: HoudiniAssetActor
+[2015.11.30-16.00.01:011][319]LogActorComponent: UnregisterComponent: (/Game/Maps/MemoryCardEntry.MemoryCardEntry:PersistentLevel.skydome1.StaticMeshComponent_44) Not registered. Aborting.
+[2015.11.30-16.00.01:039][319]LogHoudiniEngine: HAPI Asynchronous Destruction Started. Component = 0x0, HoudiniAsset = 0x0, AssetId = 0, HapiGUID = 64521D5E465A6751D0AF438700DC22AA
+[2015.11.30-16.00.01:046][319]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2015.11.30-16.00.17:361][229]LogSavePackage: Save=1087.935669ms
+[2015.11.30-16.00.17:361][229]LogSavePackage: Moving '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Saved/MemoryCardEntry669196504062F19B1FE73B92B1A4A23C.tmp' to '../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap'
+[2015.11.30-16.00.17:368][229]LogSavePackage: Total save time: 1098.435741ms
+[2015.11.30-16.00.17:368][229]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/croda/Documents/Unreal Projects/SantaSearch/Content/Maps/MemoryCardEntry.umap
+[2015.11.30-16.00.39:574][553]LogSavePackage:Warning: Obj in another map: Material /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_0_AC0911C8.skydome_0_AC0911C8
+[2015.11.30-16.00.39:574][553]LogSavePackage:Warning: Obj in another map: Package /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_0_AC0911C8
+[2015.11.30-16.00.39:574][553]LogSavePackage:Warning: Obj in another map: Material /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_1_DC24F58E.skydome_1_DC24F58E
+[2015.11.30-16.00.39:574][553]LogSavePackage:Warning: Obj in another map: Package /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_1_DC24F58E
+[2015.11.30-16.00.39:574][553]LogSavePackage:Warning: Obj in another map: Material /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_2_9C83B41C.skydome_2_9C83B41C
+[2015.11.30-16.00.39:574][553]LogSavePackage:Warning: Obj in another map: Package /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_2_9C83B41C
+[2015.11.30-16.00.39:574][553]LogSavePackage:Warning: Obj in another map: Material /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_3_E6FFA822.skydome_3_E6FFA822
+[2015.11.30-16.00.39:575][553]LogSavePackage:Warning: Obj in another map: Package /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_3_E6FFA822
+[2015.11.30-16.00.39:575][553]LogSavePackage:Warning: Obj in another map: Material /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_4_BBE3AFB4.skydome_4_BBE3AFB4
+[2015.11.30-16.00.39:575][553]LogSavePackage:Warning: Obj in another map: Package /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_4_BBE3AFB4
+[2015.11.30-16.00.39:575][553]LogSavePackage:Warning: Obj in another map: Material /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_5_16493952.skydome_5_16493952
+[2015.11.30-16.00.39:575][553]LogSavePackage:Warning: Obj in another map: Package /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_5_16493952
+[2015.11.30-16.00.47:908][553]LogSavePackage:Warning: 
+Referencers of Material /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_0_AC0911C8.skydome_0_AC0911C8:
+[2015.11.30-16.00.47:978][553]LogSavePackage:Warning: 	StaticMesh /Game/Assets/StarScape/skydome_bake0_0_0_0_0_main_geo.skydome_bake0_0_0_0_0_main_geo (1 refs)
+[2015.11.30-16.00.47:978][553]LogSavePackage:Warning: 		0) ArrayProperty /Script/Engine.StaticMesh:Materials
+[2015.11.30-16.00.47:978][553]LogSavePackage:Warning: 
+Referencers of Package /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_0_AC0911C8:
+[2015.11.30-16.00.48:055][553]LogSavePackage:Warning: 
+Referencers of Material /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_1_DC24F58E.skydome_1_DC24F58E:
+[2015.11.30-16.00.48:125][553]LogSavePackage:Warning: 	StaticMesh /Game/Assets/StarScape/skydome_bake0_0_0_0_0_main_geo.skydome_bake0_0_0_0_0_main_geo (1 refs)
+[2015.11.30-16.00.48:125][553]LogSavePackage:Warning: 		0) ArrayProperty /Script/Engine.StaticMesh:Materials
+[2015.11.30-16.00.48:125][553]LogSavePackage:Warning: 
+Referencers of Package /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_1_DC24F58E:
+[2015.11.30-16.00.48:202][553]LogSavePackage:Warning: 
+Referencers of Material /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_2_9C83B41C.skydome_2_9C83B41C:
+[2015.11.30-16.00.48:276][553]LogSavePackage:Warning: 	StaticMesh /Game/Assets/StarScape/skydome_bake0_0_0_0_0_main_geo.skydome_bake0_0_0_0_0_main_geo (1 refs)
+[2015.11.30-16.00.48:276][553]LogSavePackage:Warning: 		0) ArrayProperty /Script/Engine.StaticMesh:Materials
+[2015.11.30-16.00.48:276][553]LogSavePackage:Warning: 
+Referencers of Package /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_2_9C83B41C:
+[2015.11.30-16.00.48:334][553]LogSavePackage:Warning: 
+Referencers of Material /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_3_E6FFA822.skydome_3_E6FFA822:
+[2015.11.30-16.00.48:399][553]LogSavePackage:Warning: 	StaticMesh /Game/Assets/StarScape/skydome_bake0_0_0_0_0_main_geo.skydome_bake0_0_0_0_0_main_geo (1 refs)
+[2015.11.30-16.00.48:399][553]LogSavePackage:Warning: 		0) ArrayProperty /Script/Engine.StaticMesh:Materials
+[2015.11.30-16.00.48:399][553]LogSavePackage:Warning: 
+Referencers of Package /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_3_E6FFA822:
+[2015.11.30-16.00.48:469][553]LogSavePackage:Warning: 
+Referencers of Material /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_4_BBE3AFB4.skydome_4_BBE3AFB4:
+[2015.11.30-16.00.48:532][553]LogSavePackage:Warning: 	StaticMesh /Game/Assets/StarScape/skydome_bake0_0_0_0_0_main_geo.skydome_bake0_0_0_0_0_main_geo (1 refs)
+[2015.11.30-16.00.48:532][553]LogSavePackage:Warning: 		0) ArrayProperty /Script/Engine.StaticMesh:Materials
+[2015.11.30-16.00.48:532][553]LogSavePackage:Warning: 
+Referencers of Package /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_4_BBE3AFB4:
+[2015.11.30-16.00.48:595][553]LogSavePackage:Warning: 
+Referencers of Material /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_5_16493952.skydome_5_16493952:
+[2015.11.30-16.00.48:674][553]LogSavePackage:Warning: 	StaticMesh /Game/Assets/StarScape/skydome_bake0_0_0_0_0_main_geo.skydome_bake0_0_0_0_0_main_geo (1 refs)
+[2015.11.30-16.00.48:674][553]LogSavePackage:Warning: 		0) ArrayProperty /Script/Engine.StaticMesh:Materials
+[2015.11.30-16.00.48:674][553]LogSavePackage:Warning: 
+Referencers of Package /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_5_16493952:
+[2015.11.30-16.00.50:265][553]EditorErrors: New page: Save Output
+[2015.11.30-16.00.50:265][553]EditorErrors:Warning: Warning Object 'Material /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_0_AC0911C8.skydome_0_AC0911C8' is in another map
+[2015.11.30-16.00.50:265][553]EditorErrors:Warning: Warning Object 'Package /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_0_AC0911C8' is in another map
+[2015.11.30-16.00.50:265][553]EditorErrors:Warning: Warning Object 'Material /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_1_DC24F58E.skydome_1_DC24F58E' is in another map
+[2015.11.30-16.00.50:265][553]EditorErrors:Warning: Warning Object 'Package /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_1_DC24F58E' is in another map
+[2015.11.30-16.00.50:265][553]EditorErrors:Warning: Warning Object 'Material /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_2_9C83B41C.skydome_2_9C83B41C' is in another map
+[2015.11.30-16.00.50:265][553]EditorErrors:Warning: Warning Object 'Package /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_2_9C83B41C' is in another map
+[2015.11.30-16.00.50:266][553]EditorErrors:Warning: Warning Object 'Material /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_3_E6FFA822.skydome_3_E6FFA822' is in another map
+[2015.11.30-16.00.50:266][553]EditorErrors:Warning: Warning Object 'Package /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_3_E6FFA822' is in another map
+[2015.11.30-16.00.50:266][553]EditorErrors:Warning: Warning Object 'Material /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_4_BBE3AFB4.skydome_4_BBE3AFB4' is in another map
+[2015.11.30-16.00.50:266][553]EditorErrors:Warning: Warning Object 'Package /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_4_BBE3AFB4' is in another map
+[2015.11.30-16.00.50:266][553]EditorErrors:Warning: Warning Object 'Material /Game/Maps/MemoryCardEntry./Game/Assets/StarScape/skydome_89E4F47D469D/skydome_5_16493952.skydome_5_16493952' is in another map
+[2015.11.30-16.00.50:266][553]EditorErrors:Warning: Warning Object 'Package /Game/Maps/MemoryCardEntry./Game/Assets/StarSca
